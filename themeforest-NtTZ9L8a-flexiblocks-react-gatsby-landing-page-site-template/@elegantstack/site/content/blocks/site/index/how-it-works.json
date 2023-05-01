@@ -1,0 +1,92 @@
+{
+  "text": [
+    {
+      "text": "Some of the App Features We Can't Stay Silent About",
+      "variant": "h2"
+    },
+    {
+      "text": "",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/app/how-it-works.png",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Geolocation",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Define exactly the geographical coverage area of each of your stores and list a different portfolio in each."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Promotions & Promo Codes",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Create Promotions on the products you want,and provide users with promo codes to push your sales and get more returning users."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Smart Search Algorithm",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Make sure your app can find exactly what they're looking by using the search bar and its smart algorithm"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Order Tracking",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Keep your users updated about their order status via notifications"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Multiples Languages",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Allow your users to pick their preferred language when using the app"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Out-of-stock Replacement",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Pickers can inform the users about any out of stock items and propose replacements via the app"
+        }
+      ]
+    }
+  ]
+}

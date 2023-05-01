@@ -1,0 +1,143 @@
+{
+  "text": [
+    {
+      "text": "Latest From Our Blog",
+      "variant": "h2"
+    },
+    {
+      "text": "",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/Blog01?blog=Why Tailor Your Own E-commerce Platform?"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Why Tailor Your Own E-commerce Platform?",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "An e-commerce platform is a tool that should satisfy a client’s needs. So, what should a valid e-commerce platform provide to maximize its value?"
+        },
+        {
+          "text": "Alaa Aridi",
+          "color": "omegaDark"
+        },
+        {
+          "text": "28 September 2020"
+        },
+        {
+          "text": "5 min"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/sarah-doe.png",
+        "alt": "alt text"
+      },
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/blog/blog-1.jpg",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/Blog02?blog=Retailers & Efficient Digital Migration"
+        }
+      },
+      "text": [
+        {
+          "text": "Management",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Retailers & Efficient Digital Migration",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "In the current day and age customer acquisition is increasingly becoming a pain point for the retail market, due to the evolution of shopping..."
+        },
+        {
+          "text": "Alaa Aridi",
+          "color": "omegaDark"
+        },
+        {
+          "text": "17 September 2020"
+        },
+        {
+          "text": "10 min"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/john-doe.png",
+        "alt": "alt text"
+      },
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/blog/blog-2.jpg",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "PAGE",
+          "link": "/Blog03?blog=5 Reasons Why You Should Build Your Own eCommerce Platform Instead of Sticking to Aggregators"
+        }
+      },
+      "text": [
+        {
+          "text": "Management",
+          "color": "alphaDark"
+        },
+        {
+          "text": "5 Reasons Why You Should Build Your Own eCommerce Platform Instead of Sticking to Aggregators",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "The past year has witnessed unprecedented growth in the e-commerce market in the MENA region..."
+        },
+        {
+          "text": "Alaa Aridi",
+          "color": "omegaDark"
+        },
+        {
+          "text": "17 February 2022"
+        },
+        {
+          "text": "20 min"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/john-doe.png",
+        "alt": "alt text"
+      },
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/blog/blog-3.jpg",
+          "alt": "alt text"
+        }
+      ]
+    }
+  ]
+}

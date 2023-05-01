@@ -1,0 +1,62 @@
+{
+  "text": [
+    {
+      "text": "Last Mile Delivery Service",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Instant & Scheduled Deliveries;",
+      "color": "omegaDark",
+      "space": 2
+    },
+    {
+      "text": "• Orders picked up and delivered on time",
+      "color": "omegaDark",
+      "space": 1
+    },
+    {
+      "text": "• Technology Integration option",
+      "color": "omegaDark",
+      "space": 1
+    },
+    {
+      "text": "(Available in Beirut, Riyadh, Jeddah & Dammam Only)",
+      "color": "omegaDark",
+      "variant": "h6",
+      "space": 4
+    },
+    {
+      "text": "Customer Support",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "We are specialized in supporting e-commerce operations, following specific guidelines and procedures, in order to guarantee optimized operations and a high user retention rate ",
+      "color": "omegaDark",
+      "space": 4
+    },
+    {
+      "text": "Digital Marketing",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content",
+      "color": "omegaDark",
+      "space": 4
+    },
+    {
+      "text": "Design & Development",
+      "color": "omegaDarker",
+      "variant": "h4"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/innerpage/services-02/services02.jpg",
+      "alt": "alt text",
+      "radius": "lg"
+    }
+  ]
+}

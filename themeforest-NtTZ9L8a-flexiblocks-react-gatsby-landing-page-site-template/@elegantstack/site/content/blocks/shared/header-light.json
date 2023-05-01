@@ -1,0 +1,48 @@
+{
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/shared/Floki_Logo.png",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "Home",
+          "type": "PAGE",
+          "variant": "links.nav-white",
+          "link": "/"
+        },
+        {
+          "text": "About",
+          "type": "PAGE",
+          "variant": "links.nav-white",
+          "link": "/about-us/"
+        },
+        {
+          "text": "Services",
+          "variant": "links.nav-white",
+          "type": "PAGE",
+          "link": "/services/"
+        },
+        {
+          "text": "Contact Us",
+          "type": "MODAL",
+          "link": "contact",
+          "variant": "links.nav-white"
+        }
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "text": "Book a Demo",
+          "type": "PAGE",
+          "link": "https://meetings.hubspot.com/makram1",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ]
+}

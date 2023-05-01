@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "Why Tailor Your Own E-commerce Platform?",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "An e-commerce platform is a tool that should satisfy a client’s needs. So, what should a valid e-commerce platform provide to maximize its value?",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/blog/blog-2.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "xl",
+      "effects": ["fadeInLeft"]
+    }
+  ]
+ 
+}

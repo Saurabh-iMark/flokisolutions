@@ -1,0 +1,94 @@
+{
+  "text": [
+    {
+      "text": "5 Reasons Why You Should Build Your Own eCommerce Platform Instead of Sticking to Aggregators",
+      "color": "omegaDarker",
+      "variant": "h3"
+    },
+    {
+      "text": "The past year has witnessed unprecedented growth in the e-commerce market in the MENA region. The sector boomed with online shoppers, especially with the worldwide lockdown that confined people to their homes and mobile phones. This brought food aggregators to the front lines; they became a dominant player in the food retail industry. A huge number of orders came through them, which incentivized restaurants, supermarkets and food retailers to have an online presence on these platforms. However, with such a spurt in the aggregators business, some retailers are taking it a step further and launching their own ecommerce platforms.The main question that should be addressed here is, why should you build your own e-commerce platform instead of sticking to aggregators. The reasons can be summed into five main ones.",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "1. Better Margins",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Currently, aggregators are in a position of power given the volume of orders they are receiving, hence they are squeezing the margins of their contracted partners  leaving them with a big number of orders but  almost no profit.  By building your own platform, you will manage to convert a small percentage of the aggregators’ users to clients who can order directly from your app or website. This way you’re in a better financial position and your return is bigger. ",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "2. Building Your Brand",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Your platform will showcase your brand, will reflect your identity, and will speak to users in your language. You would also have the choice to design your own platform the way you see attractive and suitable for your customers. Most importantly, your logo, colors and brand name will remain visible on thousands of smartphones and hence in the back of the mind of every user. Say goodbye to compromising your brand’s standards and start building your brand! ",
+      "color": "omegaDark",
+      "variant": "medium"
+    }, {
+      "text": "3. A Direct Channel of Communication and Marketing",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Communicating with customers regularly has become mandatory these days. Corporates are trying to engage with their customers through different mediums such as the digital media, TV, radio and many other channels.. Having your own ecommerce platform, specifically apps, allows you to reach your customers via push notifications on their smartphones at any point during the day, anywhere around the world. This way, you have your own direct communication route with your customers, which you can use to execute your marketing strategies, and to keep them updated about your latest offers and promotions. The good news is, you wouldn’t have to worry about being charged with humongous fees by the aggregator companies to do so. ",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "4. More Loyal Customers",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Building your own online platform gives you the privilege of building your own customer loyalty programs to retain users and ensure that they come back and order again. Multiple incentives and programs can be developed such as:",
+      "color": "omegaDark",
+      "variant": "medium"
+    }, {
+      "text":"- Exclusive products (available only on your platform only)",
+      
+      "color": "omegaDark",
+      "variant": "medium"
+    },{
+      "text":"- Exclusive offers and discounts (available only on your platform only)",
+      
+      "color": "omegaDark",
+      "variant": "medium"
+    },{
+      "text":"- Loyalty Points that can be redeemed with valuable gift)",
+      
+      "color": "omegaDark",
+      "variant": "medium"
+    },{
+      "text":"- CashBack",
+      
+      "color": "omegaDark",
+      "variant": "medium"
+    }, {
+      "text": "5. Data, Data, Data! ",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Last but not least is ownership of your own data! Data is key nowadays, and it is only right if you own the data you are generating. The bulk of data you collect from your own platform is invaluable and will cost you a lot of money to get from anywhere else. Through your own platform, not only can you use the data you generate to develop business plans, but also it won’t cost you a penny!    ",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+    
+    
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/blog/blog-3.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "xl",
+      "effects": ["fadeInLeft"]
+    }
+  ]
+ 
+}

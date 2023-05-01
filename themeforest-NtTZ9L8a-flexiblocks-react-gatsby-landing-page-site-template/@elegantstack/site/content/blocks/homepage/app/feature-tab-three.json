@@ -1,0 +1,23 @@
+{
+  "text": [
+    {
+      "text": "Super Admin Backend",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "**Super Admin** Backend",
+      "variant": "h2"
+    },
+    {
+      "text": "As a store owner, you will be in full control of your e-commerce platform through our technically advanced backend.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/app/feature-three.png",
+      "alt": "alt text"
+    }
+  ]
+}

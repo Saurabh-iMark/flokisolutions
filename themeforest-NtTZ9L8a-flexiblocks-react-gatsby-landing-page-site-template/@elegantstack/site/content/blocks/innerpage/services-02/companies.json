@@ -1,0 +1,59 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Addoha Poultry"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/Addoha_Poultry.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "AM PM Market"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/AM_PM_Market.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Global Bases Medical Supplies"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/Global_Bases_Medical_Supplies.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Lifco Supermarket"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/Lifco_Supermarket.png",
+        "alt": "alt text"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Taj"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/companies/Taj.png",
+        "alt": "alt text"
+      }
+    }
+  ]
+}

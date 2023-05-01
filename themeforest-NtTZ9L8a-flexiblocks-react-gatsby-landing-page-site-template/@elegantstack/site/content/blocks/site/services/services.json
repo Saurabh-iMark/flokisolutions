@@ -1,0 +1,66 @@
+{
+  "text": [
+    {
+      "text": "PLUG & PLAY MOBILE PLATFORMS",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Designed For Online Supermarket s, Food Retailers & FMCG Companies",
+      "color": "omegaDark",
+      "space": 4
+    },
+    {
+      "text": "Products Database Building",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "We support in building the products database efficiently to fit on all different types of e-commerce platforms;",
+      "color": "omegaDark",
+      "space": 2
+    },
+    {
+      "text": "• Photo Shooting & Editing",
+      "color": "omegaDark",
+      "space": 1
+    },
+    {
+      "text": "• Linking Pictures to DB",
+      "color": "omegaDark",
+      "space": 4
+    },
+    {
+      "text": "Fleet Management Tech",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "A top-notch technology to monitor & manage your delivery fleet;",
+      "color": "omegaDark",
+      "space": 2
+    },
+    {
+      "text": "• Route Planning & Optimization",
+      "color": "omegaDark",
+      "space": 1
+    },
+    {
+      "text": "• Dispatch Management",
+      "color": "omegaDark",
+      "space": 1
+    },
+    {
+      "text": "• Driver & Vehicle Management",
+      "color": "omegaDark",
+      "space": 4
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/innerpage/services-02/services01.jpg",
+      "alt": "alt text",
+      "radius": "lg"
+    }
+  ]
+}

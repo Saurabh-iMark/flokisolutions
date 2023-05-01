@@ -1,0 +1,90 @@
+{
+  "text": [
+    {
+      "text": "' Life is beautiful not because of the things we see or do. Life is beautiful because of the people we meet ' **Simon Sinek**",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Food Retail &FMCG specialized",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Our platform is developed keeping in mind the unique needs of Food Retailers, Food Suppliers & FMCG companies."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-message-detail.svg",
+        "bg": "#D3E7FE",
+        "color": "#276BF0"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Latest Tech Implementation",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Our main objective is to provide you with an effortless & speedy e-commerce channel setup."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-planet.svg",
+        "bg": "#FFF3CC",
+        "color": "#FF9D01"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Built-in Marketing Tools",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Food E-commerce requires the right set of marketing tools. That’s exactly what we developed for you."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-coin.svg",
+        "bg": "#FEE8D1",
+        "color": "#F7491D"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Integration with ERPs",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Having instant price and inventory updates offers e-commerce retailers a competitive edge. Our possible integrations with different ERPs will get you that privilege."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-box.svg",
+        "bg": "#D5FCDD",
+        "color": "#2DC88A"
+      }
+    }
+  ]
+}

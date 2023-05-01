@@ -1,0 +1,168 @@
+{
+  "collection": [
+    
+    {
+      "text": [
+        {
+          "text": "Information",
+          "variant": "Information"
+        },
+        {
+          "text": "Contact Details",
+          "color": "omegaDarker",
+          "variant": "h2",
+          "space": 3
+        }
+       
+      ],
+      "map": {
+        "lat": 33.8547,
+        "lng": 35.8623,
+        "zoom": 12
+      },
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Sales(UAE) : +971  50 893 5405",
+              "color": "omegaDarker",
+              "variant": "h6"
+            },
+            {
+              "text": "Sales(LEB) : +961  70 227 023",
+              "color": "omegaDarker",
+              "variant": "h6"
+            },
+            
+            {
+              "text": "Head Office : +971  50 826 2903",
+              "color": "omegaDarker",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-phone.svg",
+            "color": "alpha",
+            "bg": "transaprent"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "hello@flokisolutions.com",
+              "color": "omegaDarker",
+              "variant": "link"
+            }
+          ],
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
+            "color": "alpha",
+            "bg": "transaprent"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Dubai Silicon Oasis,Dubai Digital Park,Building A5",
+              "color": "omegaDarker",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-building-house.svg",
+            "color": "alpha",
+            "bg": "transaprent"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Questions",
+          "variant": "Questions"
+
+        },
+        {
+          "text": "Get in Touch",
+          "color": "omegaDarker",
+          "variant": "h2",
+          "space": 3
+        },
+        {
+          "text": "Any questions or remarks?",
+          "color": "omegaDark"
+        },
+        {
+          "text": "We'll get back you within 24 hours.",
+          "color": "omega"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/shared/contact.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "form": {
+        "fields": [
+          {
+            "identifier": "name",
+            "type": "TEXT",
+            "placeholder": {
+              "text": "Full Name"
+            },
+            "icon": {
+              "src": "../../assets/flexiblocks/icons/bx-user.svg",
+              "color": "alpha"
+            }
+          },
+          {
+            "identifier": "email",
+            "type": "EMAIL",
+            "placeholder": {
+              "text": "Email Address"
+            },
+            "icon": {
+              "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
+              "color": "alpha"
+            }
+          },
+          {
+            "identifier": "subject",
+            "type": "TEXT",
+            "placeholder": {
+              "text": "Subject"
+            },
+            "icon": {
+              "src": "../../assets/flexiblocks/icons/bx-comment-detail.svg",
+              "color": "alpha"
+            }
+          },
+          {
+            "identifier": "message",
+            "type": "TEXTAREA",
+            "placeholder": {
+              "text": "Enter your message"
+            }
+          },
+          {
+            "identifier": "form-name",
+            "type": "HIDDEN",
+            "value": "Contact"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Send Message",
+            "type": "SUBMIT",
+          
+
+            "variant": "secondary",
+            "width": "200px"
+          }
+        ]
+      }
+    }
+  ]
+}

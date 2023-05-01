@@ -1,0 +1,31 @@
+{
+  "text": [
+    {
+      "text": "",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "In the last decade, the retail industry and its incumbents with all its different business models have been gradually disrupted at all levels of their vertical value chain, and that was materializing at a much faster pace than other industries. It took some time for buyers to realize that e-commerce was becoming the engine of the global retail market. The growth was almost never getting under a 2 digits number (YoY) in all advanced countries, and so the future seemed very promising.Having launched in 2017 and being among the first comers to the e-grocery market has allowed us to optimize our e-commerce skills in technology, operations, and digital marketing. Following 3 years of deep learning, and based on all the data collected throughout our journey, we reached a point in which we could clearly identify the requirements needed to make it through. And here comes FLOKI, a new project we would gladly like to introduce. A turnkey e-commerce solution, supported by the skill set to create success stories.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/innerpage/about-us-01/hero.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "xl",
+      "effects": ["fadeInLeft"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Book A Demo",
+      "type": "PAGE",
+      "link": "https://meetings.hubspot.com/makram1",
+      "variant": "primary"
+    }
+  ]
+}

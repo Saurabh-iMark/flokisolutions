@@ -1,0 +1,29 @@
+{
+  "text": [
+    {
+      "text": "FMCG Experts Building **E-commerce Solutions**",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/app/hero.png",
+      "alt": "alt text",
+      "effects": ["fadeInDown"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Book a Demo",
+      "type": "PAGE",
+      "link": "https://meetings.hubspot.com/makram1",
+      "variant": "secondary"
+    }
+  ]
+}

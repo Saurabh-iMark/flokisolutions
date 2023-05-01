@@ -1,0 +1,96 @@
+{
+  "text": [
+    {
+      "text": "We tailormake your need and create a solution for every user",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "MAKRAM OSMAN",
+          "variant": "h6"
+        },
+        {
+          "text": "Co-Founder & COO"
+        },
+        {
+          "text": "+8 years of experience in business development & e-commerce operations",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/alex-jones-large.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "OMAR OSMAN",
+          "variant": "h6"
+        },
+        {
+          "text": "Co-Founder & CEO"
+        },
+        {
+          "text": "+10 years of FMCG experience. Worked with a multinational in KSA, UAE & AG Markets. FMCG e-commerce Consultant.",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/jane-smith-large.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "YOUSSEF RIZK",
+          "variant": "h6"
+        },
+        {
+          "text": "CTO"
+        },
+        {
+          "text": "+10 years of experience heading the operations of software development",
+          "color": "omega",
+          "variant": "small"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/john-doe-large.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Hadi Khalifeh",
+          "variant": "h6"
+        },
+        {
+          "text": "React Native Developer"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/florrie-jacobs-large.png"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Dani abi Khzam",
+          "variant": "h6"
+        },
+        {
+          "text": "Senior Graphic Designer"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/jane-smith-large.png"
+      }
+    }
+   
+  ]
+}

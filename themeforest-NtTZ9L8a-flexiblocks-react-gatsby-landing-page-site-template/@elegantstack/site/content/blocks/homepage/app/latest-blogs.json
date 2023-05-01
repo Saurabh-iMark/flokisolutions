@@ -1,0 +1,100 @@
+{
+  "text": [
+    {
+      "text": "Latest From Our Blog",
+      "variant": "h2"
+    },
+    {
+      "text": "",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "",
+          "link": "advertisement"
+        }
+      },
+      "text": [
+        {
+          "text": "Innovation",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Why Tailor Your Own E-commerce Platform?",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "An e-commerce platform is a tool that should satisfy a client’s needs. So, what should a valid e-commerce platform provide to maximize its value?"
+        },
+        {
+          "text": "Alaa Aridi",
+          "color": "omegaDark"
+        },
+        {
+          "text": "28 September 2020"
+        },
+        {
+          "text": "5 min"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/sarah-doe.png",
+        "alt": "alt text"
+      },
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/blog/blog-1.jpg",
+          "alt": "alt text"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive",
+        "link": {
+          "type": "",
+          "link": "advertisement"
+        }
+      },
+      "text": [
+        {
+          "text": "Management",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Retailers & Efficient Digital Migration",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "In the current day and age customer acquisition is increasingly becoming a pain point for the retail market, due to the evolution of shopping. In the old days, a good product and a decent service would suffice in creating sales. As we move into the digital age getting the product seen and convincing the client to purchase online, requires a new set of skills."
+        },
+        {
+          "text": "Alaa Aridi",
+          "color": "omegaDark"
+        },
+        {
+          "text": "17 September 2020"
+        },
+        {
+          "text": "10 min"
+        }
+      ],
+      "avatar": {
+        "src": "../../../assets/flexiblocks/testimonials/john-doe.png",
+        "alt": "alt text"
+      },
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/blog/blog-2.jpg",
+          "alt": "alt text"
+        }
+      ]
+    }
+  ]
+}

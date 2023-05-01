@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "Retailers & Efficient Digital Migration",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "In the current day and age customer acquisition is increasingly becoming a pain point for the retail market, due to the evolution of shopping. In the old days, a good product and a decent service would suffice in creating sales. As we move into the digital age getting the product seen and convincing the client to purchase online, requires a new set of skills.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/blog/blog-2.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "xl",
+      "effects": ["fadeInLeft"]
+    }
+  ]
+ 
+}

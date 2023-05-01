@@ -1,0 +1,60 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "4100",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "Orders",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "20000",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "Registered Users",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "34000",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "Listed Products",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "80000",
+          "color": "omegaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "App Visits",
+          "color": "beta",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

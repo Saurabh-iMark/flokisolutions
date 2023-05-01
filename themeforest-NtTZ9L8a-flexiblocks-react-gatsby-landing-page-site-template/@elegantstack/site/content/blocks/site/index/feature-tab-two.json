@@ -1,0 +1,23 @@
+{
+  "text": [
+    {
+      "text": "",
+      "color": "omegaDark",
+      "variant": "Pickers App"
+    },
+    {
+      "text": "**Pickers** Application",
+      "variant": "h2"
+    },
+    {
+      "text": "The app is designed specifically to improve the productivity of stores staff and requires minimal technology knowledge.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/app/feature-two.png",
+      "alt": "alt text"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "text": [
+    {
+      "text": "",
+      "color": "omegaDark",
+      "variant": "Users App"
+    },
+    {
+      "text": "**User Side** Mobile Application",
+      "variant": "h2"
+    },
+    {
+      "text": "Our modern UX/UI and smooth app flow gives the users the perfect experience they’re looking to have.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/app/feature-one.png",
+      "alt": "alt text"
+    }
+  ]
+}
