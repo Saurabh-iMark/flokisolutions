@@ -25,7 +25,7 @@ const TestPage = props => {
   const html = `
   <style>
   h2{ font-size:80px;}
-  </styl>
+  </style>
   <h2 >My First Blog Post</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   <p>Nullam ut dolor ante. Nam semper, quam sit amet consequat maximus.</p>
