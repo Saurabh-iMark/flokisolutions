@@ -35,7 +35,7 @@ const Services02 = props => {
         <Hero content={content['hero']} />
         <Divider space='4' />
         <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
-         {/*  <Services content={content['services']} /> */}
+        <Services content={content['services']} />
           <Divider space='3' />
           <Services content={content['services-sec2']} reverse />
         </Container>
