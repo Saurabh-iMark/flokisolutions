@@ -122,15 +122,35 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                               </Box>
                             )
                         )}
-                      <MenuList sx={{ top: "auto", right: 0, left: "auto", minWidth: "max-content" }}>
-                        <MenuItem>Service 1</MenuItem>
-                        <MenuItem>Service 2</MenuItem>
-                        <MenuItem>Service 3</MenuItem>
-                      </MenuList>
-
                       </Flex>
                     </Reveal>
                   </Box>
+                  
+                  <Box>
+                  <Button
+              variant="outline"
+              sx={{
+                color: "text",
+                bg: "background",
+                border: "1px solid",
+                borderColor: "text",
+                borderRadius: 0,
+                cursor: "pointer",
+                fontSize: 1,
+                p: 2,
+                ":hover": { bg: "muted" }
+              }}
+            >
+              Services
+              <MenuButton sx={{ color: "inherit", ml: 2 }} />
+            </Button>
+            <MenuList sx={{ top: "auto", right: 0, left: "auto", minWidth: "max-content" }}>
+              <MenuItem as={GLink} to="/services/service1">Service 1</MenuItem>
+              <MenuItem as={GLink} to="/services/service2">Service 2</MenuItem>
+              <MenuItem as={GLink} to="/services/service3">Service 3</MenuItem>
+            </MenuList>
+            </Box>
+
                   <Box sx={styles.mobileMenu}>
                     <Drawer buttonStyle={{ svg: { size: 32 } }}>
                       {collection.map(
