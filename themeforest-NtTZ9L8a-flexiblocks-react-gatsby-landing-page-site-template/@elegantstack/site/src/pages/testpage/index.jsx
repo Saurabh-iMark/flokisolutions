@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Container, Styled, Box } from 'theme-ui'
+import { Link as GLink } from 'gatsby'
+import { Container, Box, Flex, css, MenuButton, MenuList, MenuItem } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -42,7 +43,33 @@ const TestPage = props => {
       <Header content={content['header-light']} />
 
       <div dangerouslySetInnerHTML={{ __html: html }} />
-      
+       
+      <Box>
+                  <Button
+              variant="outline"
+              sx={{
+                color: "text",
+                bg: "background",
+                border: "1px solid",
+                borderColor: "text",
+                borderRadius: 0,
+                cursor: "pointer",
+                fontSize: 1,
+                p: 2,
+                ":hover": { bg: "muted" }
+              }}
+            >
+              Services
+              <MenuButton sx={{ color: "inherit", ml: 2 }} />
+            </Button>
+            <MenuList sx={{ top: "auto", right: 0, left: "auto", minWidth: "max-content" }}>
+              <MenuItem as={GLink} to="/services/service1">Service 1</MenuItem>
+              <MenuItem as={GLink} to="/services/service2">Service 2</MenuItem>
+              <MenuItem as={GLink} to="/services/service3">Service 3</MenuItem>
+            </MenuList>
+      </Box>
+
+
       <Container variant='full' sx={styles.heroContainer}>
         <Hero content={content['hero']} />
         <Divider space='4' />
