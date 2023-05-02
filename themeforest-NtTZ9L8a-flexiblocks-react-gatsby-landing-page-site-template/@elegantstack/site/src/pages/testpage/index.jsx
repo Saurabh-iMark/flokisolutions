@@ -51,7 +51,7 @@ const TestPage = props => {
         <p style="font-size: 16px;">Nulla maximus eu nunc ut sollicitudin. Nullam ut dolor ante. Nam semper, quam sit amet consequat maximus, nunc dui vestibulum lacus, ut tincidunt lorem augue vitae neque. Ut id elit id diam efficitur auctor. Sed tristique lorem eget massa euismod, vel egestas sapien ullamcorper.</p>
         <p style="font-size: 16px;">Praesent nec turpis libero. In consequat, arcu nec ultricies facilisis, tellus mi semper lorem, sed efficitur turpis velit sed libero. Pellentesque euismod nulla eget dui porttitor, nec pretium ex convallis. Morbi euismod metus nec est pharetra, non dictum nisl malesuada.</p>
         <footer style="font-size: 14px; margin-top: 20px; text-align: right;">
-          Posted by John Doe on January 1, 2023
+          Posted by John Doe on January 1
         </footer>
       </div>
     </div>
