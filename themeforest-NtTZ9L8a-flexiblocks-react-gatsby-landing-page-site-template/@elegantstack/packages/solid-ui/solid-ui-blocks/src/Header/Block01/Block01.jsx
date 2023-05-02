@@ -93,8 +93,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       >
                         {collection.map(
                           ({ buttons }, index) => 
-                           console.log(index)
-
+            
                             buttons && (
                               <Box
                                 key={`item-${index}`}
@@ -104,10 +103,9 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                                   }
                                 }}
                               >
-                                <ContentButtons content={buttons} />
+                                <ContentButtons content={buttons+index} />
                               </Box>
                             )
-                          
 
                         )}
                       </Flex>
