@@ -74,7 +74,7 @@ const IndexPage = props => {
       <Divider space='5' /> */}
       <Blog content={content['latest-blogs']} />
       <Divider space='5' />
-      <Footer content={content['footer']} />
+//       <Footer content={content['footer']} />
     </Layout>
   )
 }
