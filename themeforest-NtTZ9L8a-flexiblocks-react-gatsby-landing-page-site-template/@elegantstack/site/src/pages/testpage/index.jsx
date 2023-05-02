@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Container } from 'theme-ui'
+import { Container, Styled, Box } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -26,31 +26,50 @@ const TestPage = props => {
     <Layout {...props}>
       <Seo title='Home' />
       {/* Modals */}
-      {/* <ModalWithTabs content={content['authentication']} reverse />
+      <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />
-      <ModalSimple content={content['advertisement']} /> */}
+      <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
       <Header content={content['header-light']} />
-      <Container variant='full' sx={styles.heroContainer}>
-        <Hero content={content['hero']} />
-        <Divider space='4' />
-        <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
-        <Services content={content['services']} />
-          <Divider space='3' />
-          <Services content={content['services-sec2']} reverse />
-        </Container>
-      </Container>
+
+    <Box
+      sx={{
+        backgroundColor: "primary",
+        color: "white",
+        padding: 3,
+      }}>
+      <Styled.h1>Hi, Saurabh Chauhan</Styled.h1>
+      <Styled.h1>Welcome to my website</Styled.h1>
+      <Styled.p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada ultrices lacus, eget efficitur ex facilisis a.
+      </Styled.p>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+        }}
+      >
+        <Box sx={{ width: 100, height: 100, backgroundColor: "secondary" }} />
+        <Box
+          sx={{
+            marginLeft: 3,
+            fontSize: 2,
+            fontWeight: "bold",
+            lineHeight: "heading",
+          }}
+        >
+          My Awesome Product
+          <br />
+          $99.99
+        </Box>
+      </Box>
+    </Box>
+
+
       {/* <Divider space='5' />
       <ServicesDetails content={content['services-details']} /> */}
       <Divider space='5' />
-    {/*   <CompaniesPhoto content={content['companies-photo']} />
-      <Divider space='4' />
-      <JoinCompanies content={content['companies-join']} />
-      <Divider space='4' />
-      <Companies content={content['companies']} />
-      <Divider space='4' />
-      <Contact content={content['cta']} />
-      <Divider space='5' /> */}
       <Footer content={content['footer']} />
     </Layout>
   )
