@@ -36,7 +36,7 @@ const IndexPage = props => {
       <ModalWithTabs  content={content['contact']} />
       <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
-      {/* <Header content={content['header']} /> */}
+      <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
       <Hero content={content['hero']} reverse />
