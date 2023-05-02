@@ -60,7 +60,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
   console.log(images);
   console.log(collection);
 
-  alert(collection);
 
 
   return (
