@@ -72,9 +72,9 @@ const IndexPage = props => {
       {/** For Hiding */}
       {/* <Divider space='5' />
       <Divider space='5' /> */}
-      {/*  <Blog content={content['latest-blogs']} /> */}
+      <Blog content={content['latest-blogs']} />
       <Divider space='5' />
-      {/* <Footer content={content['footer']} /> */}
+      <Footer content={content['footer']} />
     </Layout>
   )
 }
