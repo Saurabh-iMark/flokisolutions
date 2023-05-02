@@ -91,7 +91,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                           justifyContent: menuJustify
                         }}
                       >
- <Styled.h1>egh</Styled.h1>
 
                         {collection.map(
                           ({ buttons }, index) => 
@@ -107,7 +106,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                               >
 
                                 <ContentButtons content={buttons} />
-                                <Styled.h1>{index}</Styled.h1>
+                                <Styled.h1>{buttons}</Styled.h1>
                               </Box>
                             )
 
