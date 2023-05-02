@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
 import { Container, Box, Flex, css } from 'theme-ui'
@@ -66,7 +67,27 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
         <Container variant='full' className='nav-container'>
           <Container px='4'>
             <Flex sx={styles.header}>
-              <Box sx={styles.logoContainer}>
+            <Box onMouseEnter={handleDropdownOpen} onMouseLeave={handleDropdownClose}>
+        <GLink to="/services">Services</GLink>
+        {isDropdownOpen && (
+          <Box sx={{ position: 'absolute', top: '100%', left: 0 }}>
+            <ul>
+              <li>
+                <GLink to="/services/service1">Service 1</GLink>
+              </li>
+              <li>
+                <GLink to="/services/service2">Service 2</GLink>
+              </li>
+              <li>
+                <GLink to="/services/service3">Service 3</GLink>
+              </li>
+            </ul>
+          </Box>
+        )}
+            </Box>
+
+
+              {/* <Box sx={styles.logoContainer}>
                 <GLink to='/'>
                   <ContentImages
                     content={{ images }}
@@ -127,7 +148,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     </Drawer>
                   </Box>
                 </>
-              )}
+              )} */}
             </Flex>
           </Container>
         </Container>
