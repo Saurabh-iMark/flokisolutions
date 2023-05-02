@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
-import { Container, Box, Flex, css } from 'theme-ui'
+import { Container, Box, Flex, css, Styled } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import Drawer from '@solid-ui-components/Drawer'
 import ContentImages from '@solid-ui-components/ContentImages'
@@ -103,7 +103,8 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                                   }
                                 }}
                               >
-                                <ContentButtons content={buttons+index} />
+                                <ContentButtons content={buttons} />
+                                <Styled.h1>uhe</Styled.h1>
                               </Box>
                             )
 
