@@ -44,7 +44,7 @@ const TestPage = props => {
 
       <div dangerouslySetInnerHTML={{ __html: html }} />
        
-      <Box>
+      {/* <Box>
                   <Button
               variant="outline"
               sx={{
@@ -67,7 +67,7 @@ const TestPage = props => {
               <MenuItem as={GLink} to="/services/service2">Service 2</MenuItem>
               <MenuItem as={GLink} to="/services/service3">Service 3</MenuItem>
             </MenuList>
-      </Box>
+      </Box> */}
 
 
       <Container variant='full' sx={styles.heroContainer}>

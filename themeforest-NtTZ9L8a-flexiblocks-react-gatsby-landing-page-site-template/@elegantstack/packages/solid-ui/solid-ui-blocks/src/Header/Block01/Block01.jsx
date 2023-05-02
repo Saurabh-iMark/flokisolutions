@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
-import { Container, Box, Flex, css, MenuButton, MenuList, MenuItem } from 'theme-ui'
+import { Container, Box, Flex, css } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import Drawer from '@solid-ui-components/Drawer'
 import ContentImages from '@solid-ui-components/ContentImages'
@@ -57,24 +57,6 @@ const styles = {
 
 const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
   
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const handleDropdownOpen = () => {
-    setIsDropdownOpen(true);
-  };
-
-  const handleDropdownClose = () => {
-    setIsDropdownOpen(false);
-  };
-
-  
-  const [showDropdown, setShowDropdown] = useState(false)
-  const lastOption = collection[collection.length - 1]
-
-  const toggleMenu = () => {
-    setShowDropdown(!showDropdown)
-  }
-  
   
   return (
     <>
@@ -95,8 +77,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                   />
                 </GLink>
               </Box>
-
-
               {collection && (
                 <>
                   <Box sx={styles.desktopMenu}>
@@ -125,7 +105,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       </Flex>
                     </Reveal>
                   </Box>
-
                   <Box sx={styles.mobileMenu}>
                     <Drawer buttonStyle={{ svg: { size: 32 } }}>
                       {collection.map(
