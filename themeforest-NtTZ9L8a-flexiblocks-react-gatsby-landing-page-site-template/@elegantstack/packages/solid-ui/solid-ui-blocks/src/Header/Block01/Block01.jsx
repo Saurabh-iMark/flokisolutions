@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
-import { Container, Box, Flex, css } from 'theme-ui'
+import { Container, Box, Flex, css, MenuButton, MenuList, MenuItem } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import Drawer from '@solid-ui-components/Drawer'
 import ContentImages from '@solid-ui-components/ContentImages'
@@ -68,6 +68,12 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
   };
 
   
+  const [showDropdown, setShowDropdown] = useState(false)
+  const lastOption = collection[collection.length - 1]
+
+  const toggleMenu = () => {
+    setShowDropdown(!showDropdown)
+  }
   
   
   return (
@@ -89,6 +95,21 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                   />
                 </GLink>
               </Box>
+
+              <div>
+      <div onClick={toggleMenu}>
+        {lastOption} <span>{showMenu ? "▲" : "▼"}</span>
+      </div>
+      {showMenu && (
+        <ul>
+          {options.map((option, index) => (
+            <li key={index}>{option}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+
+
               {collection && (
                 <>
                   <Box sx={styles.desktopMenu}>
@@ -114,6 +135,12 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                               </Box>
                             )
                         )}
+                      <MenuList sx={{ top: "auto", right: 0, left: "auto", minWidth: "max-content" }}>
+                        <MenuItem>Service 1</MenuItem>
+                        <MenuItem>Service 2</MenuItem>
+                        <MenuItem>Service 3</MenuItem>
+                      </MenuList>
+
                       </Flex>
                     </Reveal>
                   </Box>
