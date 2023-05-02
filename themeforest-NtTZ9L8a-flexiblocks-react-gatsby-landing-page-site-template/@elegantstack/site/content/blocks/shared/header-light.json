@@ -27,6 +27,12 @@
           "link": "/services/"
         },
         {
+          "text": "Services Other",
+          "variant": "links.nav-white",
+          "type": "PAGE",
+          "link": "/services/"
+        },
+        {
           "text": "Contact Us",
           "type": "MODAL",
           "link": "contact",
