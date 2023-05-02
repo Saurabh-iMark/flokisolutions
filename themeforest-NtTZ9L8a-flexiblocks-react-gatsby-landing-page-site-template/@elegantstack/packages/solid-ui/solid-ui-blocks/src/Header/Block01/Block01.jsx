@@ -1,6 +1,5 @@
-import React from 'react'
-
-import { Link } from 'gatsby'
+import React, { useState } from 'react'
+import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
 import { Container, Box, Flex, css } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
@@ -57,6 +56,20 @@ const styles = {
 }
 
 const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
+  
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const handleDropdownOpen = () => {
+    setIsDropdownOpen(true);
+  };
+
+  const handleDropdownClose = () => {
+    setIsDropdownOpen(false);
+  };
+
+  
+  
+  
   return (
     <>
       <Sticky
@@ -67,26 +80,68 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
         <Container variant='full' className='nav-container'>
           <Container px='4'>
             <Flex sx={styles.header}>
-            <Box onMouseEnter={handleDropdownOpen} onMouseLeave={handleDropdownClose}>
-        <Link to="/services">Services</Link>
-        {isDropdownOpen && (
-          <Box sx={{ position: 'absolute', top: '100%', left: 0 }}>
-            <ul>
-              <li>
-                <Link to="/services/service1">Service 1</Link>
-              </li>
-              <li>
-                <Link to="/services/service2">Service 2</Link>
-              </li>
-              <li>
-                <Link to="/services/service3">Service 3</Link>
-              </li>
-            </ul>
-          </Box>
-        )}
-            </Box>
-
-
+              <Box sx={styles.logoContainer}>
+                <GLink to='/'>
+                  <ContentImages
+                    content={{ images }}
+                    sx={styles.image}
+                    imageEffect='fadeIn'
+                  />
+                </GLink>
+              </Box>
+              {collection && (
+                <>
+                  <Box sx={styles.desktopMenu}>
+                    <Reveal effect='fadeInDown'>
+                      <Flex
+                        sx={{
+                          alignItems: `center`,
+                          justifyContent: menuJustify
+                        }}
+                      >
+                        {collection.map(
+                          ({ buttons }, index) =>
+                            buttons && (
+                              <Box
+                                key={`item-${index}`}
+                                sx={{
+                                  '& + &': {
+                                    ml: 4
+                                  }
+                                }}
+                              >
+                                <ContentButtons content={buttons} />
+                              </Box>
+                            )
+                        )}
+                      </Flex>
+                    </Reveal>
+                  </Box>
+                  <Box sx={styles.mobileMenu}>
+                    <Drawer buttonStyle={{ svg: { size: 32 } }}>
+                      {collection.map(
+                        ({ buttons }, index) =>
+                          buttons && (
+                            <Box
+                              key={`item-${index}`}
+                              sx={{
+                                fontSize: 3,
+                                '.button-group-link.level-1, button-group-link.level-1:visited': {
+                                  color: `headerActiveColor`
+                                }
+                              }}
+                            >
+                              <ContentButtons
+                                content={buttons}
+                                variant='vertical'
+                              />
+                            </Box>
+                          )
+                      )}
+                    </Drawer>
+                  </Box>
+                </>
+              )}
             </Flex>
           </Container>
         </Container>
