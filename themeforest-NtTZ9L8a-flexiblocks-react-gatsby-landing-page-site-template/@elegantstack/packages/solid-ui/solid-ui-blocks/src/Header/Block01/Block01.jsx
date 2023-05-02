@@ -92,7 +92,9 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                         }}
                       >
                         {collection.map(
-                          ({ buttons }, index) =>
+                          ({ buttons }, index) => {
+                           console.log(index)
+
                             buttons && (
                               <Box
                                 key={`item-${index}`}
@@ -105,10 +107,15 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                                 <ContentButtons content={buttons} />
                               </Box>
                             )
+                          }
+
                         )}
                       </Flex>
                     </Reveal>
                   </Box>
+
+
+
                   <Box sx={styles.mobileMenu}>
                     <Drawer buttonStyle={{ svg: { size: 32 } }}>
                       {collection.map(
