@@ -27,10 +27,10 @@
           "link": "/services/"
         },
          {
-          "text": "Services Other",
+          "text": "Services Test",
           "variant": "links.nav-dark",
           "type": "PAGE",
-          "link": "/servicesother/"
+          "link": "/testpage/"
         },
         {
           "text": "Contact Us",
