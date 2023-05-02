@@ -96,19 +96,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                 </GLink>
               </Box>
 
-              <div>
-      <div onClick={toggleMenu}>
-        {lastOption} <span>{showMenu ? "▲" : "▼"}</span>
-      </div>
-      {showMenu && (
-        <ul>
-          {options.map((option, index) => (
-            <li key={index}>{option}</li>
-          ))}
-        </ul>
-      )}
-    </div>
-
 
               {collection && (
                 <>
