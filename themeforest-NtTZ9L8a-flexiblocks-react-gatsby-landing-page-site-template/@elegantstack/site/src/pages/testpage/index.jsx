@@ -31,45 +31,53 @@ const TestPage = props => {
       <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
       <Header content={content['header-light']} />
-
-    <Box
-      sx={{
-        backgroundColor: "primary",
-        color: "white",
-        padding: 3,
-      }}>
-      <Styled.h1>Hi, Saurabh Chauhan</Styled.h1>
-      <Styled.h1>Welcome to my website</Styled.h1>
-      <Styled.p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada ultrices lacus, eget efficitur ex facilisis a.
-      </Styled.p>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "center",
-        }}
-      >
-        <Box sx={{ width: 100, height: 100, backgroundColor: "secondary" }} />
-        <Box
-          sx={{
-            marginLeft: 3,
-            fontSize: 2,
-            fontWeight: "bold",
-            lineHeight: "heading",
-          }}
-        >
-          My Awesome Product
-          <br />
-          $99.99
-        </Box>
-      </Box>
-    </Box>
+      <Container variant='full' sx={styles.heroContainer}>
 
 
+    <div style="background-color: #333; color: white; padding: 20px;">
+      <h1 style="margin: 0;">My Blog</h1>
+      <nav>
+        <ul style="list-style: none; margin: 0; padding: 0;">
+          <li style="display: inline-block; margin-right: 10px;"><a href="#" style="color: white; text-decoration: none;">Home</a></li>
+          <li style="display: inline-block; margin-right: 10px;"><a href="#" style="color: white; text-decoration: none;">About</a></li>
+          <li style="display: inline-block;"><a href="#" style="color: white; text-decoration: none;">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
+      <div style="background-color: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,.1);">
+        <h2 style="font-size: 24px; margin-top: 0;">My First Blog Post</h2>
+        <p style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod enim id diam mollis, quis dictum tellus suscipit. Donec non turpis id nulla aliquam bibendum eget eu massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <p style="font-size: 16px;">Nulla maximus eu nunc ut sollicitudin. Nullam ut dolor ante. Nam semper, quam sit amet consequat maximus, nunc dui vestibulum lacus, ut tincidunt lorem augue vitae neque. Ut id elit id diam efficitur auctor. Sed tristique lorem eget massa euismod, vel egestas sapien ullamcorper.</p>
+        <p style="font-size: 16px;">Praesent nec turpis libero. In consequat, arcu nec ultricies facilisis, tellus mi semper lorem, sed efficitur turpis velit sed libero. Pellentesque euismod nulla eget dui porttitor, nec pretium ex convallis. Morbi euismod metus nec est pharetra, non dictum nisl malesuada.</p>
+        <footer style="font-size: 14px; margin-top: 20px; text-align: right;">
+          Posted by John Doe on January 1, 2023
+        </footer>
+      </div>
+    </div>
+
+
+
+
+        <Hero content={content['hero']} />
+        <Divider space='4' />
+        <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
+        <Services content={content['services']} />
+          <Divider space='3' />
+          <Services content={content['services-sec2']} reverse />
+        </Container>
+      </Container>
       {/* <Divider space='5' />
       <ServicesDetails content={content['services-details']} /> */}
       <Divider space='5' />
+    {/*   <CompaniesPhoto content={content['companies-photo']} />
+      <Divider space='4' />
+      <JoinCompanies content={content['companies-join']} />
+      <Divider space='4' />
+      <Companies content={content['companies']} />
+      <Divider space='4' />
+      <Contact content={content['cta']} />
+      <Divider space='5' /> */}
       <Footer content={content['footer']} />
     </Layout>
   )
