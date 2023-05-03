@@ -76,6 +76,34 @@
         }
       ],
       "dropdown": []
-    }
+    },
+    {
+      "dropdown2": [
+        {
+          "text": "Homgertere",
+          "type": "PAGE",
+          "variant": "links.nav-dark",
+          "link": "/servicea/"
+        },
+        {
+          "text": "rrtererger",
+          "type": "PAGE",
+          "variant": "links.nav-dark",
+          "link": "/serviceb/"
+        },
+        {
+          "text": "gergerger",
+          "variant": "links.nav-dark",
+          "type": "PAGE",
+          "link": "/servicec/"
+        },
+         {
+          "text": "regerger Test",
+          "variant": "links.nav-dark",
+          "type": "PAGE",
+          "link": "/serviced/"
+        }
+      ]
+   }
   ]
 }
