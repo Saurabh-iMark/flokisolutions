@@ -85,11 +85,11 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
               {collection && (
                 <>
-                  <Box sx={styles.desktopMenu}>
+                  {/* <Box sx={styles.desktopMenu}>
                     <Reveal effect='fadeInDown'>
                       <Flex
                         sx={{
-                          alignItems: `start`,
+                          alignItems: `center`,
                           justifyContent: menuJustify
                         }}
                       >
@@ -113,7 +113,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                         )}
                       </Flex>
                     </Reveal>
-                  </Box>
+                  </Box> */}
 
 
 
