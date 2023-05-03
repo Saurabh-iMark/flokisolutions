@@ -97,17 +97,21 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                         {collection.map(
                           ({ buttons }, index) => 
                             buttons && (
-                              <Box
-                                key={`item-${index}`}
-                                sx={{
-                                  '& + &': {
-                                    ml: 4
-                                  }
-                                }}
-                              >
+                              <Box p={4} color="background" bg="primary">
+  Beep
+</Box>
 
-                                {/* <ContentButtons content={buttons} /> */}
-                              </Box>
+                              // <Box
+                              //   key={`item-${index}`}
+                              //   sx={{
+                              //     '& + &': {
+                              //       ml: 4
+                              //     }
+                              //   }}
+                              // >
+
+                              //   <ContentButtons content={buttons} />
+                              // </Box>
                             )
 
                         )}
