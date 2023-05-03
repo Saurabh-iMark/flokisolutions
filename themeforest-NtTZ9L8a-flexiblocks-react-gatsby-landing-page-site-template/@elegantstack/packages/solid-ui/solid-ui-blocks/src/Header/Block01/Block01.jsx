@@ -97,7 +97,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                 <Link sx={{ variant: 'styles.navlink' }}>Services</Link>
                 {showOptions && (
 
-
                   <Flex
                     sx={{
                       position: 'absolute',
@@ -105,35 +104,32 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       backgroundColor: '#f2f2f2', padding: '10px',
                       boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
                       zIndex: 1, borderColor: 'red', bordeWidth: 2,
-                      flexDirection: 'column', width: '20%'
-                    }}
-                    >
+                      flexDirection: 'column', width: '100%', padding: '5%'
+                    }}>
 
-
-                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}  to="/services">
+                    <GLink  to="/services">
+                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 1
                     </Box>
+                    </GLink>
 
-
-                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
                     <GLink  to="/testpage">
+                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 2
-                    </GLink>
                     </Box>
+                    </GLink>
 
-
-                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
                     <GLink  to="/about-us">
+                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 3
-                    </GLink>
                     </Box>
+                    </GLink>
 
-
-                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
-                    <GLink  to="/services">
+                    <GLink  to="/">
+                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 4
-                    </GLink>
                     </Box>
+                    </GLink>
 
                   </Flex>
                 )}
