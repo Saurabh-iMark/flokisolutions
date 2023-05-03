@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
-import { Container, Box, Flex, css, Styled } from 'theme-ui'
+import { Container, Box, Flex, css, Styled, Select } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import Drawer from '@solid-ui-components/Drawer'
 import ContentImages from '@solid-ui-components/ContentImages'
@@ -56,6 +56,13 @@ const styles = {
 }
 
 const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
+
+  const options = [
+    { value: "option1", label: "Option 1" },
+    { value: "option2", label: "Option 2" },
+    { value: "option3", label: "Option 3" },
+  ]
+  
   
   console.log(images);
   console.log(collection);
@@ -97,9 +104,18 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                         {collection.map(
                           ({ buttons }, index) => 
                             buttons && (
-                              <Box p={4} color="background" bg="primary">
-  Beep
-</Box>
+
+<Select
+      sx={{ width: "200px" }}
+      onChange={(e) => console.log(e.target.value)}
+    >
+      {options.map((option) => (
+        <option key={option.value} value={option.value}>
+          {option.label}
+        </option>
+      ))}
+    </Select>
+
 
                               // <Box
                               //   key={`item-${index}`}
