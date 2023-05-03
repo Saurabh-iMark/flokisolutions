@@ -85,7 +85,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
               {collection && (
                 <>
-                  {/* <Box sx={styles.desktopMenu}>
+                  <Box sx={styles.desktopMenu}>
                     <Reveal effect='fadeInDown'>
                       <Flex
                         sx={{
@@ -106,14 +106,14 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                                 }}
                               >
 
-                                <ContentButtons content={buttons} />
+                                {/* <ContentButtons content={buttons} /> */}
                               </Box>
                             )
 
                         )}
                       </Flex>
                     </Reveal>
-                  </Box> */}
+                  </Box>
 
 
 
