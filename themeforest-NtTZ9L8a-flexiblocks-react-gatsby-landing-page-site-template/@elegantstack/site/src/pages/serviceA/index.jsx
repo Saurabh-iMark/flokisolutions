@@ -19,6 +19,7 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
 
+
 const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
@@ -258,7 +259,7 @@ img{
           <div class="sect"> 
             <div class="row">
                 <div class="colm6">
-                  <img src="images/shutterstock_6.jpg" alt="product_img">
+                  <img src="./images/shutterstock_6.jpg" alt="product_img">
                 </div>
                 <div class="colm6">
                   <h4>Key Features :</h4>
@@ -285,14 +286,14 @@ img{
                   </ul>
                 </div>
                 <div class="colm6">
-                  <img src="images/shutterstock_11.jpg" alt="product_img">
+                  <img src="./images/shutterstock_11.jpg" alt="product_img">
                 </div>
             </div>
           </div>
           <div class="sect">
             <div class="row">
                 <div class="colm6">
-                  <img src="images/shutterstock_9.jpg" alt="product_img">
+                  <img src="./images/shutterstock_9.jpg" alt="product_img">
                 </div>
                 <div class="colm6">
                   <h4>Use Cases :</h4>
