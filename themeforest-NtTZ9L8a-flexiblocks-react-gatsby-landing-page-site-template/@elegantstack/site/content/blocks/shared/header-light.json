@@ -30,39 +30,13 @@
           "text": "Services Test",
           "variant": "links.nav-white",
           "type": "PAGE",
-          "link": "/testpage/"
+          "link": "/serviceA/"
         },
         {
           "text": "Contact Us",
           "type": "MODAL",
           "link": "contact",
           "variant": "links.nav-white"
-        }
-      ],
-      "dropdown": [
-        {
-          "text": "Home",
-          "type": "PAGE",
-          "variant": "links.nav-dark",
-          "link": "/servicea/"
-        },
-        {
-          "text": "About",
-          "type": "PAGE",
-          "variant": "links.nav-dark",
-          "link": "/serviceb/"
-        },
-        {
-          "text": "Services",
-          "variant": "links.nav-dark",
-          "type": "PAGE",
-          "link": "/servicec/"
-        },
-         {
-          "text": "Services Test",
-          "variant": "links.nav-dark",
-          "type": "PAGE",
-          "link": "/serviced/"
         }
       ]
     },
@@ -74,36 +48,7 @@
           "link": "https://meetings.hubspot.com/makram1",
           "variant": "secondary"
         }
-      ],
-      "dropdown": []
-    },
-    {
-    "dropdown2": [
-      {
-        "text": "Homgertere",
-        "type": "PAGE",
-        "variant": "links.nav-dark",
-        "link": "/servicea/"
-      },
-      {
-        "text": "rrtererger",
-        "type": "PAGE",
-        "variant": "links.nav-dark",
-        "link": "/serviceb/"
-      },
-      {
-        "text": "gergerger",
-        "variant": "links.nav-dark",
-        "type": "PAGE",
-        "link": "/servicec/"
-      },
-       {
-        "text": "regerger Test",
-        "variant": "links.nav-dark",
-        "type": "PAGE",
-        "link": "/serviced/"
-      }
-    ]
-   }
+      ]
+    }
   ]
 }

@@ -75,7 +75,7 @@ const ServiceCPage = props => {
 export const query = graphql`
   query ServiceCPageContent {
     allBlockContent(
-      filter: { page: { in: ["site/servicec", "shared"] } }
+      filter: { page: { in: ["site/serviceC", "shared"] } }
     ) {
       nodes {
         ...BlockContent

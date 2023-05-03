@@ -75,7 +75,7 @@ const ServiceAPage = props => {
 export const query = graphql`
   query ServiceAPageContent {
     allBlockContent(
-      filter: { page: { in: ["site/servicea", "shared"] } }
+      filter: { page: { in: ["site/serviceA", "shared"] } }
     ) {
       nodes {
         ...BlockContent
