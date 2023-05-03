@@ -102,7 +102,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       top: '100%', left: 0, 
                       backgroundColor: '#f2f2f2', padding: '10px',
                       boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
-                      zIndex: 1, border: '1px solid red',
+                      zIndex: 1, borderColor: 'red', bordeWidth: 2,
                     }}>
 
 
