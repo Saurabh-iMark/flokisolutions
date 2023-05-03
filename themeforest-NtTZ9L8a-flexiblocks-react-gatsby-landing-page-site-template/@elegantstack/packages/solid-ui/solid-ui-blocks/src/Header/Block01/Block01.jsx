@@ -107,24 +107,23 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
           sx={{
             position: 'absolute',
             top: '40px',
-            width: '200px',
+            width: '800px',
             backgroundColor: 'background',
             boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
             zIndex: 1,
-          }}
-        >
-          <Link sx={{ variant: 'styles.navlink' }} to="/services">
+          }}>
+          <GLink sx={{ variant: 'styles.navlink' }} to="/services">
             Option 1
-          </Link>
-          <Link sx={{ variant: 'styles.navlink' }} to="/servicestest">
+          </GLink>
+          <GLink sx={{ variant: 'styles.navlink' }} to="/servicestest">
             Option 2
-          </Link>
-          <Link sx={{ variant: 'styles.navlink' }} to="/services">
+          </GLink>
+          <GLink sx={{ variant: 'styles.navlink' }} to="/services">
             Option 3
-          </Link>
-          <Link sx={{ variant: 'styles.navlink' }} to="/services">
+          </GLink>
+          <GLink sx={{ variant: 'styles.navlink' }} to="/services">
             Option 4
-          </Link>
+          </GLink>
         </Flex>
       )}
     </Flex>
