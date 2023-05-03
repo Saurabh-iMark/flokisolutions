@@ -95,7 +95,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                   <Box sx={styles.desktopMenu}>
                     <Reveal effect='fadeInDown'>
                       <Flex sx={{alignItems: `center`, justifyContent: menuJustify}}>
-                          {collection[0].map( ({ buttons }, index) => buttons && (
+                          {collection.map( ({ buttons }, index) => buttons && (
                               <Select
                                 sx={{ width: "200px" }}
                                 onChange={(e) => console.log(e.target.value)}>
