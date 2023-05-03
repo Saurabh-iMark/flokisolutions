@@ -104,29 +104,29 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       backgroundColor: '#f2f2f2', padding: '10px',
                       boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
                       zIndex: 1, borderColor: 'red', bordeWidth: 2,
-                      flexDirection: 'column', padding: '5%'
+                      flexDirection: 'column', padding: '2%'
                     }}>
 
                     <GLink  to="/services">
-                    <Box sx={{ paddingHorizontal: '60px', paddingVertical: '20px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
+                    <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 1
                     </Box>
                     </GLink>
 
                     <GLink  to="/testpage">
-                    <Box sx={{ paddingHorizontal: '60px', paddingVertical: '20px', padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
+                    <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 2
                     </Box>
                     </GLink>
 
                     <GLink  to="/about-us">
-                    <Box sx={{ paddingHorizontal: '60px', paddingVertical: '20px', padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
+                    <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 3
                     </Box>
                     </GLink>
 
                     <GLink  to="/">
-                    <Box sx={{ paddingHorizontal: '60px', paddingVertical: '20px', padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
+                    <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 4
                     </Box>
                     </GLink>
