@@ -107,25 +107,25 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       flexDirection: 'column', padding: 20
                     }}>
 
-                    <GLink  to="/services">
+                    <GLink  to="/servicea">
                     <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
                       Service 1
                     </Box>
                     </GLink>
 
-                    <GLink  to="/testpage">
+                    <GLink  to="/serviceb">
                     <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
                       Service 2
                     </Box>
                     </GLink>
 
-                    <GLink  to="/about-us">
+                    <GLink  to="/servicec">
                     <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
                       Service 3
                     </Box>
                     </GLink>
 
-                    <GLink  to="/">
+                    <GLink  to="/serviced">
                     <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
                       Service 4
                     </Box>
