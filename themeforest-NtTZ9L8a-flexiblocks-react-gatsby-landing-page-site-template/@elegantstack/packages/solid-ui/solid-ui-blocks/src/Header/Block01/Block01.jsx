@@ -59,7 +59,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
   
   console.log(images);
   console.log(collection);
-
+  console.log(collection.buttons);
 
 
   return (
@@ -96,8 +96,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
                         {collection.map(
                           ({ buttons }, index) => 
-                          <Styled.h1>{buttons}</Styled.h1>
-                          
                             buttons && (
                               <Box
                                 key={`item-${index}`}
