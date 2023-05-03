@@ -113,22 +113,22 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
             zIndex: 1,
           }}
         >
-          <Link sx={{ variant: 'styles.navlink' }} to="/option1">
+          <Link sx={{ variant: 'styles.navlink' }} to="/services">
             Option 1
           </Link>
-          <Link sx={{ variant: 'styles.navlink' }} to="/option2">
+          <Link sx={{ variant: 'styles.navlink' }} to="/servicestest">
             Option 2
           </Link>
-          <Link sx={{ variant: 'styles.navlink' }} to="/option3">
+          <Link sx={{ variant: 'styles.navlink' }} to="/services">
             Option 3
           </Link>
-          <Link sx={{ variant: 'styles.navlink' }} to="/option4">
+          <Link sx={{ variant: 'styles.navlink' }} to="/services">
             Option 4
           </Link>
         </Flex>
       )}
     </Flex>
-    
+
 
               {collection && (
                 <>
