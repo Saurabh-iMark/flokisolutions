@@ -67,15 +67,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
     setShowOptions(false);
   };
 
-
-  const options = [
-    { value: "option1", label: "Service Page 1" },
-    { value: "option2", label: "Service Page 2" },
-    { value: "option3", label: "Service Page 3" },
-    { value: "option3", label: "Service Page 4" },
-  ];
-  
-
   console.log(collection);
   console.log(collection[0].buttons);
 
@@ -95,38 +86,47 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                   <ContentImages
                     content={{ images }}
                     sx={styles.image}
-                    imageEffect='fadeIn'
-                  />
+                    imageEffect='fadeIn'/>
                 </GLink>
               </Box>
 
+
+
               <Flex onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-      <Link sx={{ variant: 'styles.navlink' }}>Hover Here</Link>
-      {showOptions && (
-        <Flex
-          sx={{
-            position: 'absolute',
-            top: '40px',
-            width: '800px',
-            backgroundColor: 'background',
-            boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
-            zIndex: 1,
-          }}>
-          <GLink sx={{ variant: 'styles.navlink' }} to="/services">
-            Option 1
-          </GLink>
-          <GLink sx={{ variant: 'styles.navlink' }} to="/servicestest">
-            Option 2
-          </GLink>
-          <GLink sx={{ variant: 'styles.navlink' }} to="/services">
-            Option 3
-          </GLink>
-          <GLink sx={{ variant: 'styles.navlink' }} to="/services">
-            Option 4
-          </GLink>
-        </Flex>
-      )}
-    </Flex>
+                <Link sx={{ variant: 'styles.navlink' }}>Services</Link>
+                {showOptions && (
+                  <Flex
+                    sx={{
+                      position: 'absolute',
+                      top: '40px',
+                      width: '800px',
+                      backgroundColor: 'background',
+                      boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
+                      zIndex: 1,
+                    }}>
+                    <GLink sx={{     '& + &': {
+                                      ml: 4
+                                    } }} to="/services">
+                      Service 1
+                    </GLink>
+                    <GLink sx={{     '& + &': {
+                                      ml: 4
+                                    } }} to="/servicestest">
+                      Service 2
+                    </GLink>
+                    <GLink sx={{     '& + &': {
+                                      ml: 4
+                                    } }} to="/about-us">
+                      Service 3
+                    </GLink>
+                    <GLink sx={{     '& + &': {
+                                      ml: 4
+                                    } }} to="/">
+                      Service 4
+                    </GLink>
+                  </Flex>
+                )}
+              </Flex>
 
 
               {collection && (
@@ -135,27 +135,16 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     <Reveal effect='fadeInDown'>
                       <Flex sx={{alignItems: `center`, justifyContent: menuJustify}}>
                           {collection.map( ({ buttons }, index) => buttons && (
-                              <Select
-                                sx={{ width: "200px" }}
-                                onChange={(e) => console.log(e.target.value)}>
-                                {options.map((option) => (
-                                  <option key={option.value} value={option.value}>
-                                    {option.label}
-                                  </option>
-                                ))}
-                              </Select>
+                                <Box
+                                  key={`item-${index}`}
+                                  sx={{
+                                    '& + &': {
+                                      ml: 4
+                                    }
+                                  }}>
   
-                                // <Box
-                                //   key={`item-${index}`}
-                                //   sx={{
-                                //     '& + &': {
-                                //       ml: 4
-                                //     }
-                                //   }}
-                                // >
-  
-                                //   <ContentButtons content={buttons} />
-                                // </Box>
+                                  <ContentButtons content={buttons} />
+                                </Box>
                               )
                           )}
                       </Flex>
@@ -176,12 +165,8 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                                 '.button-group-link.level-1, button-group-link.level-1:visited': {
                                   color: `headerActiveColor`
                                 }
-                              }}
-                            >
-                              <ContentButtons
-                                content={buttons}
-                                variant='vertical'
-                              />
+                              }}>
+                              <ContentButtons content={buttons} variant='vertical'/>
                             </Box>
                           )
                       )}
