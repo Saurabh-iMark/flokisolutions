@@ -92,38 +92,63 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
 
 
-              <Flex onMouseEnter={handleHover} onMouseLeave={handleLeave}>
+              <Flex sx={{ position: 'relative' }}>
+    <Box sx={{ backgroundColor: '#f2f2f2', padding: '10px' }}>Hover me</Box>
+    <Flex sx={{ position: 'absolute', top: '100%', left: 0, backgroundColor: '#f2f2f2', padding: '10px', display: 'none' }} onMouseEnter={() => {}}>
+      <Option title="Option 1" link="/" />
+      <Option title="Option 2" link="/" />
+      <Option title="Option 3" link="/" />
+      <Option title="Option 4" link="/" />
+    </Flex>
+  </Flex>
+
+
+  <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
+    <a href={link} sx={{ color: 'inherit' }}>{title}</a>
+  </Box>
+
+              <Flex onMouseEnter={handleHover} onMouseLeave={handleLeave} sx={{ position: 'relative' }}>
                 <Link sx={{ variant: 'styles.navlink' }}>Services</Link>
                 {showOptions && (
+
+
                   <Flex
                     sx={{
                       position: 'absolute',
-                      top: '40px',
-                      width: '800px',
-                      backgroundColor: 'background',
+                      top: '100%', left: 0, 
+                      backgroundColor: '#f2f2f2', padding: '10px'
                       boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
                       zIndex: 1,
                     }}>
-                    <GLink sx={{     '& + &': {
-                                      ml: 4
-                                    } }} to="/services">
+
+
+                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
+                    <GLink  to="/services">
                       Service 1
                     </GLink>
-                    <GLink sx={{     '& + &': {
-                                      ml: 4
-                                    } }} to="/servicestest">
+                    </Box>
+
+
+                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
+                    <GLink  to="/servicestest">
                       Service 2
                     </GLink>
-                    <GLink sx={{     '& + &': {
-                                      ml: 4
-                                    } }} to="/about-us">
+                    </Box>
+
+
+                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
+                    <GLink  to="/about-us">
                       Service 3
                     </GLink>
-                    <GLink sx={{     '& + &': {
-                                      ml: 4
-                                    } }} to="/">
+                    </Box>
+
+
+                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
+                    <GLink  to="/">
                       Service 4
                     </GLink>
+                    </Box>
+
                   </Flex>
                 )}
               </Flex>
