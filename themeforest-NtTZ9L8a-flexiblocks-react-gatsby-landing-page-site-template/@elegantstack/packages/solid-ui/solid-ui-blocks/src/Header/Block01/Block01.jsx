@@ -104,7 +104,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       backgroundColor: '#f2f2f2',
                       boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
                       zIndex: 1, borderColor: 'red', bordeWidth: 2,
-                      flexDirection: 'column', padding: '2%'
+                      flexDirection: 'column', padding: 100
                     }}>
 
                     <GLink  to="/services">
