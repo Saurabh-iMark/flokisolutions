@@ -101,11 +101,11 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                         }}
                       >
 
-                        {collection.map(
+                        {collection[0].map(
                           ({ buttons }, index) => 
                             buttons && (
 
-<Select
+    <Select
       sx={{ width: "200px" }}
       onChange={(e) => console.log(e.target.value)}
     >
@@ -130,6 +130,23 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                               // </Box>
                             )
 
+                        )}
+
+                        {collection[1].map(
+                          ({ buttons }, index) => 
+                            buttons && (
+                              <Box
+                                key={`item-${index}`}
+                                sx={{
+                                  '& + &': {
+                                    ml: 4
+                                  }
+                                }}
+                              >
+
+                                <ContentButtons content={buttons} />
+                              </Box>
+                            )
                         )}
                       </Flex>
                     </Reveal>
