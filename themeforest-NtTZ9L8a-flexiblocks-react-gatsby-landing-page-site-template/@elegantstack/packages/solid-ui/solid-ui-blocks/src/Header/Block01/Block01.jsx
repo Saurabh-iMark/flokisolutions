@@ -108,25 +108,25 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     }}>
 
                     <GLink  to="/services">
-                    <Box sx={{ padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
+                    <Box sx={{ paddingHorizontal: '60px', paddingVertical: '20px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 1
                     </Box>
                     </GLink>
 
                     <GLink  to="/testpage">
-                    <Box sx={{ padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
+                    <Box sx={{ paddingHorizontal: '60px', paddingVertical: '20px', padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 2
                     </Box>
                     </GLink>
 
                     <GLink  to="/about-us">
-                    <Box sx={{ padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
+                    <Box sx={{ paddingHorizontal: '60px', paddingVertical: '20px', padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 3
                     </Box>
                     </GLink>
 
                     <GLink  to="/">
-                    <Box sx={{ padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
+                    <Box sx={{ paddingHorizontal: '60px', paddingVertical: '20px', padding: '100px', borderBottom: '1px solid #ccc', cursor: "pointer" }}>
                       Service 4
                     </Box>
                     </GLink>
