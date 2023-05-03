@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link as GLink } from 'gatsby'
 import Sticky from 'react-sticky-el'
-import { Container, Box, Flex, css, Styled, Select } from 'theme-ui'
+import { Container, Box, Flex, css, Styled, Select, Link } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import Drawer from '@solid-ui-components/Drawer'
 import ContentImages from '@solid-ui-components/ContentImages'
@@ -57,6 +57,17 @@ const styles = {
 
 const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
+  const [showOptions, setShowOptions] = React.useState(false);
+
+  const handleHover = () => {
+    setShowOptions(true);
+  };
+
+  const handleLeave = () => {
+    setShowOptions(false);
+  };
+
+
   const options = [
     { value: "option1", label: "Service Page 1" },
     { value: "option2", label: "Service Page 2" },
@@ -89,6 +100,35 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                 </GLink>
               </Box>
 
+              <Flex onMouseEnter={handleHover} onMouseLeave={handleLeave}>
+      <Link sx={{ variant: 'styles.navlink' }}>Hover Here</Link>
+      {showOptions && (
+        <Flex
+          sx={{
+            position: 'absolute',
+            top: '40px',
+            width: '200px',
+            backgroundColor: 'background',
+            boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
+            zIndex: 1,
+          }}
+        >
+          <Link sx={{ variant: 'styles.navlink' }} to="/option1">
+            Option 1
+          </Link>
+          <Link sx={{ variant: 'styles.navlink' }} to="/option2">
+            Option 2
+          </Link>
+          <Link sx={{ variant: 'styles.navlink' }} to="/option3">
+            Option 3
+          </Link>
+          <Link sx={{ variant: 'styles.navlink' }} to="/option4">
+            Option 4
+          </Link>
+        </Flex>
+      )}
+    </Flex>
+    
 
               {collection && (
                 <>
