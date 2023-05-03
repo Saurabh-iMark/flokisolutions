@@ -71,6 +71,8 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
   console.log(collection);
   console.log(collection[0].buttons);
+  console.log(collection[0].dropdown);
+  
 
 
   return (
