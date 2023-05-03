@@ -81,6 +81,8 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                   />
                 </GLink>
               </Box>
+
+
               {collection && (
                 <>
                   <Box sx={styles.desktopMenu}>
@@ -94,7 +96,8 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
                         {collection.map(
                           ({ buttons }, index) => 
-            
+                          <Styled.h1>{buttons}</Styled.h1>
+                          
                             buttons && (
                               <Box
                                 key={`item-${index}`}
@@ -106,7 +109,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                               >
 
                                 <ContentButtons content={buttons} />
-                                <Styled.h1>{buttons}</Styled.h1>
                               </Box>
                             )
 
