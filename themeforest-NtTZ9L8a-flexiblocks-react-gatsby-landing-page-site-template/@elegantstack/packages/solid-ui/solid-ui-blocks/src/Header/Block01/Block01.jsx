@@ -8,6 +8,8 @@ import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
+
+
 const styles = {
   wrapper: {
     position: `relative`,
@@ -97,16 +99,14 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
 
                   <Flex
-
-
                     sx={{
                       position: 'absolute',
                       top: '100%', left: 0, 
                       backgroundColor: '#f2f2f2', padding: '10px',
                       boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
                       zIndex: 1, borderColor: 'red', bordeWidth: 2,
+                      flexDirection: 'column',
                     }}
-                    
                     >
 
 
@@ -118,7 +118,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
 
                     <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
-                    <GLink  to="/servicestest">
+                    <GLink  to="/testpage">
                       Service 2
                     </GLink>
                     </Box>
@@ -132,7 +132,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
 
                     <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
-                    <GLink  to="/">
+                    <GLink  to="/services">
                       Service 4
                     </GLink>
                     </Box>
