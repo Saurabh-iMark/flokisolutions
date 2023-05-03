@@ -58,15 +58,15 @@ const styles = {
 const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
   const options = [
-    { value: "option1", label: "Option 1" },
-    { value: "option2", label: "Option 2" },
-    { value: "option3", label: "Option 3" },
-  ]
+    { value: "option1", label: "Service Page 1" },
+    { value: "option2", label: "Service Page 2" },
+    { value: "option3", label: "Service Page 3" },
+    { value: "option3", label: "Service Page 4" },
+  ];
   
-  
-  console.log(images);
+
   console.log(collection);
-  console.log(collection.buttons);
+  console.log(collection[0].buttons);
 
 
   return (
@@ -94,60 +94,31 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                 <>
                   <Box sx={styles.desktopMenu}>
                     <Reveal effect='fadeInDown'>
-                      <Flex
-                        sx={{
-                          alignItems: `center`,
-                          justifyContent: menuJustify
-                        }}
-                      >
-
-                        {collection[0].map(
-                          ({ buttons }, index) => 
-                            buttons && (
-
-    <Select
-      sx={{ width: "200px" }}
-      onChange={(e) => console.log(e.target.value)}
-    >
-      {options.map((option) => (
-        <option key={option.value} value={option.value}>
-          {option.label}
-        </option>
-      ))}
-    </Select>
-
-
-                              // <Box
-                              //   key={`item-${index}`}
-                              //   sx={{
-                              //     '& + &': {
-                              //       ml: 4
-                              //     }
-                              //   }}
-                              // >
-
-                              //   <ContentButtons content={buttons} />
-                              // </Box>
-                            )
-
-                        )}
-
-                        {collection[1].map(
-                          ({ buttons }, index) => 
-                            buttons && (
-                              <Box
-                                key={`item-${index}`}
-                                sx={{
-                                  '& + &': {
-                                    ml: 4
-                                  }
-                                }}
-                              >
-
-                                <ContentButtons content={buttons} />
-                              </Box>
-                            )
-                        )}
+                      <Flex sx={{alignItems: `center`, justifyContent: menuJustify}}>
+                          {collection[0].map( ({ buttons }, index) => buttons && (
+                              <Select
+                                sx={{ width: "200px" }}
+                                onChange={(e) => console.log(e.target.value)}>
+                                {options.map((option) => (
+                                  <option key={option.value} value={option.value}>
+                                    {option.label}
+                                  </option>
+                                ))}
+                              </Select>
+  
+                                // <Box
+                                //   key={`item-${index}`}
+                                //   sx={{
+                                //     '& + &': {
+                                //       ml: 4
+                                //     }
+                                //   }}
+                                // >
+  
+                                //   <ContentButtons content={buttons} />
+                                // </Box>
+                              )
+                          )}
                       </Flex>
                     </Reveal>
                   </Box>
