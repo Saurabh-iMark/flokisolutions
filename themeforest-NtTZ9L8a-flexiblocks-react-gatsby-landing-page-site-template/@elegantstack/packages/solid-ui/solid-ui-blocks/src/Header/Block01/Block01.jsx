@@ -91,22 +91,6 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
               </Box>
 
 
-
-              <Flex sx={{ position: 'relative' }}>
-    <Box sx={{ backgroundColor: '#f2f2f2', padding: '10px' }}>Hover me</Box>
-    <Flex sx={{ position: 'absolute', top: '100%', left: 0, backgroundColor: '#f2f2f2', padding: '10px', display: 'none' }} onMouseEnter={() => {}}>
-      <Option title="Option 1" link="/" />
-      <Option title="Option 2" link="/" />
-      <Option title="Option 3" link="/" />
-      <Option title="Option 4" link="/" />
-    </Flex>
-  </Flex>
-
-
-  <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
-    <a href={link} sx={{ color: 'inherit' }}>{title}</a>
-  </Box>
-
               <Flex onMouseEnter={handleHover} onMouseLeave={handleLeave} sx={{ position: 'relative' }}>
                 <Link sx={{ variant: 'styles.navlink' }}>Services</Link>
                 {showOptions && (
@@ -116,7 +100,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     sx={{
                       position: 'absolute',
                       top: '100%', left: 0, 
-                      backgroundColor: '#f2f2f2', padding: '10px'
+                      backgroundColor: '#f2f2f2', padding: '10px',
                       boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
                       zIndex: 1,
                     }}>
