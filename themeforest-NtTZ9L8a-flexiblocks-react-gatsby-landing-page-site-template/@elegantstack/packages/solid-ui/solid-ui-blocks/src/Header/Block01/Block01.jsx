@@ -105,15 +105,13 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       backgroundColor: '#f2f2f2', padding: '10px',
                       boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)',
                       zIndex: 1, borderColor: 'red', bordeWidth: 2,
-                      flexDirection: 'column',
+                      flexDirection: 'column', width: '20%'
                     }}
                     >
 
 
-                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
-                    <GLink  to="/services">
+                    <Box sx={{ padding: '10px', borderBottom: '1px solid #ccc' }}  to="/services">
                       Service 1
-                    </GLink>
                     </Box>
 
 
