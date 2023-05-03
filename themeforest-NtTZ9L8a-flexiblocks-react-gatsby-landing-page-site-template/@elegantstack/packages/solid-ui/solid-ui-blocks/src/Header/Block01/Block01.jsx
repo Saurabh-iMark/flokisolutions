@@ -89,7 +89,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     <Reveal effect='fadeInDown'>
                       <Flex
                         sx={{
-                          alignItems: `center`,
+                          alignItems: `start`,
                           justifyContent: menuJustify
                         }}
                       >
