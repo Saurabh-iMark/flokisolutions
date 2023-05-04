@@ -77,9 +77,26 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
       <div className="dropdown">
         <button className="dropbtn">Dropdown</button>
         <div className="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+              <GLink  to="/serviceA">
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
+                Service 1
+                </Box>
+              </GLink>
+              <GLink  to="/serviceB">
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
+                Service 2
+                </Box>
+              </GLink>
+              <GLink  to="/serviceC">
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
+                Service 3
+                </Box>
+              </GLink>
+              <GLink  to="/serviceD">
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
+                Service 4
+                </Box>
+              </GLink>
         </div>
       </div>
     )
