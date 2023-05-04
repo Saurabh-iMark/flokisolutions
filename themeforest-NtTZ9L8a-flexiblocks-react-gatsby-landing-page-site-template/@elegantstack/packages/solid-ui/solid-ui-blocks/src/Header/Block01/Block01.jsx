@@ -70,12 +70,14 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
     setShowOptions(false);
   };
 
+  const collection1 = collection[0];
+  const collection2 = collection[1];
+
   console.log(collection);
+  console.log(collection1);
+  console.log(collection2)
 
-  console.log(collection[0]);
-  console.log(collection[1])
 
-  
   const DropDownComponent = () => {
     return (
       <div className="dropdown">
@@ -173,12 +175,12 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
               </Flex> */}
 
 
-              {collection && (
+              {collection1 && (
                 <>
                   <Box sx={styles.desktopMenu}>
                     <Reveal effect='fadeInDown'>
                       <Flex sx={{alignItems: `center`, justifyContent: menuJustify}}>
-                          {collection.map( ({ buttons }, index) => buttons && (
+                          {collection1.map( ({ buttons }, index) => buttons && (
                                 <Box
                                   key={`item-${index}`}
                                   sx={{
@@ -199,7 +201,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
                   <Box sx={styles.mobileMenu}>
                     <Drawer buttonStyle={{ svg: { size: 32 } }}>
-                      {collection.map(
+                      {collection1.map(
                         ({ buttons }, index) =>
                           buttons && (
                             <Box
@@ -218,6 +220,54 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                   </Box>
                 </>
               )}
+
+
+              {collection2 && (
+                <>
+                  <Box sx={styles.desktopMenu}>
+                    <Reveal effect='fadeInDown'>
+                      <Flex sx={{alignItems: `center`, justifyContent: menuJustify}}>
+                          {collection2.map( ({ buttons }, index) => buttons && (
+                                <Box
+                                  key={`item-${index}`}
+                                  sx={{
+                                    '& + &': {
+                                      ml: 4
+                                    }
+                                  }}>
+  
+                                  <ContentButtons content={buttons} />
+                                </Box>
+                              )
+                          )}
+                      </Flex>
+                    </Reveal>
+                  </Box>
+
+
+
+                  <Box sx={styles.mobileMenu}>
+                    <Drawer buttonStyle={{ svg: { size: 32 } }}>
+                      {collection2.map(
+                        ({ buttons }, index) =>
+                          buttons && (
+                            <Box
+                              key={`item-${index}`}
+                              sx={{
+                                fontSize: 3,
+                                '.button-group-link.level-1, button-group-link.level-1:visited': {
+                                  color: `headerActiveColor`
+                                }
+                              }}>
+                              <ContentButtons content={buttons} variant='vertical'/>
+                            </Box>
+                          )
+                      )}
+                    </Drawer>
+                  </Box>
+                </>
+              )}
+
             </Flex>
           </Container>
         </Container>
