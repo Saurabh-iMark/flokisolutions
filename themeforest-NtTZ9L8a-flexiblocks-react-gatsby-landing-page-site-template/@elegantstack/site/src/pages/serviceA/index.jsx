@@ -325,6 +325,20 @@ img{
     </body>
   </html>`;
 
+
+
+  const MyHTMLComponent = () => {
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+        <p>This is my HTML design in Gatsby.</p>
+      </div>
+    );
+  };
+  
+
+
+
   return (
     <Layout {...props}>
       <Seo title='Home' />
@@ -334,6 +348,8 @@ img{
       <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
       <Header content={content['header-light']} />
+      <MyHTMLComponent></MyHTMLComponent>
+      
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <Divider space='5' />
       <Footer content={content['footer']} />
