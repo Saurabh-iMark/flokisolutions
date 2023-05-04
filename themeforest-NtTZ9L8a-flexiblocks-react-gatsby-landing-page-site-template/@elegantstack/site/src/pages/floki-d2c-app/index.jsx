@@ -126,7 +126,9 @@ const ServiceAPage = props => {
           </div>
         </div>
       </div>
+      <Footer content={content['footer']} /> 
       </div>
+       <Footer content={content['footer']} /> 
     );
   };
   
@@ -141,11 +143,13 @@ const ServiceAPage = props => {
       <ModalWithTabs content={content['contact']} />
       <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
-      <Header content={content['header-light']} />
+
+      {/* <Header content={content['header-light']} /> */}
+
       <MyHTMLComponent></MyHTMLComponent>
- 
-      <Divider space='5' />
-      <Footer content={content['footer']} />
+
+      {/* <Divider space='5' /> */}
+      {/* <Footer content={content['footer']} /> */}
     </Layout>
   )
 }
