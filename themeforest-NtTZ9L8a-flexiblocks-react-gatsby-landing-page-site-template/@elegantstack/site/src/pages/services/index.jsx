@@ -26,7 +26,7 @@ const Services02 = props => {
 
   const ServiceProductComponent = () => {
     return (
-        <Box className="dropdown-content">
+    
               <GLink  to="/floki-d2c-app">
                 <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
                 Floki D2C App
@@ -47,7 +47,7 @@ const Services02 = props => {
                 Floki Wholesale App(B2B)
                 </Box>
               </GLink>
-        </Box>
+    
     )
   }
   
@@ -73,31 +73,30 @@ const Services02 = props => {
           <Services content={content['services-sec2']} reverse />
           <Divider space='3' />
 
+          <ServiceProductComponent></ServiceProductComponent>
 
           <Container maxWidth={800}>
            <Heading as="h2" sx={{ textAlign: "center", mb: 4 }}>
              Bullet Section
           </Heading>
+           <Grid columns={[1, 2, 2, 4]} gap={4}>
+             <Box as="ul" sx={{ listStyleType: "disc" }}>
+               <Text as="li">Linking option 1</Text>
+             </Box>
+             <Box as="ul" sx={{ listStyleType: "disc" }}>
+               <Text as="li">Linking option 2</Text>
+             </Box>
+             <Box as="ul" sx={{ listStyleType: "disc" }}>
+               <Text as="li">Linking option 3</Text>
+             </Box>
+             <Box as="ul" sx={{ listStyleType: "disc" }}>
+               <Text as="li">Linking option 4</Text>
+             </Box>
+           </Grid>
+          </Container>
 
-
-      <Grid columns={[1, 2, 2, 4]} gap={4}>
-        <Box as="ul" sx={{ listStyleType: "disc" }}>
-          <Text as="li">Linking option 1</Text>
-        </Box>
-        <Box as="ul" sx={{ listStyleType: "disc" }}>
-          <Text as="li">Linking option 2</Text>
-        </Box>
-        <Box as="ul" sx={{ listStyleType: "disc" }}>
-          <Text as="li">Linking option 3</Text>
-        </Box>
-        <Box as="ul" sx={{ listStyleType: "disc" }}>
-          <Text as="li">Linking option 4</Text>
-        </Box>
-      </Grid>
-    </Container>
           <Services content={content['otherService']} reverse />
-    <ServiceProductComponent></ServiceProductComponent>
-
+    
           {/* 
           {
       "text": "1). Floki D2C App",
