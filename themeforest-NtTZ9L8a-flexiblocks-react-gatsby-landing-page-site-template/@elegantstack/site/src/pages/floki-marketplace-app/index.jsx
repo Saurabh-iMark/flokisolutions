@@ -149,7 +149,7 @@ const ServiceBPage = props => {
       <Header content={content['header']} />
       <MyHTMLComponent></MyHTMLComponent>
  
-      <Divider space='5' />
+      {/* <Divider space='5' /> */}
       <Footer content={content['footer']} />
     </Layout>
   )
