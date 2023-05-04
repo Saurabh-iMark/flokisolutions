@@ -30,7 +30,7 @@
           "text": "Services Test",
           "variant": "links.nav-white",
           "type": "PAGE",
-          "link": "/serviceA/"
+          "link": "/testpage/"
         },
         {
           "text": "Contact Us",
