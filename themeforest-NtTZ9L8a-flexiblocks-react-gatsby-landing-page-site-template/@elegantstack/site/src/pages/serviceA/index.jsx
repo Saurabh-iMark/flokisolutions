@@ -19,7 +19,9 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles';
 
-import "./customStyle.css"
+import "./customStyle.css";
+import shutterstock_9 from './images/shutterstock_9.jpg';
+
 
 
 const ServiceAPage = props => {
@@ -86,6 +88,7 @@ const ServiceAPage = props => {
           <div className="sect">
             <div className="row">
                 <div className="colm6">
+                <img src={shutterstock_9} alt="product_img" />
                   {/* <img src="./images/shutterstock_9.jpg" alt="product_img"> */}
                 </div>
                 <div className="colm6">
