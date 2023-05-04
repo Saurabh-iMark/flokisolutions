@@ -41,6 +41,9 @@ const Services02 = props => {
           <Divider space='3' />
           <Services content={content['services-sec2']} reverse />
           <Divider space='3' />
+
+
+          
           <Services content={content['otherService']} reverse />
           
         </Container>
