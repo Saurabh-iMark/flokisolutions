@@ -93,14 +93,14 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                 Floki Marketplace App
                 </Box>
               </GLink>
-              <GLink  to="/serviceC">
+              <GLink  to="/floki-supermarket-app">
                 <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
-                Service 3
+                Floki Supermarket App(B2C)
                 </Box>
               </GLink>
-              <GLink  to="/serviceD">
+              <GLink  to="/floki-wholesale-app-b2b">
                 <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
-                Service 4
+                Floki Wholesale App(B2B)
                 </Box>
               </GLink>
         </div>
