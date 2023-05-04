@@ -75,7 +75,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
   const DropDownComponent = () => {
     return (
       <div className="dropdown">
-        <button className="dropbtn">Dropdown</button>
+        <button className="dropbtn">Services</button>
         <div className="dropdown-content">
               <GLink  to="/serviceA">
                 <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
@@ -126,7 +126,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
               <DropDownComponent></DropDownComponent>
 
-              <Flex onMouseEnter={handleHover} onMouseLeave={handleLeave} sx={{ position: 'relative' }}>
+              {/* <Flex onMouseEnter={handleHover} onMouseLeave={handleLeave} sx={{ position: 'relative' }}>
                 <Link sx={{ variant: 'styles.navlink' }}>Services</Link>
                 {showOptions && (
 
@@ -166,7 +166,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
                   </Flex>
                 )}
-              </Flex>
+              </Flex> */}
 
 
               {collection && (
