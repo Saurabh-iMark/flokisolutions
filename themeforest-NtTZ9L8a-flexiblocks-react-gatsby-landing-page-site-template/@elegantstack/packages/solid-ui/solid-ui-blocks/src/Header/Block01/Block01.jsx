@@ -84,22 +84,22 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
         <button className="dropbtn">Services</button>
         <div className="dropdown-content">
               <GLink  to="/floki-d2c-app">
-                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
                 Floki D2C App
                 </Box>
               </GLink>
               <GLink  to="/floki-marketplace-app">
-                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
                 Floki Marketplace App
                 </Box>
               </GLink>
               <GLink  to="/floki-supermarket-app">
-                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
                 Floki Supermarket App(B2C)
                 </Box>
               </GLink>
               <GLink  to="/floki-wholesale-app-b2b">
-                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
                 Floki Wholesale App(B2B)
                 </Box>
               </GLink>
