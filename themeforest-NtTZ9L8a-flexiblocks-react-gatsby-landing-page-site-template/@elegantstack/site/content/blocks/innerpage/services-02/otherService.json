@@ -8,55 +8,30 @@
     {
       "text": "Floki D2C App",
       "color": "omegaDark",
+      "variant": "links.nav-dark",
+      "link": "/floki-d2c-app",
       "space": 2
     },
     {
       "text": "Floki Marketplace App",
+      "variant": "links.nav-dark",
       "color": "omegaDark",
-      "space": 1
+      "link": "/floki-marketplace-app",
+      "space": 2
     },
     {
       "text": "Floki Supermarket App(B2C)",
       "color": "omegaDark",
-      "space": 1
+      "variant": "links.nav-dark",
+      "link": "/floki-supermarket-app",
+      "space": 2
     },
     {
       "text": "Floki Wholesale App(B2B)",
       "color": "omegaDark",
-      "variant": "h6",
-      "space": 4
-    },
-    {
-      "text": "Customer Support",
-      "color": "omegaDarker",
-      "variant": "h4"
-    },
-    {
-      "text": "We are specialized in supporting e-commerce operations, following specific guidelines and procedures, in order to guarantee optimized operations and a high user retention rate ",
-      "color": "omegaDark",
-      "space": 4
-    },
-    {
-      "text": "Digital Marketing",
-      "color": "omegaDarker",
-      "variant": "h4"
-    },
-    {
-      "text": "We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content",
-      "color": "omegaDark",
-      "space": 4
-    },
-    {
-      "text": "Design & Development",
-      "color": "omegaDarker",
-      "variant": "h4"
-    }
-  ],
-  "images": [
-    {
-      "src": "../../../assets/flexiblocks/innerpage/services-02/services02.jpg",
-      "alt": "alt text",
-      "radius": "lg"
+      "variant": "links.nav-dark",
+      "link": "/floki-wholesale-app-b2b",
+      "space": 2
     }
   ]
 }
