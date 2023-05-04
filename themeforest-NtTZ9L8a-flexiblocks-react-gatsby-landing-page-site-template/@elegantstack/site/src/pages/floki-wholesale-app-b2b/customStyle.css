@@ -19,6 +19,7 @@
 
 .product1 {
     width: 100%;
+    background-color: #fff;
     /* float: left; */
 }
 .product1 .sec1 h4 {
@@ -107,11 +108,10 @@ img{
 .discrptn {
     width: 100%;
     float: left;
-    background-color: #f7f7f7;
-    box-shadow: 0px 17px 33px #e5e5e5;
     padding: 1.5em;
     margin: 2em 0;
     text-align: center;
+    background-color: #f7f7f7;
 }
 .discrptn p{
 	color: var(--theme-ui-colors-omegaDark,#718096);
