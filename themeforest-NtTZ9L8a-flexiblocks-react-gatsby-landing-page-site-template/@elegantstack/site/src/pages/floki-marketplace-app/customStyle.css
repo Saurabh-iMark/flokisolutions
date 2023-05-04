@@ -16,7 +16,7 @@
 
 .product1 {
     width: 100%;
-    float: left;
+    /* float: left; */
 }
 .product1 .sec1 h4 {
     margin: 0;
@@ -117,7 +117,7 @@ img{
 }
 .sec2 {
     width: 100%;
-    float: left;
+    /* float: left; */
     background-color: #f1f4fa;
     margin-top: 3em;
 }.sec2 p {
