@@ -72,6 +72,10 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
   console.log(collection);
 
+  console.log(collection[0]);
+  console.log(collection[1])
+
+  
   const DropDownComponent = () => {
     return (
       <div className="dropdown">
