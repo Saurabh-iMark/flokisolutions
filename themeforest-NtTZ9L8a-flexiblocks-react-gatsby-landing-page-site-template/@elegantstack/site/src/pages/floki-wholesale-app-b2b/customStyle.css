@@ -20,6 +20,7 @@
 .product1 {
     width: 100%;
     background-color: #fff;
+    padding: 42px 0;
     /* float: left; */
 }
 .product1 .sec1 h4 {
@@ -109,7 +110,6 @@ img{
     width: 100%;
     float: left;
     padding: 1.5em;
-    margin: 2em 0;
     text-align: center;
     background-color: #f7f7f7;
 }
