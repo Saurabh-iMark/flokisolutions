@@ -8,6 +8,7 @@ import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
+import "./customStyle.css";
 
 
 const styles = {
@@ -71,7 +72,18 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
 
   console.log(collection);
 
-
+  const DropDownComponent = () => {
+    return (
+      <div className="dropdown">
+        <button className="dropbtn">Dropdown</button>
+        <div className="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    )
+  }
   
 
 
@@ -94,6 +106,8 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                 </GLink>
               </Box>
 
+
+              <DropDownComponent></DropDownComponent>
 
               <Flex onMouseEnter={handleHover} onMouseLeave={handleLeave} sx={{ position: 'relative' }}>
                 <Link sx={{ variant: 'styles.navlink' }}>Services</Link>
