@@ -35,7 +35,7 @@ const ServiceAPage = props => {
 
   const MyHTMLComponent = () => {
     return (
-      <div>
+      <div className="service_spacer">
       <div className="product1">
         <div className="mycontainer">
           <div className="sec1">
