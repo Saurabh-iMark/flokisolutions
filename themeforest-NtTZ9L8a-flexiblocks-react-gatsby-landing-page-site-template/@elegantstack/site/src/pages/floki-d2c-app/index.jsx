@@ -143,11 +143,10 @@ const ServiceAPage = props => {
       {/* Blocks */}
 
       {/* <Header content={content['header-light']} /> */}
-
       <MyHTMLComponent></MyHTMLComponent>
 
-      {/* <Divider space='5' /> */}
-      {/* <Footer content={content['footer']} /> */}
+      <Divider space='5' />
+      <Footer content={content['footer']} />
     </Layout>
   )
 }
