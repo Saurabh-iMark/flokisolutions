@@ -26,7 +26,7 @@ const Services02 = props => {
 
   const ServiceProductComponent = () => {
     return (
-    
+          <Box>
               <GLink  to="/floki-d2c-app">
                 <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
                 Floki D2C App
@@ -47,6 +47,7 @@ const Services02 = props => {
                 Floki Wholesale App(B2B)
                 </Box>
               </GLink>
+              </Box>
     
     )
   }
@@ -96,37 +97,6 @@ const Services02 = props => {
           </Container>
 
           <Services content={content['otherService']} reverse />
-    
-          {/* 
-          {
-      "text": "1). Floki D2C App",
-      "color": "omegaDark",
-      "variant": "links.nav-dark",
-      "link": "/floki-d2c-app",
-      "space": 2
-    },
-    {
-      "text": "2). Floki Marketplace App",
-      "variant": "links.nav-dark",
-      "color": "omegaDark",
-      "link": "/floki-marketplace-app",
-      "space": 2
-    },
-    {
-      "text": "3). Floki Supermarket App(B2C)",
-      "color": "omegaDark",
-      "variant": "links.nav-dark",
-      "link": "/floki-supermarket-app",
-      "space": 2
-    },
-    {
-      "text": "4). Floki Wholesale App(B2B)",
-      "color": "omegaDark",
-      "variant": "links.nav-dark",
-      "link": "/floki-wholesale-app-b2b",
-      "space": 2
-    } */}
-          
         </Container>
 
 
