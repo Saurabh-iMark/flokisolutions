@@ -127,7 +127,6 @@ const ServiceAPage = props => {
         </div>
       </div>
       </div>
-       <Footer content={content['footer']} /> 
     );
   };
   
