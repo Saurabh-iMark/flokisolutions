@@ -122,7 +122,8 @@ img{
     width: 100%;
     /* float: left; */
     background-color: #f1f4fa;
-    padding:52px 0 72px;
+    padding: 112px 0 52px;
+    margin-top: 0;
 }.sec2 p {
 	color: var(--theme-ui-colors-omegaDark,#718096);
 	font-size: 15px;
@@ -143,9 +144,7 @@ img{
     transform: translateY(-25px);
   	box-shadow: 0px 30px 30px 2px #ccc;
 }
-.css-1e4yo7m{
-    margin: 0 !important;
-}
+
 
 @media only screen and (max-width: 1024px) {
 	.sec2 p {
