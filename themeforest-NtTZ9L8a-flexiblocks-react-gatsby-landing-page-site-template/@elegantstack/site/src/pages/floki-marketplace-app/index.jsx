@@ -158,7 +158,7 @@ const ServiceBPage = props => {
 export const query = graphql`
   query ServiceBPageContent {
     allBlockContent(
-      filter: { page: { in: ["site/serviceB", "shared"] } }
+      filter: { page: { in: ["site/floki-marketplace-app", "shared"] } }
     ) {
       nodes {
         ...BlockContent
