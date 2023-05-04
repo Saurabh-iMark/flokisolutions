@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Container } from 'theme-ui'
+import { Container, Heading, Text, Grid, Box } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -21,6 +21,36 @@ import styles from './_styles'
 const Services02 = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
+
+
+  const ServiceProductComponent = () => {
+    return (
+        <Box className="dropdown-content">
+              <GLink  to="/floki-d2c-app">
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
+                Floki D2C App
+                </Box>
+              </GLink>
+              <GLink  to="/floki-marketplace-app">
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
+                Floki Marketplace App
+                </Box>
+              </GLink>
+              <GLink  to="/floki-supermarket-app">
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
+                Floki Supermarket App(B2C)
+                </Box>
+              </GLink>
+              <GLink  to="/floki-wholesale-app-b2b">
+                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
+                Floki Wholesale App(B2B)
+                </Box>
+              </GLink>
+        </Box>
+    )
+  }
+  
+
 
   return (
     <Layout {...props}>
@@ -43,8 +73,59 @@ const Services02 = props => {
           <Divider space='3' />
 
 
-          
+          <Container maxWidth={800}>
+           <Heading as="h2" sx={{ textAlign: "center", mb: 4 }}>
+             Bullet Section
+          </Heading>
+
+
+      <Grid columns={[1, 2, 2, 4]} gap={4}>
+        <Box as="ul" sx={{ listStyleType: "disc" }}>
+          <Text as="li">Linking option 1</Text>
+        </Box>
+        <Box as="ul" sx={{ listStyleType: "disc" }}>
+          <Text as="li">Linking option 2</Text>
+        </Box>
+        <Box as="ul" sx={{ listStyleType: "disc" }}>
+          <Text as="li">Linking option 3</Text>
+        </Box>
+        <Box as="ul" sx={{ listStyleType: "disc" }}>
+          <Text as="li">Linking option 4</Text>
+        </Box>
+      </Grid>
+    </Container>
           <Services content={content['otherService']} reverse />
+    <ServiceProductComponent></ServiceProductComponent>
+
+          {/* 
+          {
+      "text": "1). Floki D2C App",
+      "color": "omegaDark",
+      "variant": "links.nav-dark",
+      "link": "/floki-d2c-app",
+      "space": 2
+    },
+    {
+      "text": "2). Floki Marketplace App",
+      "variant": "links.nav-dark",
+      "color": "omegaDark",
+      "link": "/floki-marketplace-app",
+      "space": 2
+    },
+    {
+      "text": "3). Floki Supermarket App(B2C)",
+      "color": "omegaDark",
+      "variant": "links.nav-dark",
+      "link": "/floki-supermarket-app",
+      "space": 2
+    },
+    {
+      "text": "4). Floki Wholesale App(B2B)",
+      "color": "omegaDark",
+      "variant": "links.nav-dark",
+      "link": "/floki-wholesale-app-b2b",
+      "space": 2
+    } */}
           
         </Container>
 
