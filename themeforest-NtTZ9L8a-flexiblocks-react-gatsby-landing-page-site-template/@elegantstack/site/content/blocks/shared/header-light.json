@@ -27,12 +27,6 @@
           "link": "/services/"
         },
         {
-          "text": "Services Test",
-          "variant": "links.nav-white",
-          "type": "PAGE",
-          "link": "/testpage/"
-        },
-        {
           "text": "Contact Us",
           "type": "MODAL",
           "link": "contact",
