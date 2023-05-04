@@ -14,13 +14,14 @@
 }
 
 .service_spacer{
-    padding: 16rem 0px 0;
+    padding: 10rem 0px 0;
 }
 
 .product1 {
     width: 100%;
     /* float: left; */
 }
+
 .product1 .sec1 h4 {
     margin: 0;
     min-width: 0;

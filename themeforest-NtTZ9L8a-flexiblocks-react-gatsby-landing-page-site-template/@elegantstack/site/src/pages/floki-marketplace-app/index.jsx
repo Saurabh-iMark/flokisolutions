@@ -146,7 +146,7 @@ const ServiceBPage = props => {
       <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
 
-      <Header content={content['header-light']} />
+      <Header content={content['header']} />
       <MyHTMLComponent></MyHTMLComponent>
  
       <Divider space='5' />
