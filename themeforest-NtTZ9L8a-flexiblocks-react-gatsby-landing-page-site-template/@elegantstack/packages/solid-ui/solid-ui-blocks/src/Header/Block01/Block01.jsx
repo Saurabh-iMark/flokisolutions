@@ -85,7 +85,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
         <div className="dropdown-content">
               <GLink  to="/floki-d2c-app">
                 <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 20 }}>
-                Service 1
+                Floki D2C App
                 </Box>
               </GLink>
               <GLink  to="/serviceB">
