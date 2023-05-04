@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { Link as GLink } from 'gatsby'
 import { Container, Heading, Text, Grid, Box } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
