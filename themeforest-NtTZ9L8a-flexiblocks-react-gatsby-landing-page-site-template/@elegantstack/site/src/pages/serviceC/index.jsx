@@ -17,20 +17,124 @@ import JoinCompanies from '@solid-ui-blocks/Content/Block01'
 import Companies from '@solid-ui-blocks/Companies/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
-import styles from './_styles'
+import styles from './_styles';
+
+import "./customStyle.css";
+
+import shutterstock_1 from './assets/shutterstock_1.jpg';
+import shutterstock_2 from './assets/shutterstock_2.jpg';
+import shutterstock_3 from './assets/shutterstock_3.jpg';
+
 
 const ServiceCPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
-  const html = `
-  <style>
-  h2{ font-size:80px;}
-  </style>
-  <h2 >My First Blog Post</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  <p>Nullam ut dolor ante. Nam semper, quam sit amet consequat maximus.</p>
-  <p>Praesent nec turpis libero.</p>`;
+
+
+
+  const MyHTMLComponent = () => {
+    return (
+      <div>
+      <div class="product1">
+        <div class="mycontainer">
+          <div class="sec1">
+            <h4>Our Services</h4>
+            <h1>Floki Supermarket App (B2C)</h1>
+            <p>Expand Your Reach and Boost Your Sales Online!</p>
+          </div>
+        </div>
+      </div>
+      <div class="discrptn">
+         <div class="mycontainer"> 
+            <h4>Product Description</h4>
+            <p>Our white label e-commerce solution is designed specifically for supermarkets and grocery stores, providing you with an online shopping platform to reach more customers and boost your sales. With our easy-to-use mobile app, your customers can shop for groceries online, create shopping lists, and get their orders delivered to their doorstep. Our solution is fast, reliable, and customizable to meet your business needs.</p>
+         </div>
+      </div>
+      <div class="product1">  
+        <div class="mycontainer"> 
+          <div class="sect"> 
+            <div class="row">
+                <div class="colm6">
+                  <img src={shutterstock_1} alt="product_img" />
+                  {/* <img src="images/shutterstock_1.jpg" alt="product_img"> */}
+                </div>
+                <div class="colm6">
+                  <h4>Key Features :</h4>
+                  <ul class="liststyle">
+                    <li>User-friendly interface that's easy to navigate</li>
+                    <li>Smart search algorithm to help customers find products quickly</li>
+                    <li>Advanced marketing tools to keep your users engaged and reduce your churn rate</li>
+                    <li>Order tracking and delivery notifications to keep customers updated on their orders</li>
+                    <li>Integration with major payment gateways and delivery partners</li>
+                    <li>Multi-language and currency support for a global reach</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+          <div class="sect">
+            <div class="row">
+                <div class="colm6">
+                  <h4>Benefits :</h4>
+                  <ul class="liststyle">
+                    <li>Increase your store reach and revenue by providing an online shopping platform.</li>
+                    <li>Provide customers with a convenient and hassle-free shopping experience.</li>
+                    <li>Offer a competitive advantage over other supermarkets or grocery stores that don't have an online presence.</li>
+                    <li>Reduce the costs of running a physical store by streamlining your operations with our mobile app.</li>
+                    <li>Customize your online store to match your brand identity and meet your business needs.</li>
+                  </ul>
+                </div>
+                <div class="colm6">
+                  <img src={shutterstock_2} alt="product_img" />
+                  {/* <img src="images/shutterstock_2.jpg" alt="product_img"> */}
+                </div>
+            </div>
+          </div>
+          <div class="sect">
+            <div class="row">
+                <div class="colm6">
+                  <img src={shutterstock_3} alt="product_img" />
+                  {/* <img src="images/shutterstock_3.jpg" alt="product_img"> */}
+                </div>
+                <div class="colm6">
+                  <h4>Use Cases :</h4>
+                  <ul class="liststyle">
+                    <li>A supermarket owner who wants to expand their reach and attract more customers.</li>
+                    <li>A grocery store manager who wants to streamline their operations and reduce their costs.</li>
+                    <li>A business owner who wants to offer a competitive advantage over other supermarkets or grocery stores that don't have an online presence.</li>
+                    <li>An e-commerce manager who developed an online solution that is not meeting his expectations and is looking for a better technology that actually works.</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec2">
+        <div class="mycontainer">
+          <div class="row">
+            <div class="colm4">
+              <h4>Deliverables</h4>
+              <p>User App</p>
+              <p>Pickers App</p>
+              <p>SuperAdmin Backend</p>
+            </div>
+            <div class="colm4">
+              <h4>Testimonials</h4>
+              <p>"The white label e-commerce solution has helped us to expand our reach and increase our revenue. Our customers love the convenience of online shopping, and we've been able to streamline our operations and reduce our costs." - Joby Varghese, Business Unit Manager.</p>
+            </div>
+            <div class="colm4">
+              <h4>Call-to-Action</h4>
+              <p>Take your supermarket to the next level with our white label e-commerce solution. Contact us to schedule a demo or sign up for a free trial</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    );
+  };
+  
+
+
 
   return (
     <Layout {...props}>
@@ -41,31 +145,9 @@ const ServiceCPage = props => {
       <ModalSimple content={content['advertisement']} />
       {/* Blocks */}
       <Header content={content['header-light']} />
-
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-       
-
-
-      <Container variant='full' sx={styles.heroContainer}>
-        <Hero content={content['hero']} />
-        <Divider space='4' />
-        <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
-        <Services content={content['services']} />
-          <Divider space='3' />
-          <Services content={content['services-sec2']} reverse />
-        </Container>
-      </Container>
-      {/* <Divider space='5' />
-      <ServicesDetails content={content['services-details']} /> */}
+      <MyHTMLComponent></MyHTMLComponent>
+ 
       <Divider space='5' />
-    {/*   <CompaniesPhoto content={content['companies-photo']} />
-      <Divider space='4' />
-      <JoinCompanies content={content['companies-join']} />
-      <Divider space='4' />
-      <Companies content={content['companies']} />
-      <Divider space='4' />
-      <Contact content={content['cta']} />
-      <Divider space='5' /> */}
       <Footer content={content['footer']} />
     </Layout>
   )

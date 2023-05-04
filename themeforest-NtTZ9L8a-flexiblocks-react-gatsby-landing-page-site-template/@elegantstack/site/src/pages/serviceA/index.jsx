@@ -21,9 +21,9 @@ import styles from './_styles';
 
 import "./customStyle.css";
 
-import shutterstock_6 from './images/shutterstock_6.jpg';
-import shutterstock_9 from './images/shutterstock_9.jpg';
-import shutterstock_11 from './images/shutterstock_11.jpg';
+import shutterstock_6 from './assets/shutterstock_6.jpg';
+import shutterstock_9 from './assets/shutterstock_9.jpg';
+import shutterstock_11 from './assets/shutterstock_11.jpg';
 
 
 const ServiceAPage = props => {
