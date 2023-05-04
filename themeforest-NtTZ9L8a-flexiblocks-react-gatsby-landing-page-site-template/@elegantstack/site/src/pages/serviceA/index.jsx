@@ -20,8 +20,10 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles';
 
 import "./customStyle.css";
-import shutterstock_9 from './images/shutterstock_9.jpg';
 
+import shutterstock_6 from './images/shutterstock_6.jpg';
+import shutterstock_9 from './images/shutterstock_9.jpg';
+import shutterstock_11 from './images/shutterstock_11.jpg';
 
 
 const ServiceAPage = props => {
@@ -54,6 +56,7 @@ const ServiceAPage = props => {
           <div className="sect"> 
             <div className="row">
                 <div className="colm6">
+                <img src={shutterstock_6} alt="product_img" />
                   {/* <img src="./images/shutterstock_6.jpg" alt="product_img"> */}
                 </div>
                 <div className="colm6">
@@ -81,6 +84,7 @@ const ServiceAPage = props => {
                   </ul>
                 </div>
                 <div className="colm6">
+                <img src={shutterstock_11} alt="product_img" />
                   {/* <img src="./images/shutterstock_11.jpg" alt="product_img"> */}
                 </div>
             </div>
@@ -139,8 +143,7 @@ const ServiceAPage = props => {
       {/* Blocks */}
       <Header content={content['header-light']} />
       <MyHTMLComponent></MyHTMLComponent>
-      
-      {/* <div dangerouslySetInnerHTML={{ __html: html }} /> */}
+ 
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
