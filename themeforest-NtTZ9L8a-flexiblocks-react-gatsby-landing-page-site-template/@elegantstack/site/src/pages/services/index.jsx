@@ -545,7 +545,7 @@ const Services02 = props => {
                   "&:hover": {
                     backgroundColor: "secondary",
                   },
-                }}></Button>
+                }}>Floki D2C App</Button>
               <Button
                 as={GLink}
                 to={'/floki-marketplace-app'}
@@ -561,7 +561,7 @@ const Services02 = props => {
                   "&:hover": {
                     backgroundColor: "secondary",
                   },
-                }}></Button>
+                }}>Floki Marketplace App</Button>
               <Button
                 as={GLink}
                 to={'/floki-supermarket-app'}
@@ -577,7 +577,7 @@ const Services02 = props => {
                   "&:hover": {
                     backgroundColor: "secondary",
                   },
-                }}></Button>
+                }}>Floki Supermarket App(B2C)</Button>
               <Button
                 as={GLink}
                 to={'/floki-wholesale-app-b2b'}
@@ -593,9 +593,21 @@ const Services02 = props => {
                   "&:hover": {
                     backgroundColor: "secondary",
                   },
-                }}></Button>
+                }}>Floki Wholesale App(B2B)</Button>
         </Box>
 
+        <Tabs>
+        <TabList>
+              <Tab  as={GLink}
+                to={'/floki-d2c-app'}>Floki D2C App</Tab>
+              <Tab  as={GLink}
+                to={'/floki-d2c-app'}>Floki Marketplace App</Tab>
+              <Tab  as={GLink}
+                to={'/floki-d2c-app'}>Floki Supermarket App(B2C)</Tab>
+              <Tab  as={GLink}
+                to={'/floki-d2c-app'}>Floki Wholesale App(B2B)</Tab>
+        </TabList>
+        </Tabs>
 
 
         <Services content={content['services']} />
