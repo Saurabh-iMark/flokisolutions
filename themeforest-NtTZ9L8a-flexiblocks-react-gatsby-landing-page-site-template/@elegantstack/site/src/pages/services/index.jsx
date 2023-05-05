@@ -24,31 +24,52 @@ const Services02 = props => {
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
 
+
+
   const ServiceProductComponent = () => {
     return (
           <Box>
               <GLink  to="/floki-d2c-app">
-                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
-                Floki D2C App
-                </Box>
+                <Box  as="li" sx={{ display: "flex", alignItems: "center", marginBottom: 3,
+                                    "&:hover": {
+                                      cursor: "pointer",
+                                      color: "primary",
+                                      svg: {
+                                        fill: "primary",
+                                      },
+                                    }, }}>Floki D2C App</Box>
               </GLink>
               <GLink  to="/floki-marketplace-app">
-                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
-                Floki Marketplace App
-                </Box>
+                <Box  as="li" sx={{ display: "flex", alignItems: "center", marginBottom: 3,
+                                    "&:hover": {
+                                      cursor: "pointer",
+                                      color: "primary",
+                                      svg: {
+                                        fill: "primary",
+                                      },
+                                    }, }}>Floki Marketplace App</Box>
               </GLink>
               <GLink  to="/floki-supermarket-app">
-                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
-                Floki Supermarket App(B2C)
-                </Box>
+                <Box  as="li" sx={{ display: "flex", alignItems: "center", marginBottom: 3,
+                                    "&:hover": {
+                                      cursor: "pointer",
+                                      color: "primary",
+                                      svg: {
+                                        fill: "primary",
+                                      },
+                                    }, }}>Floki Supermarket App(B2C)</Box>
               </GLink>
               <GLink  to="/floki-wholesale-app-b2b">
-                <Box sx={{ borderBottom: '1px solid #ccc', cursor: "pointer", fontSize: 15 }}>
-                Floki Wholesale App(B2B)
-                </Box>
+                <Box  as="li" sx={{ display: "flex", alignItems: "center", marginBottom: 3,
+                                    "&:hover": {
+                                      cursor: "pointer",
+                                      color: "primary",
+                                      svg: {
+                                        fill: "primary",
+                                      },
+                                    }, }}>Floki Wholesale App(B2B)</Box>
               </GLink>
-              </Box>
-    
+          </Box>
     )
   }
   

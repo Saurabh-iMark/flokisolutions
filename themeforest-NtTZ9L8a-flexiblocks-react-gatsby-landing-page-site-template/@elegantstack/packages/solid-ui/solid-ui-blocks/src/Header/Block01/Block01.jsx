@@ -130,7 +130,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
               </Box>
 
 
-              <DropDownComponent></DropDownComponent>
+              {/* <DropDownComponent></DropDownComponent> */}
 
               {/* <Flex onMouseEnter={handleHover} onMouseLeave={handleLeave} sx={{ position: 'relative' }}>
                 <Link sx={{ variant: 'styles.navlink' }}>Services</Link>
