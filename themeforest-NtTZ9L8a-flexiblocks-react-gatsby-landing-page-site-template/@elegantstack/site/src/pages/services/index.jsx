@@ -621,21 +621,21 @@ const Services02 = props => {
         <div class="custom-tab">
         <Tabs>
         <TabList>
-              <Tab><GLink className="nav-link"
-             sx={{ ...navLinkStyles, '&.active': activeNavLinkStyles }} to="/floki-d2c-app">Floki D2C App</GLink></Tab>
-              <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-marketplace-app">Floki Marketplace App</GLink></Tab>
-              <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-supermarket-app">Floki Supermarket App(B2C)</GLink></Tab>
-              <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-wholesale-app-b2b">Floki Wholesale App(B2B)</GLink></Tab>
+              <Tab><GLink to="/floki-d2c-app">Floki D2C App</GLink></Tab>
+              <Tab><GLink to="/floki-marketplace-app">Floki Marketplace App</GLink></Tab>
+              <Tab><GLink to="/floki-supermarket-app">Floki Supermarket App(B2C)</GLink></Tab>
+              <Tab><GLink to="/floki-wholesale-app-b2b">Floki Wholesale App(B2B)</GLink></Tab>
         </TabList>
         </Tabs>
         </div>
+
         <Divider space='2' />
 
         <Services content={content['services']} />
           <Divider space='3' />
           <Services content={content['services-sec2']} reverse />
-          <Divider space='3' />
-          <Services content={content['otherService']} reverse />
+          {/* <Divider space='3' />
+          <Services content={content['otherService']} reverse /> */}
           
           {/* <ServiceProductComponent></ServiceProductComponent> */}
           {/* <Tabs>
