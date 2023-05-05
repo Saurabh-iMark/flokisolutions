@@ -23,6 +23,7 @@ import styles from './_styles'
 
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { css } from "@emotion/react";
 import 'react-tabs/style/react-tabs.css';
 
 
@@ -531,14 +532,87 @@ const Services02 = props => {
           <Services content={content['services-sec2']} reverse />
           <Divider space='3' />
           <Services content={content['otherService']} reverse />
-
+          <ServiceProductComponent></ServiceProductComponent>
           <Tabs>
-            <TabList>
-              <Tab>Floki D2C App</Tab>
-              <Tab>Floki Marketplace App</Tab>
-              <Tab>Floki Supermarket App(B2C)</Tab>
-              <Tab>Floki Wholesale App(B2B)</Tab>
+            <TabList 
+                css={{
+                  display: "flex",
+                  listStyle: "none",
+                  padding: 0,
+                  margin: 0,
+                  borderBottom: "1px solid #ccc",
+                }}>
+              <Tab
+                css={{
+                  padding: "10px",
+                  marginRight: "10px",
+                  borderBottom: "2px solid transparent",
+                  cursor: "pointer",
+                  "&:focus": {
+                    outline: "none",
+                  },
+                  "&:hover": {
+                    borderBottom: "2px solid #ccc",
+                  },
+                  "&.react-tabs__tab--selected": {
+                    borderBottom: "2px solid blue",
+                    ...activeTabStyle,
+                  },
+                }}>Floki D2C App</Tab>
+              <Tab
+                css={{
+                  padding: "10px",
+                  marginRight: "10px",
+                  borderBottom: "2px solid transparent",
+                  cursor: "pointer",
+                  "&:focus": {
+                    outline: "none",
+                  },
+                  "&:hover": {
+                    borderBottom: "2px solid #ccc",
+                  },
+                  "&.react-tabs__tab--selected": {
+                    borderBottom: "2px solid blue",
+                    ...activeTabStyle,
+                  },
+                }}>Floki Marketplace App</Tab>
+              <Tab
+                css={{
+                  padding: "10px",
+                  marginRight: "10px",
+                  borderBottom: "2px solid transparent",
+                  cursor: "pointer",
+                  "&:focus": {
+                    outline: "none",
+                  },
+                  "&:hover": {
+                    borderBottom: "2px solid #ccc",
+                  },
+                  "&.react-tabs__tab--selected": {
+                    borderBottom: "2px solid blue",
+                    ...activeTabStyle,
+                  },
+                }}>Floki Supermarket App(B2C)</Tab>
+              <Tab
+                css={{
+                  padding: "10px",
+                  marginRight: "10px",
+                  borderBottom: "2px solid transparent",
+                  cursor: "pointer",
+                  "&:focus": {
+                    outline: "none",
+                  },
+                  "&:hover": {
+                    borderBottom: "2px solid #ccc",
+                  },
+                  "&.react-tabs__tab--selected": {
+                    borderBottom: "2px solid blue",
+                    ...activeTabStyle,
+                  },
+                }}>Floki Wholesale App(B2B)</Tab>
             </TabList>
+
+
             <TabPanel>
                <MyHTMLComponent1></MyHTMLComponent1>
             </TabPanel>
@@ -552,34 +626,8 @@ const Services02 = props => {
                <MyHTMLComponent4></MyHTMLComponent4>
             </TabPanel>
           </Tabs>
-
-
-          <ServiceProductComponent></ServiceProductComponent>
-
-          <Container maxWidth={800}>
-           <Heading as="h2" sx={{ textAlign: "center", mb: 4 }}>
-             Bullet Section
-           </Heading>
-           <Grid columns={[1, 2, 2, 4]} gap={4}>
-           <GLink  to="/floki-d2c-app">
-             <Box as="ul" sx={{ listStyleType: "disc" }}>
-               <Text as="li">Linking option 1</Text>
-             </Box>
-             </GLink>
-             <Box as="ul" sx={{ listStyleType: "disc" }}>
-               <Text as="li">Linking option 2</Text>
-             </Box>
-             <Box as="ul" sx={{ listStyleType: "disc" }}>
-               <Text as="li">Linking option 3</Text>
-             </Box>
-             <Box as="ul" sx={{ listStyleType: "disc" }}>
-               <Text as="li">Linking option 4</Text>
-             </Box>
-           </Grid>
-          </Container>
+  
         </Container>
-
-
 
       </Container>
       {/* <Divider space='5' />
