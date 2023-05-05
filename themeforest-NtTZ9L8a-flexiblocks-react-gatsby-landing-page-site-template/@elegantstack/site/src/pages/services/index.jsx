@@ -108,7 +108,7 @@ const Services02 = props => {
 
   const MyHTMLComponent1 = () => {
     return (
-      <div className="service_spacer">
+      <div className="service_spacer1">
       <div className="product1">
         <div className="mycontainer">
           <div className="sec1">
@@ -206,7 +206,7 @@ const Services02 = props => {
 
   const MyHTMLComponent2 = () => {
     return (
-      <div className="service_spacer">
+      <div className="service_spacer1">
       <div class="product1">
         <div class="mycontainer">
           <div class="sec1">
@@ -308,7 +308,7 @@ const Services02 = props => {
 
   const MyHTMLComponent3 = () => {
     return (
-      <div className="service_spacer">
+      <div className="service_spacer1">
       <div class="product1">
         <div class="mycontainer">
           <div class="sec1">
@@ -409,7 +409,7 @@ const Services02 = props => {
 
   const MyHTMLComponent4 = () => {
     return (
-      <div className="service_spacer">
+      <div className="service_spacer1">
       <div class="product1">
         <div class="mycontainer">
           <div class="sec1">

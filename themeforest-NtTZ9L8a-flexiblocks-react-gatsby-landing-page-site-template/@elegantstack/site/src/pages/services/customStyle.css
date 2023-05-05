@@ -14,7 +14,7 @@
 }
 
 
-.service_spacer{
+.service_spacer1{
     /* padding: 12rem 0px 0; */
 }
 
@@ -204,7 +204,7 @@ img{
 
 
 .react-tabs {
-    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
   }
   
   .react-tabs__tab {
@@ -223,8 +223,9 @@ img{
   
   .react-tabs__tab--selected {
     color: #fff;
-    background-color: blue;
-    border-color: blue;
+    background-color: #1f299b;
+    border-color: #1f299b;
+    border-radius: 2rem 0 0 2rem;
   }
   
   .react-tabs__tab:focus {
@@ -233,7 +234,7 @@ img{
   
   .react-tabs__tab-panel {
     padding: 15px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-top: none;
     border-radius: 0 5px 5px 5px;
   }
