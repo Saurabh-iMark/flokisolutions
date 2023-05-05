@@ -241,8 +241,9 @@ img{
     text-decoration: none;
 }
 .custom-tab ul li.react-tabs__tab--selected{
-     /* background-color: #1f299b;
-     color: #ffff; */
+     /* background-color: #1f299b; */
+     /* color: #ffff; */
+     color: #1f299b;
 }
 .custom-tab ul li.react-tabs__tab--selected a{
      color: #ffff;
