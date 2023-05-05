@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Link as GLink } from 'gatsby'
-import { Container, Heading, Text, Grid, Box, Button } from 'theme-ui'
+import { Container, Heading, Text, Grid, Box, Button, css } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -20,7 +20,23 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
 
 
+export const navLinkStyles = css`
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
 
+  &:hover {
+    color: #fff;
+    background-color: #333;
+  }
+`;
+
+export const activeNavLinkStyles = css`
+  color: #fff;
+  background-color: #333;
+`;
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
@@ -605,7 +621,8 @@ const Services02 = props => {
         <Box sx={{ backgroundColor: '#f7f9fe', height: 100, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
         <Tabs>
         <TabList>
-              <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-d2c-app">Floki D2C App</GLink></Tab>
+              <Tab><GLink className="nav-link"
+      sx={{ ...navLinkStyles, '&.active': activeNavLinkStyles }} to="/floki-d2c-app">Floki D2C App</GLink></Tab>
               <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-marketplace-app">Floki Marketplace App</GLink></Tab>
               <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-supermarket-app">Floki Supermarket App(B2C)</GLink></Tab>
               <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-wholesale-app-b2b">Floki Wholesale App(B2B)</GLink></Tab>

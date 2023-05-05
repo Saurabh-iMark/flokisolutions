@@ -204,6 +204,8 @@ img{
 
 
 .react-tabs {
+    border: 1px solid red;
+    border-radius: 2rem 0 0 2rem;
 }
 
 .react-tabs__tab {
@@ -218,7 +220,7 @@ img{
   margin-right: 10px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  border-radius: 2rem 0 0 2rem;
+  /* border-radius: 2rem 0 0 2rem; */
   background-color: #fff;
 }
 
