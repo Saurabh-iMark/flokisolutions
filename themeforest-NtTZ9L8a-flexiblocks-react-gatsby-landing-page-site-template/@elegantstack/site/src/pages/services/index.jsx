@@ -81,9 +81,11 @@ const Services02 = props => {
              Bullet Section
           </Heading>
            <Grid columns={[1, 2, 2, 4]} gap={4}>
+           <GLink  to="/floki-d2c-app">
              <Box as="ul" sx={{ listStyleType: "disc" }}>
                <Text as="li">Linking option 1</Text>
              </Box>
+             </GLink>
              <Box as="ul" sx={{ listStyleType: "disc" }}>
                <Text as="li">Linking option 2</Text>
              </Box>
