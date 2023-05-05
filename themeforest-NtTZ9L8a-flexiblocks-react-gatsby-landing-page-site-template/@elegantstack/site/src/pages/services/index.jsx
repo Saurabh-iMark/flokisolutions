@@ -529,7 +529,7 @@ const Services02 = props => {
 
 
         <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
-        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+        {/* <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Button
                 as={GLink}
                 to={'/floki-d2c-app'}
@@ -594,18 +594,14 @@ const Services02 = props => {
                     backgroundColor: "secondary",
                   },
                 }}>Floki Wholesale App(B2B)</Button>
-        </Box>
+        </Box> */}
 
         <Tabs>
         <TabList>
-              <Tab  as={GLink}
-                to={'/floki-d2c-app'}>Floki D2C App</Tab>
-              <Tab  as={GLink}
-                to={'/floki-d2c-app'}>Floki Marketplace App</Tab>
-              <Tab  as={GLink}
-                to={'/floki-d2c-app'}>Floki Supermarket App(B2C)</Tab>
-              <Tab  as={GLink}
-                to={'/floki-d2c-app'}>Floki Wholesale App(B2B)</Tab>
+              <Tab><GLink to="/floki-d2c-app">Floki D2C App</GLink></Tab>
+              <Tab><GLink to="/floki-marketplace-app">Floki Marketplace App</GLink></Tab>
+              <Tab><GLink to="/floki-supermarket-app">Floki Supermarket App(B2C)</GLink></Tab>
+              <Tab><GLink to="/floki-wholesale-app-b2b">Floki Wholesale App(B2B)</GLink></Tab>
         </TabList>
         </Tabs>
 
