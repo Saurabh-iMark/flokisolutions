@@ -119,7 +119,7 @@ const Services02 = props => {
 
              <TabPanel>
                <h2>Content for Tab 2</h2>
-               <a className="button-group-link level-1 css-1gvj9g1" href="/floki-supermarket-app">floki-supermarket-app</a>
+               <a href="/floki-supermarket-app">floki-supermarket-app</a>
                <p>Quisque eget odio vel purus blandit dignissim eget vitae ligula.</p>
              </TabPanel>
              <TabPanel>
