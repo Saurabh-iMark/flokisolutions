@@ -19,6 +19,8 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
 
+import ServiceAPage from '../floki-d2c-app';
+
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
@@ -102,21 +104,27 @@ const Services02 = props => {
 
           <Tabs>
              <TabList>
-               <Tab>Tab 1</Tab>
-               <Tab>Tab 2</Tab>
-               <Tab>Tab 3</Tab>
+               <Tab>Floki D2C App</Tab>
+               <Tab>Floki Marketplace App</Tab>
+               <Tab>Floki Supermarket App(B2C)</Tab>
+               <Tab>Floki Wholesale App(B2B)</Tab>
              </TabList>
        
              <TabPanel>
-               <h2>Content for Tab 1</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               <ServiceAPage></ServiceAPage>
              </TabPanel>
+
+
              <TabPanel>
                <h2>Content for Tab 2</h2>
                <p>Quisque eget odio vel purus blandit dignissim eget vitae ligula.</p>
              </TabPanel>
              <TabPanel>
                <h2>Content for Tab 3</h2>
+               <p>Aliquam sit amet metus posuere, laoreet magna a, luctus odio.</p>
+             </TabPanel>
+             <TabPanel>
+               <h2>Content for Tab 4</h2>
                <p>Aliquam sit amet metus posuere, laoreet magna a, luctus odio.</p>
              </TabPanel>
           </Tabs>
