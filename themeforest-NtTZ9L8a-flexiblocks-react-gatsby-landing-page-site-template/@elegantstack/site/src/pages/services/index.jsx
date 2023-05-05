@@ -56,7 +56,13 @@ const Services02 = props => {
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
 
-
+  const buttons = [
+    { text: "Button 1", link: "/button-1" },
+    { text: "Button 2", link: "/button-2" },
+    { text: "Button 3", link: "/button-3" },
+    { text: "Button 4", link: "/button-4" },
+  ];
+  
 
   const ServiceProductComponent = () => {
     return (
@@ -527,6 +533,31 @@ const Services02 = props => {
       <Container variant='full' sx={styles.heroContainer}>
         <Hero content={content['hero']} />
         <Divider space='4' />
+        
+        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+            {buttons.map((button) => (
+              <Button
+                as={Link}
+                to={button.link}
+                key={button.text}
+                sx={{
+                  backgroundColor: "primary",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "4px",
+                  padding: "12px 24px",
+                  fontSize: 3,
+                  fontWeight: "bold",
+                  "&:hover": {
+                    backgroundColor: "secondary",
+                  },
+                }}
+              >
+                {button.text}
+              </Button>
+            ))}
+        </Box>
+
         <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
         
         <Services content={content['services']} />
