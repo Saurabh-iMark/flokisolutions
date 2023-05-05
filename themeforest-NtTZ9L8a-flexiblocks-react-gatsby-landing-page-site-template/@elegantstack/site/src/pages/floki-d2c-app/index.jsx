@@ -154,17 +154,17 @@ const ServiceAPage = props => {
 }
 
 
-export const query = graphql`
-  query ServiceAPageContent {
-    allBlockContent(
-      filter: { page: { in: ["site/floki-d2c-app", "shared"] } }
-    ) {
-      nodes {
-        ...BlockContent
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query ServiceAPageContent {
+//     allBlockContent(
+//       filter: { page: { in: ["site/floki-d2c-app", "shared"] } }
+//     ) {
+//       nodes {
+//         ...BlockContent
+//       }
+//     }
+//   }
+// `
 
 
 export default ServiceAPage
