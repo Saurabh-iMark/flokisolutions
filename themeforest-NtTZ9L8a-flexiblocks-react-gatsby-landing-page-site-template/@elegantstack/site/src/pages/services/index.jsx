@@ -622,14 +622,14 @@ const Services02 = props => {
         <Tabs>
         <TabList>
               <Tab><GLink className="nav-link"
-      sx={{ ...navLinkStyles, '&.active': activeNavLinkStyles }} to="/floki-d2c-app">Floki D2C App</GLink></Tab>
+             sx={{ ...navLinkStyles, '&.active': activeNavLinkStyles }} to="/floki-d2c-app">Floki D2C App</GLink></Tab>
               <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-marketplace-app">Floki Marketplace App</GLink></Tab>
               <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-supermarket-app">Floki Supermarket App(B2C)</GLink></Tab>
               <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-wholesale-app-b2b">Floki Wholesale App(B2B)</GLink></Tab>
         </TabList>
         </Tabs>
         </Box>
-
+        <Divider space='2' />
 
         <Services content={content['services']} />
           <Divider space='3' />

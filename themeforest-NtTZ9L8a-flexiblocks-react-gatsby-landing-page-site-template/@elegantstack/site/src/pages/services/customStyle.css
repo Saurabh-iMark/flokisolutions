@@ -207,7 +207,6 @@ img{
     /* border: 1px solid red; */
     border-radius: 2rem;
     overflow: hidden;
-    background: rgb(247, 249, 254);
 }
 
 .react-tabs__tab {
@@ -223,7 +222,7 @@ img{
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   /* border-radius: 2rem 0 0 2rem; */
-  background-color: #fff;
+  background-color: rgb(247, 249, 254);
 }
 
 .react-tabs__tab--selected {
