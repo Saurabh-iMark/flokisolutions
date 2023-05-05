@@ -56,14 +56,6 @@ const Services02 = props => {
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
 
-  const buttons = [
-    { text: "Button 1", link: "/button-1" },
-    { text: "Button 2", link: "/button-2" },
-    { text: "Button 3", link: "/button-3" },
-    { text: "Button 4", link: "/button-4" },
-  ];
-  
-
   const ServiceProductComponent = () => {
     return (
           <Box>
@@ -534,7 +526,7 @@ const Services02 = props => {
         <Hero content={content['hero']} />
         <Divider space='4' />
         
-        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+        {/* <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Button
                 as={GLink}
                 to={'/floki-supermarket-app'}
@@ -573,7 +565,7 @@ const Services02 = props => {
               </Button>
 
            
-        </Box>
+        </Box> */}
 
         <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
         
