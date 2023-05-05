@@ -111,7 +111,9 @@ const Services02 = props => {
              </TabList>
        
              <TabPanel>
-               <ServiceAPage></ServiceAPage>
+               <h2>Content for Tab 1</h2>
+               <p>Quisque eget odio vel purus blandit dignissim eget vitae ligula.</p>
+               {/* <ServiceAPage></ServiceAPage> */}
              </TabPanel>
 
 
