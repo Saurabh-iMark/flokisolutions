@@ -618,7 +618,7 @@ const Services02 = props => {
                 }}>Floki Wholesale App(B2B)</Button>
         </Box> */}
 
-        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <div class="custom-tab">
         <Tabs>
         <TabList>
               <Tab><GLink className="nav-link"
@@ -628,7 +628,7 @@ const Services02 = props => {
               <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-wholesale-app-b2b">Floki Wholesale App(B2B)</GLink></Tab>
         </TabList>
         </Tabs>
-        </Box>
+        </div>
         <Divider space='2' />
 
         <Services content={content['services']} />
