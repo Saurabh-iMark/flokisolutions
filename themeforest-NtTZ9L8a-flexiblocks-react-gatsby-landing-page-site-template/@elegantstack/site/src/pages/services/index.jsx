@@ -23,11 +23,13 @@ import styles from './_styles'
 
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import { css } from "@emotion/react";
 import 'react-tabs/style/react-tabs.css';
 
 
 import "./customStyle.css";
+
+
+
 
 import shutterstock_1 from './assets/shutterstock_1.jpg';
 import shutterstock_2 from './assets/shutterstock_2.jpg';
@@ -534,82 +536,11 @@ const Services02 = props => {
           <Services content={content['otherService']} reverse />
           <ServiceProductComponent></ServiceProductComponent>
           <Tabs>
-            <TabList 
-                css={{
-                  display: "flex",
-                  listStyle: "none",
-                  padding: 0,
-                  margin: 0,
-                  borderBottom: "1px solid #ccc",
-                }}>
-              <Tab
-                css={{
-                  padding: "10px",
-                  marginRight: "10px",
-                  borderBottom: "2px solid transparent",
-                  cursor: "pointer",
-                  "&:focus": {
-                    outline: "none",
-                  },
-                  "&:hover": {
-                    borderBottom: "2px solid #ccc",
-                  },
-                  "&.react-tabs__tab--selected": {
-                    borderBottom: "2px solid blue",
-                    ...activeTabStyle,
-                  },
-                }}>Floki D2C App</Tab>
-              <Tab
-                css={{
-                  padding: "10px",
-                  marginRight: "10px",
-                  borderBottom: "2px solid transparent",
-                  cursor: "pointer",
-                  "&:focus": {
-                    outline: "none",
-                  },
-                  "&:hover": {
-                    borderBottom: "2px solid #ccc",
-                  },
-                  "&.react-tabs__tab--selected": {
-                    borderBottom: "2px solid blue",
-                    ...activeTabStyle,
-                  },
-                }}>Floki Marketplace App</Tab>
-              <Tab
-                css={{
-                  padding: "10px",
-                  marginRight: "10px",
-                  borderBottom: "2px solid transparent",
-                  cursor: "pointer",
-                  "&:focus": {
-                    outline: "none",
-                  },
-                  "&:hover": {
-                    borderBottom: "2px solid #ccc",
-                  },
-                  "&.react-tabs__tab--selected": {
-                    borderBottom: "2px solid blue",
-                    ...activeTabStyle,
-                  },
-                }}>Floki Supermarket App(B2C)</Tab>
-              <Tab
-                css={{
-                  padding: "10px",
-                  marginRight: "10px",
-                  borderBottom: "2px solid transparent",
-                  cursor: "pointer",
-                  "&:focus": {
-                    outline: "none",
-                  },
-                  "&:hover": {
-                    borderBottom: "2px solid #ccc",
-                  },
-                  "&.react-tabs__tab--selected": {
-                    borderBottom: "2px solid blue",
-                    ...activeTabStyle,
-                  },
-                }}>Floki Wholesale App(B2B)</Tab>
+            <TabList>
+              <Tab>Floki D2C App</Tab>
+              <Tab>Floki Marketplace App</Tab>
+              <Tab>Floki Supermarket App(B2C)</Tab>
+              <Tab>Floki Wholesale App(B2B)</Tab>
             </TabList>
 
 
