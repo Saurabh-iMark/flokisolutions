@@ -204,8 +204,10 @@ img{
 
 
 .react-tabs {
-    border: 1px solid red;
-    border-radius: 2rem 0 0 2rem;
+    /* border: 1px solid red; */
+    border-radius: 2rem;
+    overflow: hidden;
+    background: rgb(247, 249, 254);
 }
 
 .react-tabs__tab {

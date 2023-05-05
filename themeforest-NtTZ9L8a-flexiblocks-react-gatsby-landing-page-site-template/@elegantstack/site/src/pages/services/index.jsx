@@ -618,7 +618,7 @@ const Services02 = props => {
                 }}>Floki Wholesale App(B2B)</Button>
         </Box> */}
 
-        <Box sx={{ backgroundColor: '#f7f9fe', height: 100, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
         <Tabs>
         <TabList>
               <Tab><GLink className="nav-link"
