@@ -19,6 +19,10 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles'
 
+
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+
 const Services02 = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
@@ -94,13 +98,36 @@ const Services02 = props => {
           <Divider space='3' />
           <Services content={content['services-sec2']} reverse />
           <Divider space='3' />
+          <Services content={content['otherService']} reverse />
+
+          <Tabs>
+             <TabList>
+               <Tab>Tab 1</Tab>
+               <Tab>Tab 2</Tab>
+               <Tab>Tab 3</Tab>
+             </TabList>
+       
+             <TabPanel>
+               <h2>Content for Tab 1</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             </TabPanel>
+             <TabPanel>
+               <h2>Content for Tab 2</h2>
+               <p>Quisque eget odio vel purus blandit dignissim eget vitae ligula.</p>
+             </TabPanel>
+             <TabPanel>
+               <h2>Content for Tab 3</h2>
+               <p>Aliquam sit amet metus posuere, laoreet magna a, luctus odio.</p>
+             </TabPanel>
+          </Tabs>
 
           <ServiceProductComponent></ServiceProductComponent>
+
 
           <Container maxWidth={800}>
            <Heading as="h2" sx={{ textAlign: "center", mb: 4 }}>
              Bullet Section
-          </Heading>
+           </Heading>
            <Grid columns={[1, 2, 2, 4]} gap={4}>
            <GLink  to="/floki-d2c-app">
              <Box as="ul" sx={{ listStyleType: "disc" }}>
@@ -118,8 +145,6 @@ const Services02 = props => {
              </Box>
            </Grid>
           </Container>
-
-          <Services content={content['otherService']} reverse />
         </Container>
 
 
