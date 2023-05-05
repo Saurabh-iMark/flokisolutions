@@ -529,56 +529,82 @@ const Services02 = props => {
 
 
         <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
-        
+        <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+              <Button
+                as={GLink}
+                to={'/floki-d2c-app'}
+                key={'Floki D2C App'}
+                sx={{
+                  backgroundColor: "primary",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "4px",
+                  padding: "12px 24px",
+                  fontSize: 3,
+                  fontWeight: "bold",
+                  "&:hover": {
+                    backgroundColor: "secondary",
+                  },
+                }}></Button>
+              <Button
+                as={GLink}
+                to={'/floki-marketplace-app'}
+                key={'Floki Marketplace App'}
+                sx={{
+                  backgroundColor: "primary",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "4px",
+                  padding: "12px 24px",
+                  fontSize: 3,
+                  fontWeight: "bold",
+                  "&:hover": {
+                    backgroundColor: "secondary",
+                  },
+                }}></Button>
+              <Button
+                as={GLink}
+                to={'/floki-supermarket-app'}
+                key={'Floki Supermarket App(B2C)'}
+                sx={{
+                  backgroundColor: "primary",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "4px",
+                  padding: "12px 24px",
+                  fontSize: 3,
+                  fontWeight: "bold",
+                  "&:hover": {
+                    backgroundColor: "secondary",
+                  },
+                }}></Button>
+              <Button
+                as={GLink}
+                to={'/floki-wholesale-app-b2b'}
+                key={'Floki Wholesale App(B2B)'}
+                sx={{
+                  backgroundColor: "primary",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "4px",
+                  padding: "12px 24px",
+                  fontSize: 3,
+                  fontWeight: "bold",
+                  "&:hover": {
+                    backgroundColor: "secondary",
+                  },
+                }}></Button>
+        </Box>
+
+
+
         <Services content={content['services']} />
           <Divider space='3' />
           <Services content={content['services-sec2']} reverse />
           <Divider space='3' />
           <Services content={content['otherService']} reverse />
-          <ServiceProductComponent></ServiceProductComponent>
-
-          <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-              <Button
-                as={GLink}
-                to={'/floki-supermarket-app'}
-                key={'Button 1'}
-                sx={{
-                  backgroundColor: "primary",
-                  color: "white",
-                  border: "none",
-                  borderRadius: "4px",
-                  padding: "12px 24px",
-                  fontSize: 3,
-                  fontWeight: "bold",
-                  "&:hover": {
-                    backgroundColor: "secondary",
-                  },
-                }}
-              >Button 1
-              </Button>
-              <Button
-                as={GLink}
-                to={'/floki-supermarket-app'}
-                key={'Button 1'}
-                sx={{
-                  backgroundColor: "primary",
-                  color: "white",
-                  border: "none",
-                  borderRadius: "4px",
-                  padding: "12px 24px",
-                  fontSize: 3,
-                  fontWeight: "bold",
-                  "&:hover": {
-                    backgroundColor: "secondary",
-                  },
-                }}
-              >Button 2
-              </Button>
-
-           
-        </Box>
-
-
+          
+          {/* <ServiceProductComponent></ServiceProductComponent> */}
           <Tabs>
             <TabList>
               <Tab>Floki D2C App</Tab>
@@ -586,7 +612,6 @@ const Services02 = props => {
               <Tab>Floki Supermarket App(B2C)</Tab>
               <Tab>Floki Wholesale App(B2B)</Tab>
             </TabList>
-
 
             <TabPanel>
                <MyHTMLComponent1></MyHTMLComponent1>
