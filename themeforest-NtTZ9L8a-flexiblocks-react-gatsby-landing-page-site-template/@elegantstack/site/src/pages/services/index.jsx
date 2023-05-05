@@ -602,13 +602,13 @@ const Services02 = props => {
                 }}>Floki Wholesale App(B2B)</Button>
         </Box> */}
 
-        <Box sx={{ backgroundColor: '#f7f9fe', height: 100}}>
+        <Box sx={{ backgroundColor: '#f7f9fe', height: 100, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
         <Tabs>
         <TabList>
-              <Tab><GLink to="/floki-d2c-app">Floki D2C App</GLink></Tab>
-              <Tab><GLink to="/floki-marketplace-app">Floki Marketplace App</GLink></Tab>
-              <Tab><GLink to="/floki-supermarket-app">Floki Supermarket App(B2C)</GLink></Tab>
-              <Tab><GLink to="/floki-wholesale-app-b2b">Floki Wholesale App(B2B)</GLink></Tab>
+              <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-d2c-app">Floki D2C App</GLink></Tab>
+              <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-marketplace-app">Floki Marketplace App</GLink></Tab>
+              <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-supermarket-app">Floki Supermarket App(B2C)</GLink></Tab>
+              <Tab><GLink sx={{ textDecoration: 'none', color: 'black'}} to="/floki-wholesale-app-b2b">Floki Wholesale App(B2B)</GLink></Tab>
         </TabList>
         </Tabs>
         </Box>
