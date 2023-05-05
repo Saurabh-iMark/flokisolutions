@@ -536,9 +536,9 @@ const Services02 = props => {
         
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Button
-                as={Link}
-                to={button.link}
-                key={button.text}
+                as={GLink}
+                to={'/floki-supermarket-app'}
+                key={'Button 1'}
                 sx={{
                   backgroundColor: "primary",
                   color: "white",
@@ -554,9 +554,9 @@ const Services02 = props => {
               >Button 1
               </Button>
               <Button
-                as={Link}
-                to={button.link}
-                key={button.text}
+                as={GLink}
+                to={'/floki-supermarket-app'}
+                key={'Button 1'}
                 sx={{
                   backgroundColor: "primary",
                   color: "white",
@@ -571,42 +571,7 @@ const Services02 = props => {
                 }}
               >Button 2
               </Button>
-              <Button
-                as={Link}
-                to={button.link}
-                key={button.text}
-                sx={{
-                  backgroundColor: "primary",
-                  color: "white",
-                  border: "none",
-                  borderRadius: "4px",
-                  padding: "12px 24px",
-                  fontSize: 3,
-                  fontWeight: "bold",
-                  "&:hover": {
-                    backgroundColor: "secondary",
-                  },
-                }}
-              >Button 3
-              </Button>
-              <Button
-                as={Link}
-                to={button.link}
-                key={button.text}
-                sx={{
-                  backgroundColor: "primary",
-                  color: "white",
-                  border: "none",
-                  borderRadius: "4px",
-                  padding: "12px 24px",
-                  fontSize: 3,
-                  fontWeight: "bold",
-                  "&:hover": {
-                    backgroundColor: "secondary",
-                  },
-                }}
-              >Button 4
-              </Button>
+
            
         </Box>
 

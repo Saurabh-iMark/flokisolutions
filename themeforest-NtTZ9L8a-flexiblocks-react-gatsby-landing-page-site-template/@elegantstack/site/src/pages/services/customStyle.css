@@ -219,17 +219,21 @@ img{
     margin-right: 10px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    border-radius: 2rem 0 0 2rem;
   }
   
   .react-tabs__tab--selected {
     color: #fff;
     background-color: #1f299b;
     border-color: #1f299b;
-    border-radius: 2rem 0 0 2rem;
   }
   
   .react-tabs__tab:focus {
     outline: none;
+  }
+
+  .react-tabs__tab-list {
+    border-bottom: 0;
   }
   
   .react-tabs__tab-panel {
