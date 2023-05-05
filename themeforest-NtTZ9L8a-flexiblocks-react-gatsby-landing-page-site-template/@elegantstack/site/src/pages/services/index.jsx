@@ -602,6 +602,7 @@ const Services02 = props => {
                 }}>Floki Wholesale App(B2B)</Button>
         </Box> */}
 
+        <Box sx={{ backgroundColor: '#f7f9fe', height: 100}}>
         <Tabs>
         <TabList>
               <Tab><GLink to="/floki-d2c-app">Floki D2C App</GLink></Tab>
@@ -610,6 +611,7 @@ const Services02 = props => {
               <Tab><GLink to="/floki-wholesale-app-b2b">Floki Wholesale App(B2B)</GLink></Tab>
         </TabList>
         </Tabs>
+        </Box>
 
 
         <Services content={content['services']} />
