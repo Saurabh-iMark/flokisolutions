@@ -512,8 +512,11 @@ const Services02 = props => {
 
   const TopHtmlComponent = () => {
     return (
-     <ul class="tabs_tabList" role="tablist"><li class="tabs_tab tabs_selectedTab" role="tab" id="react-tabs-14" aria-selected="true" aria-disabled="false" aria-controls="react-tabs-15" tabindex="0">Users App</li><li class="tabs_tab" role="tab" id="react-tabs-16" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-17">Pickers App</li><li class="tabs_tab" role="tab" id="react-tabs-18" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-19">Super Admin Backend</li></ul>
-
+     <ul class="tabs_tabList" role="tablist">
+      <li class="tabs_tab tabs_selectedTab" role="tab" id="react-tabs-14" aria-selected="true" aria-disabled="false" aria-controls="react-tabs-15" tabindex="0">Users App</li>
+      <li class="tabs_tab" role="tab" id="react-tabs-16" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-17">Pickers App</li>
+      <li class="tabs_tab" role="tab" id="react-tabs-18" aria-selected="false" aria-disabled="false" aria-controls="react-tabs-19">Super Admin Backend</li>
+    </ul>
     );
   };
 
@@ -598,7 +601,7 @@ const Services02 = props => {
                   },
                 }}>Floki Wholesale App(B2B)</Button>
         </Box> */}
-<TopHtmlComponent></TopHtmlComponent>
+
         <Tabs>
         <TabList>
               <Tab><GLink to="/floki-d2c-app">Floki D2C App</GLink></Tab>
