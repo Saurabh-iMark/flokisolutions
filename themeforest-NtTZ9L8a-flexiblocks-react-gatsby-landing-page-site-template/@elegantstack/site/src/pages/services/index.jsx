@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Link as GLink } from 'gatsby'
-import { Container, Heading, Text, Grid, Box } from 'theme-ui'
+import { Container, Heading, Text, Grid, Box, Button } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -526,7 +526,18 @@ const Services02 = props => {
         <Hero content={content['hero']} />
         <Divider space='4' />
         
-        {/* <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+
+
+        <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
+        
+        <Services content={content['services']} />
+          <Divider space='3' />
+          <Services content={content['services-sec2']} reverse />
+          <Divider space='3' />
+          <Services content={content['otherService']} reverse />
+          <ServiceProductComponent></ServiceProductComponent>
+
+          <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Button
                 as={GLink}
                 to={'/floki-supermarket-app'}
@@ -565,16 +576,9 @@ const Services02 = props => {
               </Button>
 
            
-        </Box> */}
+        </Box>
 
-        <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
-        
-        <Services content={content['services']} />
-          <Divider space='3' />
-          <Services content={content['services-sec2']} reverse />
-          <Divider space='3' />
-          <Services content={content['otherService']} reverse />
-          <ServiceProductComponent></ServiceProductComponent>
+
           <Tabs>
             <TabList>
               <Tab>Floki D2C App</Tab>
