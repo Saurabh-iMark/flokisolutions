@@ -535,7 +535,6 @@ const Services02 = props => {
         <Divider space='4' />
         
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-            {buttons.map((button) => (
               <Button
                 as={Link}
                 to={button.link}
@@ -552,10 +551,63 @@ const Services02 = props => {
                     backgroundColor: "secondary",
                   },
                 }}
-              >
-                {button.text}
+              >Button 1
               </Button>
-            ))}
+              <Button
+                as={Link}
+                to={button.link}
+                key={button.text}
+                sx={{
+                  backgroundColor: "primary",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "4px",
+                  padding: "12px 24px",
+                  fontSize: 3,
+                  fontWeight: "bold",
+                  "&:hover": {
+                    backgroundColor: "secondary",
+                  },
+                }}
+              >Button 2
+              </Button>
+              <Button
+                as={Link}
+                to={button.link}
+                key={button.text}
+                sx={{
+                  backgroundColor: "primary",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "4px",
+                  padding: "12px 24px",
+                  fontSize: 3,
+                  fontWeight: "bold",
+                  "&:hover": {
+                    backgroundColor: "secondary",
+                  },
+                }}
+              >Button 3
+              </Button>
+              <Button
+                as={Link}
+                to={button.link}
+                key={button.text}
+                sx={{
+                  backgroundColor: "primary",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "4px",
+                  padding: "12px 24px",
+                  fontSize: 3,
+                  fontWeight: "bold",
+                  "&:hover": {
+                    backgroundColor: "secondary",
+                  },
+                }}
+              >Button 4
+              </Button>
+           
         </Box>
 
         <Container variant='cards.paper-lg' sx={styles.servicesContainer}>
