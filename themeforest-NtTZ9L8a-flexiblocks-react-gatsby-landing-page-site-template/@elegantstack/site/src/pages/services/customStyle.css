@@ -243,10 +243,10 @@ img{
 .custom-tab ul li.react-tabs__tab--selected{
      /* background-color: #1f299b; */
      /* color: #ffff; */
-     color: #1f299b;
+     /* color: #1f299b; */
 }
 .custom-tab ul li.react-tabs__tab--selected a{
-     color: #ffff;
+     /* color: #ffff; */
 }
 .custom-tab ul li:hover{
     background-color:#718096;
