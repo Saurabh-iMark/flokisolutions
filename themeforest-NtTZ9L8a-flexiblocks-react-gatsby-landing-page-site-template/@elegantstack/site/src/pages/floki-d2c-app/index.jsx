@@ -244,8 +244,8 @@ const ServiceAPage = props => {
       </div>
 
 
-      <div class="slider-container">
-  <div class="slider">
+      <div className="slider-container">
+  <div className="slider">
     <img src={shutterstock_6} alt="product_img" />
     <img src={shutterstock_9} alt="product_img" />
     <img src={shutterstock_6} alt="product_img" />
@@ -256,7 +256,7 @@ const ServiceAPage = props => {
     <img src="img3.jpg" alt="Slide 3">
     <img src="img4.jpg" alt="Slide 4"> */}
   </div>
-  <div class="dots"></div>
+  <div className="dots"></div>
 </div>
 
 
