@@ -25,7 +25,7 @@ import shutterstock_6 from './assets/shutterstock_6.jpg';
 import shutterstock_9 from './assets/shutterstock_9.jpg';
 import shutterstock_11 from './assets/shutterstock_11.jpg';
 
-import {Helmet} from "react-helmet";
+
 
 const ServiceAPage = props => {
   const { allBlockContent } = props.data
@@ -38,7 +38,7 @@ const ServiceAPage = props => {
     return 
 
       <div classNameName="service_spacer">
-      <Helmet>
+
         {/* <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> */}
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
       <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
@@ -54,7 +54,7 @@ const ServiceAPage = props => {
             autoplaySpeed: 2500
         });
       </script>
-      </Helmet>
+    
 
       <div classNameName="product1">
         <div classNameName="mycontainer">
