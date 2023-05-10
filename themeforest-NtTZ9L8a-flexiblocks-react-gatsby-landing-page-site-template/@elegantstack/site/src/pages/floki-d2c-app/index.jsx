@@ -212,21 +212,14 @@ const ServiceAPage = props => {
         </div>
        
       </div>
-      <div
-      style={{
-        backgroundImage: `url(${shutterstock_6})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        height: "300px"
-      }}></div>
 
 
       <div class="slider">
         
   <div class="slider__slides"> 
-    {/* <div class="slider__slide" style="background-image: `url(${shutterstock_6})`"></div>
-    <div class="slider__slide" style="background-image: `url(${shutterstock_9})`;"></div>
-    <div class="slider__slide" style="background-image: `url(${shutterstock_11})`;"></div> */}
+    <div class="slider__slide" style={{backgroundImage: `url(${shutterstock_6})`}}></div>
+    <div class="slider__slide" style={{backgroundImage: `url(${shutterstock_9})`}}></div>
+    <div class="slider__slide" style={{backgroundImage: `url(${shutterstock_11})`}}></div>
   </div>
       </div>
       </div>
