@@ -40,33 +40,33 @@ const ServiceAPage = props => {
 
 
 
-      <div className="service_spacer">
-      <div className="product1">
-        <div className="mycontainer">
-          <div className="sec1">
+      <div classNameName="service_spacer">
+      <div classNameName="product1">
+        <div classNameName="mycontainer">
+          <div classNameName="sec1">
             <h4>Our Services</h4>
             <h1>Floki D2C App</h1>
             <p>Take Control of Your Sales and Build a Direct Relationship with Your Customers!</p>
           </div>
         </div>
       </div>
-      <div className="discrptn">
-         <div className="mycontainer"> 
+      <div classNameName="discrptn">
+         <div classNameName="mycontainer"> 
             <h4>Product Description</h4>
             <p>Our Floki D2C App is a white label e-commerce solution designed specifically for product manufacturers and producers who want to sell directly to consumers. With our customizable and secure platform, you can easily launch your online store and start selling your products to a wider audience, while building a direct relationship with your customers. Our solution is fast, reliable, and customizable to meet your business needs.</p>
          </div>
       </div>
-      <div className="product1">  
-        <div className="mycontainer"> 
-          <div className="sect"> 
-            <div className="row">
-                <div className="colm6">
+      <div classNameName="product1">  
+        <div classNameName="mycontainer"> 
+          <div classNameName="sect"> 
+            <div classNameName="row">
+                <div classNameName="colm6">
                 <img src={shutterstock_6} alt="product_img" />
                   {/* <img src="./images/shutterstock_6.jpg" alt="product_img"> */}
                 </div>
-                <div className="colm6">
+                <div classNameName="colm6">
                   <h4>Key Features :</h4>
-                  <ul className="liststyle">
+                  <ul classNameName="liststyle">
                     <li>User-friendly interface that can be re-branded to match your brand identity</li>
                     <li>Built-in reporting tools to help you understand customer behavior and preferences, so you can optimize your offerings and increase customer satisfaction and loyalty</li>
                     <li>Flexible product catalog and inventory management tools to allow you to easily adjust your offerings and respond to changes in demand or new product releases</li>
@@ -77,32 +77,32 @@ const ServiceAPage = props => {
                 </div>
             </div>
           </div>
-          <div className="sect">
-            <div className="row">
-                <div className="colm6">
+          <div classNameName="sect">
+            <div classNameName="row">
+                <div classNameName="colm6">
                   <h4>Benefits :</h4>
-                  <ul className="liststyle">
+                  <ul classNameName="liststyle">
                     <li><strong>Take control of your sales and distribution</strong> by selling directly to consumers.</li>
                     <li>Build a <strong>direct relationship with your customers</strong>, gain insights into their behavior, and tailor your offerings to their preferences.</li>
                     <li><strong>Increase your revenue</strong> by reducing the cost of third-party sales channels and distributors.</li>
                     <li>Enhance your <strong>brand value</strong> and increase <strong>customer loyalty</strong> by offering a seamless and personalized online shopping experience.</li>
                   </ul>
                 </div>
-                <div className="colm6">
+                <div classNameName="colm6">
                 <img src={shutterstock_11} alt="product_img" />
                   {/* <img src="./images/shutterstock_11.jpg" alt="product_img"> */}
                 </div>
             </div>
           </div>
-          <div className="sect">
-            <div className="row">
-                <div className="colm6">
+          <div classNameName="sect">
+            <div classNameName="row">
+                <div classNameName="colm6">
                 <img src={shutterstock_9} alt="product_img" />
                   {/* <img src="./images/shutterstock_9.jpg" alt="product_img"> */}
                 </div>
-                <div className="colm6">
+                <div classNameName="colm6">
                   <h4>Use Cases :</h4>
-                  <ul className="liststyle">
+                  <ul classNameName="liststyle">
                     <li>A product manufacturer who wants to take control of their sales and distribution channels.</li>
                     <li>A producer who wants to build a direct relationship with their customers and increase their revenue.</li>
                     <li>A business owner who wants to enhance their brand value and increase customer loyalty by offering a seamless and personalized online shopping experience.</li>
@@ -112,25 +112,109 @@ const ServiceAPage = props => {
           </div>
         </div>
       </div>
-      <div className="sec2">
-        <div className="mycontainer">
-          <div className="row">
-            <div className="colm4">
+      <div classNameName="sec2">
+        <div classNameName="mycontainer">
+          <div classNameName="row">
+            <div classNameName="colm4">
               <h4>Deliverables</h4>
               <p>User App</p>
               <p>SuperAdmin Backend</p>
             </div>
-            <div className="colm4">
+            <div classNameName="colm4">
               <h4>Testimonials</h4>
               <p>“Since we started using this Floki D2C platform, we've been able to take control of our sales and distribution channels, and build a direct relationship with our customers. The platform is easy to use, customizable, and secure, and our sales have increased significantly as a result." - Maisoon, E-commerce Director of Addoha Poultry..</p>
             </div>
-            <div className="colm4">
+            <div classNameName="colm4">
               <h4>Call-to-Action</h4>
               <p>Take control of your sales and build a direct relationship with your customers with our Floki D2C App. Contact us to schedule a demo or sign up for a free trial.</p>
             </div>
           </div>
         </div>
       </div>
+      <div className="container">
+        <div className="col_wrap">
+            <div className="col-_gap">
+                <div className="testimonial_slider">
+                    <div className="item">
+                        <div className="ctnt">
+                            <figure>
+                                <img src={shutterstock_6} alt="product_img" />
+                                {/* <img src="./images/shutterstock_6.jpg" alt="product_img"> */}
+                                {/* <img src="https://flokisolutions.com/static/96b97d4b7683e08237de8c15853bc743/a3a76/services02.webp"> */}
+                            </figure>
+                            <div className="right_ctnt">
+                                <h4>Digital Marketing</h4>
+                                <h6>Last Mile Delivery Service</h6>
+                                <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
+                                <ul>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-regular fa-star"></i></li>
+                                </ul>
+                                <span><i className="fa-solid fa-quote-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="ctnt">
+                            <figure>
+                            <img src={shutterstock_6} alt="product_img" />
+                                {/* <img src="https://flokisolutions.com/static/96b97d4b7683e08237de8c15853bc743/a3a76/services02.webp"> */}
+                            </figure>
+                            <div className="right_ctnt">
+                                <h4>Digital Marketing</h4>
+                                <h6>Last Mile Delivery Service</h6>
+                                <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
+                                <ul>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-regular fa-star"></i></li>
+                                </ul>
+                                <span><i className="fa-solid fa-quote-right"></i></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div className="item">
+                        <div className="ctnt">
+                            <figure>
+                            <img src={shutterstock_6} alt="product_img" />
+                                {/* <img src="https://flokisolutions.com/static/96b97d4b7683e08237de8c15853bc743/a3a76/services02.webp"> */}
+                            </figure>
+                            <div className="right_ctnt">
+                                <h4>Digital Marketing</h4>
+                                <h6>Last Mile Delivery Service</h6>
+                                <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
+                                <ul>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-solid fa-star"></i></li>
+                                    <li><i className="fa-regular fa-star"></i></li>
+                                </ul>
+                                <span><i className="fa-solid fa-quote-right"></i></span>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div className="col-_gap">
+                <div className="start_ctnt">
+                    <h2><span>Start Learning</span> and Join Our happy Users</h2>
+                    <p>With +30,000 SKUs available in our database,your time to go live should be minimal.We save you the effort of creating your database from scratch.</p>
+                    <div className="payroll-btn">
+                        <a href="#"><i className="fa-brands fa-google-play"></i></a>
+                        <a href="#"><i className="fa-brands fa-google-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+      </div>
+
       </div>
     );
   };
