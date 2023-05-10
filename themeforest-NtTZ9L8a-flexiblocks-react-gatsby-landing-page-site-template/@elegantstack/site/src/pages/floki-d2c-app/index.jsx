@@ -31,7 +31,37 @@ const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
-
+  const slider = document.querySelector('.slider');
+  const dots = document.querySelector('.dots');
+  const dotList = [];
+  
+  let slideIndex = 0;
+  
+  // Create a dot for each slide
+  for (let i = 0; i < slider.children.length; i++) {
+    const dot = document.createElement('div');
+    dot.classList.add('dot');
+    dots.appendChild(dot);
+    dotList.push(dot);
+  }
+  
+  // Set the first dot as active
+  dotList[slideIndex].classList.add('active');
+  
+  // Move to the next slide every 3 seconds
+  setInterval(() => {
+    slideIndex = (slideIndex + 1) % slider.children.length;
+    slider.style.transform = `translateX(-${slideIndex * 25}%)`;
+  
+    // Update the active dot
+    dotList.forEach((dot, index) => {
+      if (index === slideIndex) {
+        dot.classList.add('active');
+      } else {
+        dot.classList.remove('active');
+      }
+    });
+  }, 3000);
 
 
   const MyHTMLComponent = () => {
@@ -214,14 +244,22 @@ const ServiceAPage = props => {
       </div>
 
 
-      <div class="slider">
-        
-  <div class="slider__slides"> 
-    <div class="slider__slide" style={{backgroundImage: `url(${shutterstock_6})`}}></div>
-    <div class="slider__slide" style={{backgroundImage: `url(${shutterstock_9})`}}></div>
-    <div class="slider__slide" style={{backgroundImage: `url(${shutterstock_11})`}}></div>
+      <div class="slider-container">
+  <div class="slider">
+    <img src={shutterstock_6} alt="product_img" />
+    <img src={shutterstock_9} alt="product_img" />
+    <img src={shutterstock_6} alt="product_img" />
+    <img src={shutterstock_11} alt="product_img" />
+
+    {/* <img src="img1.jpg" alt="Slide 1">
+    <img src="img2.jpg" alt="Slide 2">
+    <img src="img3.jpg" alt="Slide 3">
+    <img src="img4.jpg" alt="Slide 4"> */}
   </div>
-      </div>
+  <div class="dots"></div>
+</div>
+
+
       </div>
     );
   };

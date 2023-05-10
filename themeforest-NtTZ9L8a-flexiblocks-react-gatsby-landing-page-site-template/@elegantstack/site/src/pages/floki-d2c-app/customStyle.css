@@ -351,11 +351,50 @@ body{
 
 
 
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider img {
+    width: 25%;
+    height: 100%;
+  }
+  
+  .dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: black;
+  }
+  
 
 
 
-
-.slider {
+/* .slider {
     width: 100%;
     height: 300px;
     overflow: hidden;
@@ -391,4 +430,4 @@ body{
       transform: translateX(0);
     }
   }
-  
+   */
