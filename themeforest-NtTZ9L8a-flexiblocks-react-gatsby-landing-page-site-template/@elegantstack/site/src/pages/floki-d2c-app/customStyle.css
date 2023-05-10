@@ -345,3 +345,50 @@ body{
     background-color: #6366f1;
     border-color: #6366f1;
 }
+
+
+
+
+
+
+
+
+
+
+.slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider__slides {
+    width: calc(100% * 3);
+    display: flex;
+    transition: transform 0.5s ease;
+    transform: translateX(0);
+    animation: loop 9s linear infinite;
+  }
+  
+  .slider__slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @keyframes loop {
+    0% {
+      transform: translateX(0);
+    }
+    33.333% {
+      transform: translateX(-100%);
+    }
+    66.666% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
