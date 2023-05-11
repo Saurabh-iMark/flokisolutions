@@ -31,16 +31,6 @@ const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((index + 1) % testimonials.length);
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, [index, testimonials.length]);
-
   
   const MyHTMLComponent = () => {
     return (
@@ -143,95 +133,19 @@ const ServiceAPage = props => {
   
 
 
-  const testimonials = [
-    {
-      id: 1,
-      name: "John Doe",
-      position: "CEO, ABC Inc.",
-      image: "https://randomuser.me/api/portraits/men/1.jpg",
-      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia malesuada tempus."
-    },
-    {
-      id: 2,
-      name: "Jane Smith",
-      position: "Marketing Manager, XYZ Corp.",
-      image: "https://randomuser.me/api/portraits/women/2.jpg",
-      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia malesuada tempus."
-    },
-    {
-      id: 3,
-      name: "James Wilson",
-      position: "CTO, PQR Ltd.",
-      image: "https://randomuser.me/api/portraits/men/3.jpg",
-      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia malesuada tempus."
-    },
-  ];
-
-
-
-  function moveToSlide(slider, currentSlide, targetSlide) {
-    slider.style.transform = `translateX(-${targetSlide.style.left})`;
-    currentSlide.classList.remove('active');
-    targetSlide.classList.add('active');
-  }
-  
-  function updateBullet(currentBullet, targetBullet) {
-    currentBullet.classList.remove('active');
-    targetBullet.classList.add('active');
-  }
-  
-  function handleBulletClick(event) {
-    const targetBullet = event.target;
-    const currentBullet = document.querySelector('.bullet.active');
-    const currentSlide = document.querySelector('.slide.active');
-    const targetIndex = [...bullets].indexOf(targetBullet);
-    const targetSlide = slides[targetIndex];
-    const slider = document.querySelector('.slider');
-    moveToSlide(slider, currentSlide, targetSlide);
-    updateBullet(currentBullet, targetBullet);
-  }
-  
-  function createBulletClickHandler(bullet) {
-    bullet.addEventListener('click', handleBulletClick);
-  }
-  
-  bullets.forEach(createBulletClickHandler);
-  
-  setInterval(() => {
-    const currentSlide = document.querySelector('.slide.active');
-    const currentBullet = document.querySelector('.bullet.active');
-    let targetSlide = currentSlide.nextElementSibling;
-    let targetBullet = currentBullet.nextElementSibling;
-    if (!targetSlide) {
-      targetSlide = slides[0];
-      targetBullet = bullets[0];
-    }
-  },[] );
-
-
 
 
   const TestomonialsComponent = () => {
     return (
-<div className="slider">
-  <div className="slide active">
-    <p className="testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sapien. Aliquam et elit vitae elit faucibus sollicitudin."</p>
-    <p className="author">- John Doe</p>
-  </div>
-  <div className="slide">
-    <p className="testimonial">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."</p>
-    <p className="author">- Jane Smith</p>
-  </div>
-  <div className="slide">
-    <p className="testimonial">"Fusce at semper enim, vel varius dolor. Nunc auctor dignissim erat, eu suscipit turpis congue non."</p>
-    <p className="author">- Bob Johnson</p>
-  </div>
-</div>
-<div className="bullets">
-  <span className="bullet active"></span>
-  <span className="bullet"></span>
-  <span className="bullet"></span>
-</div>
+      <div className="product1">
+        <div className="mycontainer">
+          <div className="sec1">
+            <h4>Our Services</h4>
+            <h1>Floki D2C App</h1>
+            <p>Take Control of Your Sales and Build a Direct Relationship with Your Customers!</p>
+          </div>
+        </div>
+      </div>
     )
   }
 
