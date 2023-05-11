@@ -133,19 +133,19 @@ const ServiceAPage = props => {
   
 
 
-  const TestomonialsComponent = () => {
-    return (
-      <div className="product1">
-        <div className="mycontainer">
-          <div className="sec1">
-            <h4>Our Services</h4>
-            <h1>Floki D2C App</h1>
-            <p>Take Control of Your Sales and Build a Direct Relationship with Your Customers!</p>
-          </div>
-        </div>
-      </div>
-    );
-  };
+  // const TestomonialsComponent = () => {
+  //   return (
+  //     <div className="product1">
+  //       <div className="mycontainer">
+  //         <div className="sec1">
+  //           <h4>Our Services</h4>
+  //           <h1>Floki D2C App</h1>
+  //           <p>Take Control of Your Sales and Build a Direct Relationship with Your Customers!</p>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // };
 
 
 
