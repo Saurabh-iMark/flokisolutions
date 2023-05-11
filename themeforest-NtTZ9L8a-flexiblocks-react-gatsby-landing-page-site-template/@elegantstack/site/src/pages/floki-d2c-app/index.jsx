@@ -155,10 +155,12 @@ const ServiceAPage = props => {
 
   const MySliderComponent = () => {
     return (
-      <div>
-        <h2> Single Item</h2>
+      <div className="container">
+      <div class="col_wrap">
+      <div class="col-_gap">
+        <div class="testimonial_slider">
         <Slider {...settings}>
-        <div class="item">
+                    <div class="item">
                         <div class="ctnt">
                             <figure>
                             <img src={shutterstock_11} alt="product_img" />
@@ -218,18 +220,23 @@ const ServiceAPage = props => {
                             </div>
                         </div>
                     </div>  
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
         </Slider>
+        </div>
+      </div>
       </div>
 
+      <div class="col-_gap">
+                <div class="start_ctnt">
+                    <h2><span>Start Learning</span> and Join Our happy Users</h2>
+                    <p>With +30,000 SKUs available in our database,your time to go live should be minimal.We save you the effort of creating your database from scratch.</p>
+                    <div class="payroll-btn">
+                        {/* <a href="#"><i class="fa-brands fa-google-play"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-play"></i></a> */}
+                    </div>
+                </div>
+            </div>
+
+      </div>
 
 
       // <div className="container">
