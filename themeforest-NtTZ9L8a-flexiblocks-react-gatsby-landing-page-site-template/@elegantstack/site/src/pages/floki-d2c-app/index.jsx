@@ -23,10 +23,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 
-
+import { FaBeer } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+// import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 // import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 // import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
@@ -155,11 +155,7 @@ const ServiceAPage = props => {
     return (
       <div className="container">
          <div>
-         <div>
-      <FontAwesomeIcon icon={faArrowDown} />
-      <span>My Icon</span>
-    </div>
-
+         <h3> Lets go for a <FaBeer />? </h3>
           {/* <FontAwesomeIcon icon={faTwitter} prefix="fab" />
           <span>My Twitter Icon</span> */}
 
