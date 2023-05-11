@@ -210,27 +210,27 @@ const ServiceAPage = props => {
 
 
 
-  
+
   const TestomonialsComponent = () => {
     return (
-<div class="slider">
-  <div class="slide active">
-    <p class="testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sapien. Aliquam et elit vitae elit faucibus sollicitudin."</p>
-    <p class="author">- John Doe</p>
+<div className="slider">
+  <div className="slide active">
+    <p className="testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sapien. Aliquam et elit vitae elit faucibus sollicitudin."</p>
+    <p className="author">- John Doe</p>
   </div>
-  <div class="slide">
-    <p class="testimonial">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."</p>
-    <p class="author">- Jane Smith</p>
+  <div className="slide">
+    <p className="testimonial">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."</p>
+    <p className="author">- Jane Smith</p>
   </div>
-  <div class="slide">
-    <p class="testimonial">"Fusce at semper enim, vel varius dolor. Nunc auctor dignissim erat, eu suscipit turpis congue non."</p>
-    <p class="author">- Bob Johnson</p>
+  <div className="slide">
+    <p className="testimonial">"Fusce at semper enim, vel varius dolor. Nunc auctor dignissim erat, eu suscipit turpis congue non."</p>
+    <p className="author">- Bob Johnson</p>
   </div>
 </div>
-<div class="bullets">
-  <span class="bullet active"></span>
-  <span class="bullet"></span>
-  <span class="bullet"></span>
+<div className="bullets">
+  <span className="bullet active"></span>
+  <span className="bullet"></span>
+  <span className="bullet"></span>
 </div>
     )
   }
