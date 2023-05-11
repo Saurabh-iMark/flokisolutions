@@ -23,8 +23,13 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 
-import { FaBeer } from 'react-icons/fa';
+
 import { FaQuoteRight } from 'react-icons/fa';
+import { FaStar } from 'react-icons/fa';
+import { FaRegStar } from 'react-icons/fa';
+import { FaGooglePlay } from 'react-icons/fa';
+import { FaAppStore } from 'react-icons/fa';
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -156,15 +161,6 @@ const ServiceAPage = props => {
   const MySliderComponent = () => {
     return (
       <div className="container">
-         <div>
-         <h3> Lets go for a <FaBeer />? </h3>
-          {/* <FontAwesomeIcon icon={faTwitter} prefix="fab" />
-          <span>My Twitter Icon</span> */}
-
-         {/* <FontAwesomeIcon icon={faEnvelope} prefix="far" />
-         <span>My Envelope Icon</span> */}
-         </div>
-
       <div class="col_wrap">
         <div class="col-_gap">
         <div class="testimonial_slider">
@@ -179,14 +175,12 @@ const ServiceAPage = props => {
                                 <h6>Last Mile Delivery Service</h6>
                                 <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
                                 <ul>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-regular fa-star"></i></li>
-                                </ul>
-
-                                
+                                    <li><FaStar /></li>
+                                    <li><FaStar /></li>
+                                    <li><FaStar /></li>
+                                    <li><FaStar /></li>
+                                    <li><FaRegStar /></li>
+                                </ul>                                
                                 <span>
                                 <FaQuoteRight />
                                 {/* <i class="fa-solid fa-quote-right"></i> */}
@@ -204,13 +198,13 @@ const ServiceAPage = props => {
                                 <h6>Last Mile Delivery Service</h6>
                                 <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
                                 <ul>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-regular fa-star"></i></li>
+                                    <li><FaStar /></li>
+                                    <li><FaStar /></li>
+                                    <li><FaStar /></li>
+                                    <li><FaStar /></li>
+                                    <li><FaRegStar /></li>
                                 </ul>
-                                <span><i class="fa-solid fa-quote-right"></i></span>
+                                <span><FaQuoteRight /></span>
                             </div>
                         </div>
                     </div> 
@@ -224,13 +218,13 @@ const ServiceAPage = props => {
                                 <h6>Last Mile Delivery Service</h6>
                                 <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
                                 <ul>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-solid fa-star"></i></li>
-                                    <li><i class="fa-regular fa-star"></i></li>
+                                    <li><FaStar /></li>
+                                    <li><FaStar /></li>
+                                    <li><FaStar /></li>
+                                    <li><FaStar /></li>
+                                    <li><FaRegStar /></li>
                                 </ul>
-                                <span><i class="fa-solid fa-quote-right"></i></span>
+                                <span><FaQuoteRight /></span>
                             </div>
                         </div>
                     </div>  
@@ -244,8 +238,8 @@ const ServiceAPage = props => {
                 <h2><span>Start Learning</span> and Join Our happy Users</h2>
                 <p>With +30,000 SKUs available in our database,your time to go live should be minimal.We save you the effort of creating your database from scratch.</p>
                 <div class="payroll-btn">
-                    <a href="#"><i class="fa-brands fa-google-play"></i></a>
-                    <a href="#"><i class="fa-brands fa-google-play"></i></a>
+                    <a href="#"><FaGooglePlay /></a>
+                    <a href="#"><FaAppStore /></a>
                 </div>
             </div>
         </div>
@@ -255,6 +249,8 @@ const ServiceAPage = props => {
 
     );
   };
+
+
 
 
   return (
