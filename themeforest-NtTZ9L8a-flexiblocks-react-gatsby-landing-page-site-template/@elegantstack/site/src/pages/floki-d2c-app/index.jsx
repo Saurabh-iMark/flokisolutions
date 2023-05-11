@@ -31,7 +31,7 @@ const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
-  
+
   const MyHTMLComponent = () => {
     return (
       <div className="service_spacer">
@@ -126,26 +126,11 @@ const ServiceAPage = props => {
           </div>
         </div>
       </div>
-
+      
       </div>
     );
   };
   
-
-
-  // const TestomonialsComponent = () => {
-  //   return (
-  //     <div class="product1">
-  //       <div class="mycontainer">
-  //         <div class="sec1">
-  //           <h4>Our Services</h4>
-  //           <h1>Floki D2C App</h1>
-  //           <p>Take Control of Your Sales and Build a Direct Relationship with Your Customers!</p>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // };
 
 
 
@@ -160,7 +145,7 @@ const ServiceAPage = props => {
 
       <Header content={content['header']} />
       <MyHTMLComponent></MyHTMLComponent>
-      {/* <TestomonialsComponent></TestomonialsComponent> */}
+
       {/* <Divider space='5' /> */}
       <Footer content={content['footer']} />
     </Layout>
