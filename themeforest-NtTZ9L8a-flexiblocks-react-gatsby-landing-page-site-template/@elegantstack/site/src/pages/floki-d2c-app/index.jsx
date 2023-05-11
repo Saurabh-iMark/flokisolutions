@@ -26,8 +26,10 @@ import Slider from 'react-slick';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+
+// import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+// import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 import styles from './_styles';
 
@@ -153,8 +155,13 @@ const ServiceAPage = props => {
     return (
       <div className="container">
          <div>
-          <FontAwesomeIcon icon={faTwitter} prefix="fab" />
-          <span>My Twitter Icon</span>
+         <div>
+      <FontAwesomeIcon icon={faArrowDown} />
+      <span>My Icon</span>
+    </div>
+
+          {/* <FontAwesomeIcon icon={faTwitter} prefix="fab" />
+          <span>My Twitter Icon</span> */}
 
          {/* <FontAwesomeIcon icon={faEnvelope} prefix="far" />
          <span>My Envelope Icon</span> */}
