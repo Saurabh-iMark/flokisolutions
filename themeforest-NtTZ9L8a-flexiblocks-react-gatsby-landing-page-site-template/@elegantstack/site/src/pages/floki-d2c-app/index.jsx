@@ -170,7 +170,7 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={userDummy} alt="product_img" />
+                            <img src={userDummy1} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Jihad Hassan</h4>
@@ -190,7 +190,7 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={userDummy} alt="product_img" />
+                            <img src={userDummy2} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Maisoon</h4>
@@ -210,7 +210,7 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={userDummy} alt="product_img" />
+                            <img src={userDummy3} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Joby Varghese</h4>
@@ -230,7 +230,7 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={userDummy} alt="product_img" />
+                            <img src={userDummy4} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Mohamad Fleifel</h4>
