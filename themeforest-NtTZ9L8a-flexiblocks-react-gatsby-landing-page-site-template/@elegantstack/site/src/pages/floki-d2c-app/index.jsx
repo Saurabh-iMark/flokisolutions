@@ -22,6 +22,8 @@ import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import styles from './_styles';
 
@@ -30,6 +32,7 @@ import "./customStyle.css";
 import shutterstock_6 from './assets/shutterstock_6.jpg';
 import shutterstock_9 from './assets/shutterstock_9.jpg';
 import shutterstock_11 from './assets/shutterstock_11.jpg';
+import no_photo from './assets/no_photo.png';
 
 
 
@@ -163,7 +166,7 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={shutterstock_11} alt="product_img" />
+                            <img src={no_photo} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Digital Marketing</h4>
@@ -233,6 +236,10 @@ const ServiceAPage = props => {
                     <a href="#"><i class="fa-brands fa-google-play"></i></a>
                     <a href="#"><i class="fa-brands fa-google-play"></i></a>
                 </div>
+                <div>
+      <FontAwesomeIcon icon={faCoffee} />
+      <span>My Icon</span>
+    </div>
             </div>
         </div>
 
