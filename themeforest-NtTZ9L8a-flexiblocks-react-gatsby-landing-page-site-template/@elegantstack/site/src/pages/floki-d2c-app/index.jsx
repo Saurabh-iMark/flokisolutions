@@ -145,44 +145,93 @@ const ServiceAPage = props => {
 
   const testimonials = [
     {
+      id: 1,
       name: "John Doe",
-      comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod sapien at dui finibus feugiat.",
-      avatar: "https://randomuser.me/api/portraits/men/1.jpg"
+      position: "CEO, ABC Inc.",
+      image: "https://randomuser.me/api/portraits/men/1.jpg",
+      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia malesuada tempus."
     },
     {
+      id: 2,
       name: "Jane Smith",
-      comment: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-      avatar: "https://randomuser.me/api/portraits/women/1.jpg"
+      position: "Marketing Manager, XYZ Corp.",
+      image: "https://randomuser.me/api/portraits/women/2.jpg",
+      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia malesuada tempus."
     },
     {
-      name: "Bob Johnson",
-      comment: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-      avatar: "https://randomuser.me/api/portraits/men/2.jpg"
+      id: 3,
+      name: "James Wilson",
+      position: "CTO, PQR Ltd.",
+      image: "https://randomuser.me/api/portraits/men/3.jpg",
+      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia malesuada tempus."
     },
-    {
-      name: "Sara Lee",
-      comment: "Nam eget metus sed felis ullamcorper congue ut id sapien. Sed blandit ex euismod, lacinia libero et, pellentesque enim.",
-      avatar: "https://randomuser.me/api/portraits/women/2.jpg"
-    }
   ];
 
 
+
+  function moveToSlide(slider, currentSlide, targetSlide) {
+    slider.style.transform = `translateX(-${targetSlide.style.left})`;
+    currentSlide.classList.remove('active');
+    targetSlide.classList.add('active');
+  }
+  
+  function updateBullet(currentBullet, targetBullet) {
+    currentBullet.classList.remove('active');
+    targetBullet.classList.add('active');
+  }
+  
+  function handleBulletClick(event) {
+    const targetBullet = event.target;
+    const currentBullet = document.querySelector('.bullet.active');
+    const currentSlide = document.querySelector('.slide.active');
+    const targetIndex = [...bullets].indexOf(targetBullet);
+    const targetSlide = slides[targetIndex];
+    const slider = document.querySelector('.slider');
+    moveToSlide(slider, currentSlide, targetSlide);
+    updateBullet(currentBullet, targetBullet);
+  }
+  
+  function createBulletClickHandler(bullet) {
+    bullet.addEventListener('click', handleBulletClick);
+  }
+  
+  bullets.forEach(createBulletClickHandler);
+  
+  setInterval(() => {
+    const currentSlide = document.querySelector('.slide.active');
+    const currentBullet = document.querySelector('.bullet.active');
+    let targetSlide = currentSlide.nextElementSibling;
+    let targetBullet = currentBullet.nextElementSibling;
+    if (!targetSlide) {
+      targetSlide = slides[0];
+      targetBullet = bullets[0];
+    }
+  },[] );
+
+
+
+  
   const TestomonialsComponent = () => {
     return (
-    <div className="slider-container">
-      {testimonials.map((testimonial, i) => (
-        <div
-          key={i}
-          className={`slide ${i === index ? "active" : ""}`}
-          style={{ backgroundImage: `url(${testimonial.avatar})` }}
-        >
-          <div className="slide-content">
-            <p className="comment">{testimonial.comment}</p>
-            <p className="name">{testimonial.name}</p>
-          </div>
-        </div>
-      ))}
-    </div>
+<div class="slider">
+  <div class="slide active">
+    <p class="testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec justo sapien. Aliquam et elit vitae elit faucibus sollicitudin."</p>
+    <p class="author">- John Doe</p>
+  </div>
+  <div class="slide">
+    <p class="testimonial">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."</p>
+    <p class="author">- Jane Smith</p>
+  </div>
+  <div class="slide">
+    <p class="testimonial">"Fusce at semper enim, vel varius dolor. Nunc auctor dignissim erat, eu suscipit turpis congue non."</p>
+    <p class="author">- Bob Johnson</p>
+  </div>
+</div>
+<div class="bullets">
+  <span class="bullet active"></span>
+  <span class="bullet"></span>
+  <span class="bullet"></span>
+</div>
     )
   }
 

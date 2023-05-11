@@ -30,7 +30,10 @@ const ServiceBPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
-
+  const slides = document.querySelectorAll('.slide');
+  const bullets = document.querySelectorAll('.bullet');
+  const slideWidth = slides[0].getBoundingClientRect().width;
+  
 
 
   const MyHTMLComponent = () => {
@@ -134,7 +137,6 @@ const ServiceBPage = props => {
     );
   };
   
-
 
 
   return (
