@@ -60,7 +60,7 @@ const ServiceAPage = props => {
     infinite: false,
     slidesToScroll: 1,
     autoplay: true,
-    dots: false,
+    dots: true,
     arrows: false,
     speed: 2000
   };
