@@ -46,7 +46,7 @@ import shutterstock_6 from './assets/shutterstock_6.jpg';
 import shutterstock_9 from './assets/shutterstock_9.jpg';
 import shutterstock_11 from './assets/shutterstock_11.jpg';
 import no_photo from './assets/no_photo.png';
-
+import userDummy from './assets/userDummy.jpg';
 
 
 const ServiceAPage = props => {
@@ -168,12 +168,12 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={no_photo} alt="product_img" />
+                            <img src={userDummy} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Jihad Hassan</h4>
                                 <h6>Managing Director of Lifco</h6>
-                                <p>"I was looking for a solution that would allow me to create an online marketplace for our multiple stores and lines of business, and the Floki Marketplace Platform was the perfect fit. The setup was easy, and the platform is customizable and scalable to meet my needs. I've been able to increase my revenue potential and reach new customers through the multi-vendor support. I highly recommend this platform to anyone looking to create their own online marketplace."</p>
+                                <p>I was looking for a solution that would allow me to create an online marketplace for our multiple stores and lines of business, and the Floki Marketplace Platform was the perfect fit. The setup was easy, and the platform is customizable and scalable to meet my needs. I've been able to increase my revenue potential and reach new customers through the multi-vendor support.</p>
                                 <ul>
                                     <li><FaStar /></li>
                                     <li><FaStar /></li>
@@ -188,12 +188,12 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={no_photo} alt="product_img" />
+                            <img src={userDummy} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Maisoon</h4>
                                 <h6>E-commerce Director of Addoha Poultry</h6>
-                                <p>“Since we started using this Floki D2C platform, we've been able to take control of our sales and distribution channels, and build a direct relationship with our customers. The platform is easy to use, customizable, and secure, and our sales have increased significantly as a result."</p>
+                                <p>Since we started using this Floki D2C platform, we've been able to take control of our sales and distribution channels, and build a direct relationship with our customers. The platform is easy to use, customizable, and secure, and our sales have increased significantly as a result.</p>
                                 <ul>
                                     <li><FaStar /></li>
                                     <li><FaStar /></li>
@@ -208,12 +208,12 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={no_photo} alt="product_img" />
+                            <img src={userDummy} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Joby Varghese</h4>
                                 <h6>Business Unit Manager</h6>
-                                <p>"The white label e-commerce solution has helped us to expand our reach and increase our revenue. Our customers love the convenience of online shopping, and we've been able to streamline our operations and reduce our costs."</p>
+                                <p>The white label e-commerce solution has helped us to expand our reach and increase our revenue. Our customers love the convenience of online shopping, and we've been able to streamline our operations and reduce our costs.</p>
                                 <ul>
                                     <li><FaStar /></li>
                                     <li><FaStar /></li>
@@ -228,12 +228,12 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={no_photo} alt="product_img" />
+                            <img src={userDummy} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Mohamad Fleifel</h4>
                                 <h6>CEO of MAB Trading</h6>
-                                <p>“Our ordering process has become much more efficient since we started using this white label e-commerce solution. Our customers appreciate the convenience and we've been able to grow our business as a result."</p>
+                                <p>Our ordering process has become much more efficient since we started using this white label e-commerce solution. Our customers appreciate the convenience and we've been able to grow our business as a result.</p>
                                 <ul>
                                     <li><FaStar /></li>
                                     <li><FaStar /></li>
