@@ -113,19 +113,15 @@ const ServiceBPage = props => {
       <div class="sec2">
         <div class="mycontainer">
           <div class="row">
-            <div class="colm4">
+            <div class="colm6">
               <h4>Deliverables</h4>
               <p>User App</p>
               <p>Pickers App</p>
               <p>SuperAdmin Backend</p>
             </div>
-            <div class="colm4">
+            <div class="colm6">
               <h4>Testimonials</h4>
               <p>"I was looking for a solution that would allow me to create an online marketplace for our multiple stores and lines of business, and the Floki Marketplace Platform was the perfect fit. The setup was easy, and the platform is customizable and scalable to meet my needs. I've been able to increase my revenue potential and reach new customers through the multi-vendor support. I highly recommend this platform to anyone looking to create their own online marketplace." - Jihad Hassan, Managing Director of Lifco.</p>
-            </div>
-            <div class="colm4">
-              <h4>Call-to-Action</h4>
-              <p>Empower your business with the Floki Marketplace today. Sign up for a free demo and experience the flexibility and scalability of our technology. Start creating your own online marketplace and reach new customers today!</p>
             </div>
           </div>
         </div>

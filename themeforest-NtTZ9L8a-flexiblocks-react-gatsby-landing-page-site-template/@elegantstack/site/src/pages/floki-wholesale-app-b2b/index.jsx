@@ -111,23 +111,15 @@ const ServiceDPage = props => {
       <div class="sec2">
         <div class="mycontainer">
           <div class="row">
-            <div class="colm4 colm3">
+            <div class="colm6 colm6">
               <h4>Deliverables</h4>
               <p>User App</p>
               <p>Pickers App</p>
               <p>SuperAdmin Backend</p>
             </div>
-            <div class="colm4 colm3">
-              <h4>Pricing</h4>
-              <p>Our Floki Wholesale App pricing starts at $X per month, with customizable plans available based on your specific business needs.</p>
-            </div>
-            <div class="colm4 colm3">
+            <div class="colm6 colm6">
               <h4>Testimonials</h4>
               <p>“Our ordering process has become much more efficient since we started using this white label e-commerce solution. Our customers appreciate the convenience and we've been able to grow our business as a result." - Mohamad Fleifel, CEO of MAB Trading..</p>
-            </div>
-            <div class="colm4 colm3">
-              <h4>Call-to-Action</h4>
-              <p>Streamline your ordering process and grow your business with our Floki Wholesale App. Contact us to schedule a demo or sign up for a free trial.</p>
             </div>
           </div>
         </div>

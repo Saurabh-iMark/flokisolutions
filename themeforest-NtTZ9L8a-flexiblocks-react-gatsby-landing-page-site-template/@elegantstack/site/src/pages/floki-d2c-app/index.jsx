@@ -110,18 +110,14 @@ const ServiceAPage = props => {
       <div class="sec2">
         <div class="mycontainer">
           <div class="row">
-            <div class="colm4">
+            <div class="colm6">
               <h4>Deliverables</h4>
               <p>User App</p>
               <p>SuperAdmin Backend</p>
             </div>
-            <div class="colm4">
+            <div class="colm6">
               <h4>Testimonials</h4>
               <p>“Since we started using this Floki D2C platform, we've been able to take control of our sales and distribution channels, and build a direct relationship with our customers. The platform is easy to use, customizable, and secure, and our sales have increased significantly as a result." - Maisoon, E-commerce Director of Addoha Poultry..</p>
-            </div>
-            <div class="colm4">
-              <h4>Call-to-Action</h4>
-              <p>Take control of your sales and build a direct relationship with your customers with our Floki D2C App. Contact us to schedule a demo or sign up for a free trial.</p>
             </div>
           </div>
         </div>
