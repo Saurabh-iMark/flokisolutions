@@ -31,38 +31,6 @@ const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
-  // const slider = document.querySelector('.slider');
-  // const dots = document.querySelector('.dots');
-  // const dotList = [];
-  
-  // let slideIndex = 0;
-  
-  // // Create a dot for each slide
-  // for (let i = 0; i < slider.children.length; i++) {
-  //   const dot = document.createElement('div');
-  //   dot.classList.add('dot');
-  //   dots.appendChild(dot);
-  //   dotList.push(dot);
-  // }
-  
-  // // Set the first dot as active
-  // dotList[slideIndex].classList.add('active');
-  
-  // // Move to the next slide every 3 seconds
-  // setInterval(() => {
-  //   slideIndex = (slideIndex + 1) % slider.children.length;
-  //   slider.style.transform = `translateX(-${slideIndex * 25}%)`;
-  
-  //   // Update the active dot
-  //   dotList.forEach((dot, index) => {
-  //     if (index === slideIndex) {
-  //       dot.classList.add('active');
-  //     } else {
-  //       dot.classList.remove('active');
-  //     }
-  //   });
-  // }, 3000);
-
 
   const MyHTMLComponent = () => {
     return (
@@ -158,87 +126,7 @@ const ServiceAPage = props => {
           </div>
         </div>
       </div>
-
-      {/* <div className="container">
-        <div className="col_wrap">
-            <div className="col-_gap">
-                <div className="testimonial_slider">
-                    <div className="item">
-                        <div className="ctnt">
-                            <figure>
-                                <img src={shutterstock_6} alt="product_img" />
-                            </figure>
-                            <div className="right_ctnt">
-                                <h4>Digital Marketing</h4>
-                                <h6>Last Mile Delivery Service</h6>
-                                <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
-                                <ul>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-regular fa-star"></i></li>
-                                </ul>
-                                <span><i className="fa-solid fa-quote-right"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="item">
-                        <div className="ctnt">
-                            <figure>
-                            <img src={shutterstock_6} alt="product_img" />
-                            </figure>
-                            <div className="right_ctnt">
-                                <h4>Digital Marketing</h4>
-                                <h6>Last Mile Delivery Service</h6>
-                                <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
-                                <ul>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-regular fa-star"></i></li>
-                                </ul>
-                                <span><i className="fa-solid fa-quote-right"></i></span>
-                            </div>
-                        </div>
-                    </div> 
-                    <div className="item">
-                        <div className="ctnt">
-                            <figure>
-                            <img src={shutterstock_6} alt="product_img" />
-                            </figure>
-                            <div className="right_ctnt">
-                                <h4>Digital Marketing</h4>
-                                <h6>Last Mile Delivery Service</h6>
-                                <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
-                                <ul>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-solid fa-star"></i></li>
-                                    <li><i className="fa-regular fa-star"></i></li>
-                                </ul>
-                                <span><i className="fa-solid fa-quote-right"></i></span>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            <div className="col-_gap">
-                <div className="start_ctnt">
-                    <h2><span>Start Learning</span> and Join Our happy Users</h2>
-                    <p>With +30,000 SKUs available in our database,your time to go live should be minimal.We save you the effort of creating your database from scratch.</p>
-                    <div className="payroll-btn">
-                        <a href="#"><i className="fa-brands fa-google-play"></i></a>
-                        <a href="#"><i className="fa-brands fa-google-play"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-      </div> */}
-
+      
       </div>
     );
   };
