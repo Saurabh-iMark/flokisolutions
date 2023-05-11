@@ -132,6 +132,21 @@ const ServiceAPage = props => {
   };
   
 
+  const MyHTMLComponent4 = () => {
+    return (
+      <div className="service_spacer">
+      <div class="product1">
+        <div class="mycontainer">
+          <div class="sec1">
+            <h4>Our Services</h4>
+            <h1>Floki D2C App</h1>
+            <p>Take Control of Your Sales and Build a Direct Relationship with Your Customers!</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    );
+  };
 
 
   return (
@@ -145,6 +160,7 @@ const ServiceAPage = props => {
 
       <Header content={content['header']} />
       <MyHTMLComponent></MyHTMLComponent>
+      <MyHTMLComponent4></MyHTMLComponent4>
 
       {/* <Divider space='5' /> */}
       <Footer content={content['footer']} />
