@@ -130,7 +130,7 @@ const ServiceBPage = props => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
     );
   };
   
