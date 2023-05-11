@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@types/jquery": "^3.5.16",
-    "jquery": "^3.6.4"
+    "jquery": "^3.6.4",
+    "slick-carousel": "^1.8.1"
   }
 }
