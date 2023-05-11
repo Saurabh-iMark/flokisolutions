@@ -133,8 +133,6 @@ const ServiceAPage = props => {
   
 
 
-
-
   const TestomonialsComponent = () => {
     return (
       <div className="product1">
@@ -146,8 +144,8 @@ const ServiceAPage = props => {
           </div>
         </div>
       </div>
-    )
-  }
+    );
+  };
 
 
 
@@ -162,7 +160,7 @@ const ServiceAPage = props => {
 
       <Header content={content['header']} />
       <MyHTMLComponent></MyHTMLComponent>
-      <TestomonialsComponent></TestomonialsComponent>
+      {/* <TestomonialsComponent></TestomonialsComponent> */}
       {/* <Divider space='5' /> */}
       <Footer content={content['footer']} />
     </Layout>
