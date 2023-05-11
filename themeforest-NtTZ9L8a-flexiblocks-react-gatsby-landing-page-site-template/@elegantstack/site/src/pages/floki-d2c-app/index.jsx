@@ -159,7 +159,7 @@ const ServiceAPage = props => {
         </div>
       </div>
 
-      <div className="container">
+      {/* <div className="container">
         <div className="col_wrap">
             <div className="col-_gap">
                 <div className="testimonial_slider">
@@ -167,8 +167,6 @@ const ServiceAPage = props => {
                         <div className="ctnt">
                             <figure>
                                 <img src={shutterstock_6} alt="product_img" />
-                                {/* <img src="./images/shutterstock_6.jpg" alt="product_img"> */}
-                                {/* <img src="https://flokisolutions.com/static/96b97d4b7683e08237de8c15853bc743/a3a76/services02.webp"> */}
                             </figure>
                             <div className="right_ctnt">
                                 <h4>Digital Marketing</h4>
@@ -189,7 +187,6 @@ const ServiceAPage = props => {
                         <div className="ctnt">
                             <figure>
                             <img src={shutterstock_6} alt="product_img" />
-                                {/* <img src="https://flokisolutions.com/static/96b97d4b7683e08237de8c15853bc743/a3a76/services02.webp"> */}
                             </figure>
                             <div className="right_ctnt">
                                 <h4>Digital Marketing</h4>
@@ -210,7 +207,6 @@ const ServiceAPage = props => {
                         <div className="ctnt">
                             <figure>
                             <img src={shutterstock_6} alt="product_img" />
-                                {/* <img src="https://flokisolutions.com/static/96b97d4b7683e08237de8c15853bc743/a3a76/services02.webp"> */}
                             </figure>
                             <div className="right_ctnt">
                                 <h4>Digital Marketing</h4>
@@ -241,24 +237,7 @@ const ServiceAPage = props => {
             </div>
         </div>
        
-      </div>
-
-
-      <div className="slider-container">
-  <div className="slider">
-    <img src={shutterstock_6} alt="product_img" />
-    <img src={shutterstock_9} alt="product_img" />
-    <img src={shutterstock_6} alt="product_img" />
-    <img src={shutterstock_11} alt="product_img" />
-
-    {/* <img src="img1.jpg" alt="Slide 1">
-    <img src="img2.jpg" alt="Slide 2">
-    <img src="img3.jpg" alt="Slide 3">
-    <img src="img4.jpg" alt="Slide 4"> */}
-  </div>
-  <div className="dots"></div>
-</div>
-
+      </div> */}
 
       </div>
     );
