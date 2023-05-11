@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { graphql } from 'gatsby'
 import { Link as GLink } from 'gatsby'
 import { Container, Box, Flex, css, MenuButton, MenuList, MenuItem } from 'theme-ui'
@@ -31,7 +31,17 @@ const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
+  const [index, setIndex] = useState(0);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((index + 1) % testimonials.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [index, testimonials.length]);
+
+  
   const MyHTMLComponent = () => {
     return (
       <div className="service_spacer">
@@ -133,6 +143,50 @@ const ServiceAPage = props => {
   
 
 
+  const testimonials = [
+    {
+      name: "John Doe",
+      comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod sapien at dui finibus feugiat.",
+      avatar: "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      name: "Jane Smith",
+      comment: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      avatar: "https://randomuser.me/api/portraits/women/1.jpg"
+    },
+    {
+      name: "Bob Johnson",
+      comment: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      avatar: "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+      name: "Sara Lee",
+      comment: "Nam eget metus sed felis ullamcorper congue ut id sapien. Sed blandit ex euismod, lacinia libero et, pellentesque enim.",
+      avatar: "https://randomuser.me/api/portraits/women/2.jpg"
+    }
+  ];
+
+
+  const TestomonialsComponent = () => {
+    return (
+    <div className="slider-container">
+      {testimonials.map((testimonial, i) => (
+        <div
+          key={i}
+          className={`slide ${i === index ? "active" : ""}`}
+          style={{ backgroundImage: `url(${testimonial.avatar})` }}
+        >
+          <div className="slide-content">
+            <p className="comment">{testimonial.comment}</p>
+            <p className="name">{testimonial.name}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+    )
+  }
+
+
 
   return (
     <Layout {...props}>
@@ -145,7 +199,7 @@ const ServiceAPage = props => {
 
       <Header content={content['header']} />
       <MyHTMLComponent></MyHTMLComponent>
-
+      <TestomonialsComponent></TestomonialsComponent>
       {/* <Divider space='5' /> */}
       <Footer content={content['footer']} />
     </Layout>
