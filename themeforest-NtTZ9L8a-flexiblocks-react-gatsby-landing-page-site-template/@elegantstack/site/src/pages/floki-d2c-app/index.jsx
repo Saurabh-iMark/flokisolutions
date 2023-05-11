@@ -107,24 +107,14 @@ const ServiceAPage = props => {
           </div>
         </div>
       </div>
-      <div class="sec2">
-        <div class="mycontainer">
-          <div class="row">
-            <div class="colm6">
-              <h4>Deliverables</h4>
-              <p>User App</p>
-              <p>SuperAdmin Backend</p>
-            </div>
-            <div class="colm6">
-              <h4>Testimonials</h4>
-              <p>“Since we started using this Floki D2C platform, we've been able to take control of our sales and distribution channels, and build a direct relationship with our customers. The platform is easy to use, customizable, and secure, and our sales have increased significantly as a result." - Maisoon, E-commerce Director of Addoha Poultry..</p>
-            </div>
-          </div>
-        </div>
       </div>
+    );
+  };
+  
 
-
-      <div class="container">
+  const MySliderComponent = () => {
+    return (
+      <div className="container">
         <div class="col_wrap">
             <div class="col-_gap">
                 <div class="testimonial_slider">
@@ -205,25 +195,6 @@ const ServiceAPage = props => {
             </div>
         </div>
        
-    </div>
-      
-      </div>
-    );
-  };
-  
-
-  const MyHTMLComponent4 = () => {
-    return (
-      <div className="service_spacer">
-      <div class="product1">
-        <div class="mycontainer">
-          <div class="sec1">
-            <h4>Our Services</h4>
-            <h1>Floki D2C App</h1>
-            <p>Take Control of Your Sales and Build a Direct Relationship with Your Customers!</p>
-          </div>
-        </div>
-      </div>
       </div>
     );
   };
@@ -240,7 +211,7 @@ const ServiceAPage = props => {
 
       <Header content={content['header']} />
       <MyHTMLComponent></MyHTMLComponent>
-      <MyHTMLComponent4></MyHTMLComponent4>
+      <MySliderComponent></MySliderComponent>
 
       {/* <Divider space='5' /> */}
       <Footer content={content['footer']} />
