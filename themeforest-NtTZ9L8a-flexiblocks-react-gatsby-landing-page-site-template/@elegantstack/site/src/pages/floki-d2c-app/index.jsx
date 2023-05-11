@@ -21,7 +21,7 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import Slider from 'react-slick';
 
 import styles from './_styles';
 
@@ -37,19 +37,35 @@ const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
+  const settings = {
+    // SlickCarousel settings
+    slidesToShow: 1,
+    infinite: false,
+    slidesToScroll: 1,
+    autoplay: true,
+    dots: true,
+    arrows: false,
+    autoplaySpeed: 2500
+  };
+
+
+  // useEffect(() => {
+  //   $('.testimonial_slider').slick({
+  //     slidesToShow: 1,
+  //     infinite: false,
+  //     slidesToScroll: 1,
+  //     autoplay: true,
+  //     dots: true,
+  //     arrows: false,
+  //     autoplaySpeed: 2500
+  //   });
+  // }, []);
+
 
   useEffect(() => {
-    $('.testimonial_slider').slick({
-      slidesToShow: 1,
-      infinite: false,
-      slidesToScroll: 1,
-      autoplay: true,
-      dots: true,
-      arrows: false,
-      autoplaySpeed: 2500
-    });
+    $('.testimonial_slider').slick();
+    $('.slick-slider').slick();
   }, []);
-
 
   const MyHTMLComponent = () => {
     return (
@@ -136,6 +152,7 @@ const ServiceAPage = props => {
       <div className="container">
         <div class="col_wrap">
             <div class="col-_gap">
+                <Slider {...settings}>
                 <div className="testimonial_slider">
                     <div class="item">
                         <div class="ctnt">
@@ -201,6 +218,7 @@ const ServiceAPage = props => {
                         </div>
                     </div>  
                 </div>
+                </Slider>
             </div>
             <div class="col-_gap">
                 <div class="start_ctnt">
