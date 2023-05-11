@@ -31,6 +31,7 @@ import { FaGooglePlay } from 'react-icons/fa';
 import { FaAppStore } from 'react-icons/fa';
 
 
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import '@fortawesome/fontawesome-free/css/all.min.css';
 // import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
@@ -50,6 +51,9 @@ import userDummy1 from './assets/userDummy1.jpg';
 import userDummy2 from './assets/userDummy2.jpg';
 import userDummy3 from './assets/userDummy3.jpg';
 import userDummy4 from './assets/userDummy4.jpg';
+
+import appStoreBadge from './assets/appStoreBadge.png';
+import playStoreBadge from './assets/playStoreBadge.png';
 
 const ServiceAPage = props => {
   const { allBlockContent } = props.data
@@ -257,8 +261,10 @@ const ServiceAPage = props => {
                 <h2><span>Start Learning</span> and Join Our happy Users</h2>
                 <p>With +30,000 SKUs available in our database,your time to go live should be minimal.We save you the effort of creating your database from scratch.</p>
                 <div class="payroll-btn">
-                    <a href="#"><FaGooglePlay /></a>
-                    <a href="#"><FaAppStore /></a>
+                <img src={playStoreBadge} alt="product_img" />
+                <img src={appStoreBadge} alt="product_img" />
+                    {/* <a href="#"><FaGooglePlay /></a>
+                    <a href="#"><FaAppStore /></a> */}
                 </div>
             </div>
         </div>
