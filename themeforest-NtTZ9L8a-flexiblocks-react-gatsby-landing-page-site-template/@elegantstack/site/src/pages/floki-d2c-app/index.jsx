@@ -43,8 +43,7 @@ const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
-  const settings2 = {
-    // SlickCarousel settings
+  const settings = {
     slidesToShow: 1,
     infinite: false,
     slidesToScroll: 1,
@@ -52,16 +51,6 @@ const ServiceAPage = props => {
     dots: true,
     arrows: false,
     speed: 2500
-  };
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    autoplay: true,
   };
 
 
@@ -163,9 +152,8 @@ const ServiceAPage = props => {
     return (
       <div className="container">
          <div>
-    
-    The coffee is ready at these companies! <FontAwesomeIcon icon="coffee" />
-  </div>
+         {/* The coffee is ready at these companies! <FontAwesomeIcon icon="coffee" /> */}
+         </div>
 
       <div class="col_wrap">
         <div class="col-_gap">
