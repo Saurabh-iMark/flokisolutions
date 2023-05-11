@@ -53,8 +53,12 @@ const ServiceAPage = props => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
   };
+
+
   // useEffect(() => {
   //   $('.testimonial_slider').slick({
   //     slidesToShow: 1,
@@ -68,10 +72,6 @@ const ServiceAPage = props => {
   // }, []);
 
 
-  // useEffect(() => {
-  //   // $('.testimonial_slider').slick();
-  //   // $('.slick-slider').slick();
-  // }, []);
 
   const MyHTMLComponent = () => {
     return (
