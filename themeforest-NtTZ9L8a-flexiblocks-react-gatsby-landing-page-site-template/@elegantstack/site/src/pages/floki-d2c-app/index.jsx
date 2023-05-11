@@ -26,7 +26,7 @@ import Slider from 'react-slick';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 import styles from './_styles';
 
@@ -194,7 +194,7 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={shutterstock_9} alt="product_img" />
+                            <img src={no_photo} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Digital Marketing</h4>
@@ -214,7 +214,7 @@ const ServiceAPage = props => {
                     <div class="item">
                         <div class="ctnt">
                             <figure>
-                            <img src={shutterstock_6} alt="product_img" />
+                            <img src={no_photo} alt="product_img" />
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Digital Marketing</h4>
