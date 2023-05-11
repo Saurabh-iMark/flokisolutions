@@ -152,7 +152,7 @@ const ServiceAPage = props => {
     return (
       <div className="container">
          <div>
-         {/* The coffee is ready at these companies! <FontAwesomeIcon icon="coffee" /> */}
+         The coffee is ready at these companies! <FontAwesomeIcon icon="coffee" />
          </div>
 
       <div class="col_wrap">
