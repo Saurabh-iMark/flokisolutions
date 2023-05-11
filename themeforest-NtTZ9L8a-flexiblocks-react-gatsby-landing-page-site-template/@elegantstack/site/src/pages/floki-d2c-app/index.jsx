@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { graphql } from 'gatsby'
 import { Link as GLink } from 'gatsby'
 import { Container, Box, Flex, css, MenuButton, MenuList, MenuItem } from 'theme-ui'
@@ -33,6 +33,14 @@ import shutterstock_11 from './assets/shutterstock_11.jpg';
 const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
+
+  
+  useEffect(() => {
+    $(document).ready(function() {
+      $('body').css('background-color', 'red');
+    });
+  }, []);
+
 
 
   const MyHTMLComponent = () => {
