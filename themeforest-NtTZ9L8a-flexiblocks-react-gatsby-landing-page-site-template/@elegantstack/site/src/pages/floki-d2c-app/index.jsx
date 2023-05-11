@@ -178,86 +178,86 @@ const ServiceAPage = props => {
           </div>
         </Slider>
       </div>
-      // <div className="container">
-      //   <div class="col_wrap">
-      //       <div class="col-_gap">
-      //           <Slider {...settings}>
-      //           <div className="testimonial_slider">
-      //               <div class="item">
-      //                   <div class="ctnt">
-      //                       <figure>
-      //                       <img src={shutterstock_11} alt="product_img" />
-      //                       </figure>
-      //                       <div class="right_ctnt">
-      //                           <h4>Digital Marketing</h4>
-      //                           <h6>Last Mile Delivery Service</h6>
-      //                           <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
-      //                           <ul>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-regular fa-star"></i></li>
-      //                           </ul>
-      //                           <span><i class="fa-solid fa-quote-right"></i></span>
-      //                       </div>
-      //                   </div>
-      //               </div>
-      //               <div class="item">
-      //                   <div class="ctnt">
-      //                       <figure>
-      //                       <img src={shutterstock_9} alt="product_img" />
-      //                       </figure>
-      //                       <div class="right_ctnt">
-      //                           <h4>Digital Marketing</h4>
-      //                           <h6>Last Mile Delivery Service</h6>
-      //                           <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
-      //                           <ul>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-regular fa-star"></i></li>
-      //                           </ul>
-      //                           <span><i class="fa-solid fa-quote-right"></i></span>
-      //                       </div>
-      //                   </div>
-      //               </div> 
-      //               <div class="item">
-      //                   <div class="ctnt">
-      //                       <figure>
-      //                       <img src={shutterstock_6} alt="product_img" />
-      //                       </figure>
-      //                       <div class="right_ctnt">
-      //                           <h4>Digital Marketing</h4>
-      //                           <h6>Last Mile Delivery Service</h6>
-      //                           <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
-      //                           <ul>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-solid fa-star"></i></li>
-      //                               <li><i class="fa-regular fa-star"></i></li>
-      //                           </ul>
-      //                           <span><i class="fa-solid fa-quote-right"></i></span>
-      //                       </div>
-      //                   </div>
-      //               </div>  
-      //           </div>
-      //           </Slider>
-      //       </div>
-      //       <div class="col-_gap">
-      //           <div class="start_ctnt">
-      //               <h2><span>Start Learning</span> and Join Our happy Users</h2>
-      //               <p>With +30,000 SKUs available in our database,your time to go live should be minimal.We save you the effort of creating your database from scratch.</p>
-      //               <div class="payroll-btn">
-      //                   <a href="#"><i class="fa-brands fa-google-play"></i></a>
-      //                   <a href="#"><i class="fa-brands fa-google-play"></i></a>
-      //               </div>
-      //           </div>
-      //       </div>
-      //   </div>
-      // </div>
+      <div className="container">
+        <div class="col_wrap">
+            <div class="col-_gap">
+                <Slider {...settings2}>
+                <div className="testimonial_slider">
+                    <div class="item">
+                        <div class="ctnt">
+                            <figure>
+                            <img src={shutterstock_11} alt="product_img" />
+                            </figure>
+                            <div class="right_ctnt">
+                                <h4>Digital Marketing</h4>
+                                <h6>Last Mile Delivery Service</h6>
+                                <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
+                                <ul>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-regular fa-star"></i></li>
+                                </ul>
+                                <span><i class="fa-solid fa-quote-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="ctnt">
+                            <figure>
+                            <img src={shutterstock_9} alt="product_img" />
+                            </figure>
+                            <div class="right_ctnt">
+                                <h4>Digital Marketing</h4>
+                                <h6>Last Mile Delivery Service</h6>
+                                <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
+                                <ul>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-regular fa-star"></i></li>
+                                </ul>
+                                <span><i class="fa-solid fa-quote-right"></i></span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="item">
+                        <div class="ctnt">
+                            <figure>
+                            <img src={shutterstock_6} alt="product_img" />
+                            </figure>
+                            <div class="right_ctnt">
+                                <h4>Digital Marketing</h4>
+                                <h6>Last Mile Delivery Service</h6>
+                                <p>We support in all different types of Digital Marketing Services, helping businesses in launching their e-commerce channel, reaching the right audience, with the right content</p>
+                                <ul>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-regular fa-star"></i></li>
+                                </ul>
+                                <span><i class="fa-solid fa-quote-right"></i></span>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                </Slider>
+            </div>
+            <div class="col-_gap">
+                <div class="start_ctnt">
+                    <h2><span>Start Learning</span> and Join Our happy Users</h2>
+                    <p>With +30,000 SKUs available in our database,your time to go live should be minimal.We save you the effort of creating your database from scratch.</p>
+                    <div class="payroll-btn">
+                        <a href="#"><i class="fa-brands fa-google-play"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
     );
   };
 
