@@ -34,13 +34,18 @@ const ServiceAPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
-  
+
   useEffect(() => {
-    $(document).ready(function() {
-      $('body').css('background-color', 'red');
+    $('.testimonial_slider').slick({
+      slidesToShow: 1,
+      infinite: false,
+      slidesToScroll: 1,
+      autoplay: true,
+      dots: true,
+      arrows: false,
+      autoplaySpeed: 2500
     });
   }, []);
-
 
 
   const MyHTMLComponent = () => {
@@ -128,7 +133,7 @@ const ServiceAPage = props => {
       <div className="container">
         <div class="col_wrap">
             <div class="col-_gap">
-                <div class="testimonial_slider">
+                <div className="testimonial_slider">
                     <div class="item">
                         <div class="ctnt">
                             <figure>
