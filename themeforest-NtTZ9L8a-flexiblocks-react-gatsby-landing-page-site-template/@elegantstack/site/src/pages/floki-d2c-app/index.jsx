@@ -22,8 +22,10 @@ import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import styles from './_styles';
 
@@ -159,6 +161,16 @@ const ServiceAPage = props => {
   const MySliderComponent = () => {
     return (
       <div className="container">
+         <div>
+    <FontAwesomeIcon icon="fa-brands fa-twitter" />
+    <FontAwesomeIcon icon="fa-brands fa-font-awesome" />
+
+    <FontAwesomeIcon icon="fa-regular fa-mug-hot" />
+    The coffee is ready at these companies!
+
+    Be careful not to spill any your <FontAwesomeIcon icon="fa-thin fa-hat-cowboy" />!
+  </div>
+  
       <div class="col_wrap">
         <div class="col-_gap">
         <div class="testimonial_slider">
@@ -236,10 +248,6 @@ const ServiceAPage = props => {
                     <a href="#"><i class="fa-brands fa-google-play"></i></a>
                     <a href="#"><i class="fa-brands fa-google-play"></i></a>
                 </div>
-                <div>
-      <FontAwesomeIcon icon={faCoffee} />
-      <span>My Icon</span>
-    </div>
             </div>
         </div>
 
