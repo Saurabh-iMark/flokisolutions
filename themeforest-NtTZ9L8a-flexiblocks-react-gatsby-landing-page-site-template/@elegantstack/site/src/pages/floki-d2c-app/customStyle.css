@@ -270,10 +270,10 @@ img{
 }
 .testimonial_slider .item .ctnt .right_ctnt span{
     color: #edf2f7;
-    font-size: 82px;
+    font-size: 65px;
     position: absolute;
-    right: 40px;
-    bottom: -10px;
+    right: 36px;
+    bottom: 8px;
 }
 .testimonial_slider .item .ctnt figure{
     width: 200px;
