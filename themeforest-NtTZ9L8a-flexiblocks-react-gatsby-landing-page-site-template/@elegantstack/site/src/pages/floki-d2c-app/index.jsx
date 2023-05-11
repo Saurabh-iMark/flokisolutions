@@ -68,10 +68,10 @@ const ServiceAPage = props => {
   // }, []);
 
 
-  useEffect(() => {
-    $('.testimonial_slider').slick();
-    $('.slick-slider').slick();
-  }, []);
+  // useEffect(() => {
+  //   // $('.testimonial_slider').slick();
+  //   // $('.slick-slider').slick();
+  // }, []);
 
   const MyHTMLComponent = () => {
     return (
