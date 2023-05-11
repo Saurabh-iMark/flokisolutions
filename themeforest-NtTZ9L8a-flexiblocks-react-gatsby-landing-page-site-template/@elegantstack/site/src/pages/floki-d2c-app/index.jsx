@@ -24,6 +24,8 @@ import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 
 import { FaBeer } from 'react-icons/fa';
+import { FaQuoteRight } from 'react-icons/fa';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import '@fortawesome/fontawesome-free/css/all.min.css';
 // import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
@@ -183,7 +185,12 @@ const ServiceAPage = props => {
                                     <li><i class="fa-solid fa-star"></i></li>
                                     <li><i class="fa-regular fa-star"></i></li>
                                 </ul>
-                                <span><i class="fa-solid fa-quote-right"></i></span>
+
+                                
+                                <span>
+                                <FaQuoteRight />
+                                {/* <i class="fa-solid fa-quote-right"></i> */}
+                                </span>
                             </div>
                         </div>
                     </div>
