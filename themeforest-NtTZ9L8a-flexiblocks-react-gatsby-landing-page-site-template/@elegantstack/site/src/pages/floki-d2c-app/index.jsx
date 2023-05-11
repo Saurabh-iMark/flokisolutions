@@ -46,8 +46,10 @@ import shutterstock_6 from './assets/shutterstock_6.jpg';
 import shutterstock_9 from './assets/shutterstock_9.jpg';
 import shutterstock_11 from './assets/shutterstock_11.jpg';
 import no_photo from './assets/no_photo.png';
-import userDummy from './assets/userDummy.jpg';
-
+import userDummy1 from './assets/userDummy1.jpg';
+import userDummy2 from './assets/userDummy2.jpg';
+import userDummy3 from './assets/userDummy3.jpg';
+import userDummy4 from './assets/userDummy4.jpg';
 
 const ServiceAPage = props => {
   const { allBlockContent } = props.data
@@ -58,9 +60,9 @@ const ServiceAPage = props => {
     infinite: false,
     slidesToScroll: 1,
     autoplay: true,
-    dots: true,
+    dots: false,
     arrows: false,
-    speed: 2500
+    speed: 2000
   };
 
 
@@ -173,7 +175,7 @@ const ServiceAPage = props => {
                             <div class="right_ctnt">
                                 <h4>Jihad Hassan</h4>
                                 <h6>Managing Director of Lifco</h6>
-                                <p>I was looking for a solution that would allow me to create an online marketplace for our multiple stores and lines of business, and the Floki Marketplace Platform was the perfect fit. The setup was easy, and the platform is customizable and scalable to meet my needs. I've been able to increase my revenue potential and reach new customers through the multi-vendor support.</p>
+                                <p>I was looking for a solution that would allow me to create an online marketplace for our multiple stores and lines of business, and the Floki Marketplace Platform was the perfect fit. The setup was easy, and the platform is customizable and scalable to meet my needs.</p>
                                 <ul>
                                     <li><FaStar /></li>
                                     <li><FaStar /></li>
