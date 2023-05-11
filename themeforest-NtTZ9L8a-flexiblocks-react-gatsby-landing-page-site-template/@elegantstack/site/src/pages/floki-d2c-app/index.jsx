@@ -17,6 +17,9 @@ import JoinCompanies from '@solid-ui-blocks/Content/Block01'
 import Companies from '@solid-ui-blocks/Companies/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+
+import $ from 'jquery';
+
 import styles from './_styles';
 
 import "./customStyle.css";
@@ -194,7 +197,6 @@ const ServiceAPage = props => {
                 </div>
             </div>
         </div>
-       
       </div>
     );
   };
