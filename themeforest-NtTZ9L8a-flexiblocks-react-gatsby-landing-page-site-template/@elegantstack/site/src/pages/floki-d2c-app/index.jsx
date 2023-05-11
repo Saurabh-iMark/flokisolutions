@@ -26,6 +26,7 @@ import Slider from 'react-slick';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import styles from './_styles';
 
@@ -170,7 +171,7 @@ const ServiceAPage = props => {
 
     Be careful not to spill any your <FontAwesomeIcon icon="fa-thin fa-hat-cowboy" />!
   </div>
-  
+
       <div class="col_wrap">
         <div class="col-_gap">
         <div class="testimonial_slider">
