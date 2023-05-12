@@ -410,3 +410,44 @@ img{
 .custom-tab2 ul li a:hover{
     color:#fff;
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-width:991px){
+    .custom-tab2 ul, 
+    .custom-tab2 ul li{
+        flex-wrap:wrap;
+        padding: 0 15px;
+    }
+    ul.liststyle {
+        padding: 0;
+    }
+    .custom-tab2 ul li:last-of-type,
+    .custom-tab2 ul li:first-child {
+        border-radius: 0;
+    }
+    .custom-tab2 ul li{
+        min-width:100%;
+    }
+    .testimonial_slider .item .ctnt,
+    .col_wrap {
+        flex-direction: column;
+    }
+    .col_wrap .col-_gap {
+        width: 100%;
+    }
+    .testimonial_slider .item .ctnt .right_ctnt {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .slick-dots{bottom: 0;}
+    .start_ctnt h2 {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+}
