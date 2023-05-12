@@ -255,41 +255,23 @@ img{
     color:#fff;
 }
 
-/* .react-tabs__tab {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    border: 1px solid transparent;
-    border-bottom: none;
-    border-radius: 5px 5px 0 0;
-    padding: 10px 15px;
-    margin-right: 10px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    border-radius: 2rem 0 0 2rem;
-  }
-  
-  .react-tabs__tab--selected {
-    color: #fff;
-    background-color: #1f299b;
-    border-color: #1f299b;
-  }
-  
-  .react-tabs__tab:focus {
-    outline: none;
-  }
 
-  .react-tabs__tab-list {
-    border-bottom: 0;
-    display: 'flex';
-    justify-content: 'center';
-    align-items: 'center';
-  }
-  
-  .react-tabs__tab-panel {
-    padding: 15px;
-    border-top: none;
-    border-radius: 0 5px 5px 5px;
-  }
-   */
+
+
+@media only screen and (max-width:991px){
+    .custom-tab ul, 
+    .custom-tab ul li{
+        flex-wrap:wrap;
+        padding: 0 15px;
+    }
+    ul.liststyle {
+        padding: 0;
+    }
+    .custom-tab ul li:last-of-type,
+    .custom-tab ul li:first-child {
+        border-radius: 0;
+    }
+    .custom-tab ul li{
+        min-width:100%;
+    }
+}
