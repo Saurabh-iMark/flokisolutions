@@ -279,7 +279,7 @@ const ServiceAPage = props => {
                 <h2><span>Start Learning</span> and Join Our happy Users</h2>
                 <p>With +30,000 SKUs available in our database,your time to go live should be minimal.We save you the effort of creating your database from scratch.</p>
                 <div class="payroll-btn">
-                <img src={playStoreBadge} alt="product_img" />&nbsp;
+                <img src={playStoreBadge} alt="product_img" class="mr-img" />
                 <img src={appStoreBadge} alt="product_img" />
                     {/* <a href="#"><FaGooglePlay /></a>
                     <a href="#"><FaAppStore /></a> */}

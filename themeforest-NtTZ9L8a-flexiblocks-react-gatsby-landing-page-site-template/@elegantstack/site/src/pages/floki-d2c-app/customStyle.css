@@ -340,7 +340,9 @@ img{
     background-color: #6366f1;
     border-color: #6366f1;
 }
-
+.mr-img{
+    margin-right: 30px;
+}
 
 
 
