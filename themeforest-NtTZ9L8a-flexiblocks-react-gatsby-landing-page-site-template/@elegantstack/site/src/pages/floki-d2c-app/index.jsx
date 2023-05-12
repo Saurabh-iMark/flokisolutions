@@ -18,11 +18,13 @@ import Companies from '@solid-ui-blocks/Companies/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
+import styles from './_styles';
+import "./customStyle.css";
+
 import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-
 
 import { FaQuoteRight } from 'react-icons/fa';
 import { FaStar } from 'react-icons/fa';
@@ -30,30 +32,20 @@ import { FaRegStar } from 'react-icons/fa';
 import { FaGooglePlay } from 'react-icons/fa';
 import { FaAppStore } from 'react-icons/fa';
 
-
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import '@fortawesome/fontawesome-free/css/all.min.css';
-// import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-
-// import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-// import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-
-import styles from './_styles';
-
-import "./customStyle.css";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 import shutterstock_6 from './assets/shutterstock_6.jpg';
 import shutterstock_9 from './assets/shutterstock_9.jpg';
 import shutterstock_11 from './assets/shutterstock_11.jpg';
-import no_photo from './assets/no_photo.png';
 import userDummy1 from './assets/userDummy1.jpg';
 import userDummy2 from './assets/userDummy2.jpg';
 import userDummy3 from './assets/userDummy3.jpg';
 import userDummy4 from './assets/userDummy4.jpg';
-
 import appStoreBadge from './assets/appStoreBadge.png';
 import playStoreBadge from './assets/playStoreBadge.png';
+
+
 
 const ServiceAPage = props => {
   const { allBlockContent } = props.data
@@ -164,6 +156,32 @@ const ServiceAPage = props => {
   };
   
 
+
+  const MyTabComponent = () => {
+    return (
+       <div class="custom-tab">
+       <Tabs>
+       <TabList>
+             <Tab>Deliverables</Tab>
+             <Tab>User App</Tab>
+             <Tab>SuperAdmin Backend</Tab>
+       </TabList>
+       <TabPanel>
+         <p>Content for tab 1 goes here.</p>
+       </TabPanel>
+       <TabPanel>
+         <p>Content for tab 2 goes here.</p>
+       </TabPanel>
+       <TabPanel>
+         <p>Content for tab 3 goes here.</p>
+       </TabPanel>
+       </Tabs>
+       </div>
+    )
+  };
+
+
+
   const MySliderComponent = () => {
     return (
       <div className="container">
@@ -198,7 +216,7 @@ const ServiceAPage = props => {
                             </figure>
                             <div class="right_ctnt">
                                 <h4>Maisoon</h4>
-                                <h6>E-commerce Director of Addoha Poultry</h6>
+                                <h6>Director of Addoha Poultry</h6>
                                 <p>Since we started using this Floki D2C platform, we've been able to take control of our sales and distribution channels, and build a direct relationship with our customers. The platform is easy to use, customizable, and secure, and our sales have increased significantly as a result.</p>
                                 <ul>
                                     <li><FaStar /></li>
@@ -261,7 +279,7 @@ const ServiceAPage = props => {
                 <h2><span>Start Learning</span> and Join Our happy Users</h2>
                 <p>With +30,000 SKUs available in our database,your time to go live should be minimal.We save you the effort of creating your database from scratch.</p>
                 <div class="payroll-btn">
-                <img src={playStoreBadge} alt="product_img" />
+                <img src={playStoreBadge} alt="product_img" />&nbsp;
                 <img src={appStoreBadge} alt="product_img" />
                     {/* <a href="#"><FaGooglePlay /></a>
                     <a href="#"><FaAppStore /></a> */}
@@ -289,6 +307,7 @@ const ServiceAPage = props => {
 
       <Header content={content['header']} />
       <MyHTMLComponent></MyHTMLComponent>
+      <MyTabComponent></MyTabComponent>
       <MySliderComponent></MySliderComponent>
 
       {/* <Divider space='5' /> */}
