@@ -343,7 +343,9 @@ img{
 .mr-img{
     margin-right: 30px;
 }
-
+.p-center{
+    text-align: 'centetr';
+}
 
 
 .custom-tab ul {

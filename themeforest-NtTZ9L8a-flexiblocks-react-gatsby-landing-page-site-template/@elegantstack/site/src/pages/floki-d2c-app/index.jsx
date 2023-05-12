@@ -19,7 +19,7 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
 import styles from './_styles';
-import "./customStyle.css";
+import "./customStyleA.css";
 
 import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
@@ -159,7 +159,7 @@ const ServiceAPage = props => {
 
   const MyTabComponent = () => {
     return (
-       <div class="custom-tab">
+       <div class="custom-tab"> </br>
        <Tabs>
        <TabList>
              <Tab>Deliverables</Tab>
@@ -167,13 +167,13 @@ const ServiceAPage = props => {
              <Tab>SuperAdmin Backend</Tab>
        </TabList>
        <TabPanel>
-         <p>Content for tab 1 goes here.</p>
+         <p class="p-center">Content for tab 1 goes here.</p>
        </TabPanel>
        <TabPanel>
-         <p>Content for tab 2 goes here.</p>
+         <p class="p-center">Content for tab 2 goes here.</p>
        </TabPanel>
        <TabPanel>
-         <p>Content for tab 3 goes here.</p>
+         <p class="p-center">Content for tab 3 goes here.</p>
        </TabPanel>
        </Tabs>
        </div>

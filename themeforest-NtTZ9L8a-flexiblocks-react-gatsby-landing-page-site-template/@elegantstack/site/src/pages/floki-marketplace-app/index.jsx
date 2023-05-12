@@ -19,7 +19,7 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import styles from './_styles';
 
-import "./customStyle.css";
+import "./customStyleB.css";
 
 import shutterstock_8 from './assets/shutterstock_8.jpg';
 import shutterstock_10 from './assets/shutterstock_10.jpg';
