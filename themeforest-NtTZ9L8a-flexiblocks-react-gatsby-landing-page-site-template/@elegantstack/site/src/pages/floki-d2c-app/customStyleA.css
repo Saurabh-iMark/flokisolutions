@@ -344,16 +344,16 @@ img{
     margin-right: 30px;
 }
 .p-center{
-    text-align: 'centetr';
+    text-align: center;
 }
 
 
 
 
-.custom-tab{
+.custom-tab2{
   margin-top: 50px;
 }
-.custom-tab ul {
+.custom-tab2 ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -361,7 +361,7 @@ img{
     box-shadow: none;
     margin-bottom: 42px;
 }
-.custom-tab ul li {
+.custom-tab2 ul li {
     min-width: 200px;
     display: flex;
     -webkit-box-align: center;
@@ -381,32 +381,32 @@ img{
     margin: 0;
     border: none;
 }
-.custom-tab ul li:hover {
+.custom-tab2 ul li:hover {
     background-color: #718096;
     color: #fff;
 }
-.custom-tab ul li:first-child{
+.custom-tab2 ul li:first-child{
     border-radius:32px 0 0 32px;
 }
-.custom-tab ul li:last-of-type{
+.custom-tab2 ul li:last-of-type{
     border-radius:0 32px 32px 0;
 }
-.custom-tab ul li a {
+.custom-tab2 ul li a {
     color: #1f299b;
     font-size: 14px;
     text-decoration: none;
 }
-.custom-tab ul li.react-tabs__tab--selected{
+.custom-tab2 ul li.react-tabs__tab--selected{
      background-color: #1f299b;
      color: #ffff;
      /* color: #1f299b; */
 }
-.custom-tab ul li.react-tabs__tab--selected a{
+.custom-tab2 ul li.react-tabs__tab--selected a{
      /* color: #ffff; */
 }
-.custom-tab ul li:hover{
+.custom-tab2 ul li:hover{
     background-color:#718096;
 }
-.custom-tab ul li a:hover{
+.custom-tab2 ul li a:hover{
     color:#fff;
 }

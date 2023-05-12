@@ -159,7 +159,7 @@ const ServiceAPage = props => {
 
   const MyTabComponent = () => {
     return (
-       <div class="custom-tab">
+       <div class="custom-tab2">
        <Tabs>
        <TabList>
              <Tab>Deliverables</Tab>
