@@ -244,6 +244,9 @@ img{
     font-weight: 700;
     margin: 0 0 5px;
 }
+.testimonial_slider .slick-dots li button:before {
+    display: none;
+}
 .testimonial_slider .item .ctnt .right_ctnt h6{
     font-size: 21px;
     font-weight: 600;
@@ -369,6 +372,10 @@ img{
     padding-bottom: 1rem;
     margin: 0;
     border: none;
+}
+.custom-tab ul li:hover {
+    background-color: #718096;
+    color: #fff;
 }
 .custom-tab ul li:first-child{
     border-radius:32px 0 0 32px;
