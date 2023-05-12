@@ -215,7 +215,6 @@ img{
     padding: 72px 0;
 }
 .testimonial_slider .item {
-    
     padding: 15px;
 }
 .col_wrap{
@@ -276,7 +275,7 @@ img{
     font-size: 65px;
     position: absolute;
     right: 36px;
-    bottom: 8px;
+    bottom: -15px;
 }
 .testimonial_slider .item .ctnt figure{
     width: 200px;
@@ -402,42 +401,3 @@ img{
 .custom-tab ul li a:hover{
     color:#fff;
 }
-
-/* .react-tabs__tab {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    border: 1px solid transparent;
-    border-bottom: none;
-    border-radius: 5px 5px 0 0;
-    padding: 10px 15px;
-    margin-right: 10px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    border-radius: 2rem 0 0 2rem;
-  }
-  
-  .react-tabs__tab--selected {
-    color: #fff;
-    background-color: #1f299b;
-    border-color: #1f299b;
-  }
-  
-  .react-tabs__tab:focus {
-    outline: none;
-  }
-
-  .react-tabs__tab-list {
-    border-bottom: 0;
-    display: 'flex';
-    justify-content: 'center';
-    align-items: 'center';
-  }
-  
-  .react-tabs__tab-panel {
-    padding: 15px;
-    border-top: none;
-    border-radius: 0 5px 5px 5px;
-  }
-   */
