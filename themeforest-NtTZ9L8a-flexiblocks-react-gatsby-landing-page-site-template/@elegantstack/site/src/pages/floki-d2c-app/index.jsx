@@ -45,8 +45,6 @@ import userDummy4 from './assets/userDummy4.jpg';
 import appStoreBadge from './assets/appStoreBadge.png';
 import playStoreBadge from './assets/playStoreBadge.png';
 
-import TestimonialsComponent from '../testimonials'
-
 
 
 const ServiceAPage = props => {
@@ -310,7 +308,7 @@ const ServiceAPage = props => {
       <Header content={content['header']} />
       <MyHTMLComponent></MyHTMLComponent>
       <MyTabComponent></MyTabComponent>
-      {/* <MySliderComponent></MySliderComponent> */}
+      <MySliderComponent></MySliderComponent>
 
       {/* <Divider space='5' /> */}
       <Footer content={content['footer']} />
