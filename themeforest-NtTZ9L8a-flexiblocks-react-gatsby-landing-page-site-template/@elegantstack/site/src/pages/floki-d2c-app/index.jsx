@@ -1,4 +1,5 @@
 import React, { useEffect, Component } from 'react'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Link as GLink } from 'gatsby'
 import { Container, Box, Flex, css, MenuButton, MenuList, MenuItem } from 'theme-ui'
@@ -299,6 +300,20 @@ const ServiceAPage = props => {
   return (
     <Layout {...props}>
       <Seo title='Home' />
+      
+      <Helmet>
+      <title>Direct to consumer eCommerce | eCommerce Solution | Floki Solutions</title>
+      <meta name="google-site-verification" content="jvulVjeMbr8Qb07aPAbFxWgBuwOl_Q2A9EvJoemO1co" />
+        <meta name="description" content="Unlock the potential of direct-to-consumer eCommerce (D2C) with our eCommerce app development services. We provide customizable solutions to expand your brand's reach." />
+        <meta name="keywords" content="e-commerce solution, app for grocery delivery, ecommerce app development, d2c app, Direct to consumer e-commerce" />
+        
+        <meta property="og:title" content="Direct to consumer eCommerce | eCommerce Solution | Floki Solutions" />
+        <meta property="og:description" content="Unlock the potential of direct-to-consumer eCommerce (D2C) with our eCommerce app development services. We provide customizable solutions to expand your brand's reach." />
+        
+        <meta property="og:url" content="https://flokisolutionsmain.gatsbyjs.io/floki-d2c-app/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       {/* Modals */}
       <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />

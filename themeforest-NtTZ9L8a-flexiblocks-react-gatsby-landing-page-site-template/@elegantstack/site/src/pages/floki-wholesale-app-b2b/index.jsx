@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Link as GLink } from 'gatsby'
 import { Container, Box, Flex, css, MenuButton, MenuList, MenuItem } from 'theme-ui'
@@ -134,6 +135,19 @@ const ServiceDPage = props => {
   return (
     <Layout {...props}>
       <Seo title='Home' />
+      <Helmet>
+      <title>Wholesale eCommerce App | B2B eCommerce Platform | Floki Solutions</title>
+      <meta name="google-site-verification" content="jvulVjeMbr8Qb07aPAbFxWgBuwOl_Q2A9EvJoemO1co" />
+        <meta name="description" content="Need a wholesale ecommerce app or b2b ecommerce platform? Our ecommerce solutions for wholesale distribution make it easy to manage your operations and grow your business." />
+        <meta name="keywords" content="wholesale ecommerce app, b2b ecommerce platform, wholesale ecommerce platform, b2b ecommerce application, ecommerce for wholesale distribution" />
+        
+        <meta property="og:title" content="Wholesale eCommerce App | B2B eCommerce Platform | Floki Solutions" />
+        <meta property="og:description" content="Need a wholesale ecommerce app or b2b ecommerce platform? Our ecommerce solutions for wholesale distribution make it easy to manage your operations and grow your business." />
+        
+        <meta property="og:url" content="https://flokisolutionsmain.gatsbyjs.io/floki-wholesale-app-b2b/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       {/* Modals */}
       <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />

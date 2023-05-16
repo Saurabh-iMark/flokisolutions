@@ -83,9 +83,17 @@ const Seo = ({
 
   <meta name="icon" href="../../../../../site/content/assets/favicon.png" />
 
-  <meta name="google-site-verification" content="jvulVjeMbr8Qb07aPAbFxWgBuwOl_Q2A9EvJoemO1co" />
 
-
+      <title>eCommerce Mobile App Development Company | White Label Apps | Floki Solutions</title>
+      <meta name="google-site-verification" content="jvulVjeMbr8Qb07aPAbFxWgBuwOl_Q2A9EvJoemO1co" />
+        <meta name="description" content="Our app development company specializes in white label apps for ecommerce. With our customizable solutions, we make ecommerce app development easy for businesses." />
+        <meta name="keywords" content="app creator, application development, app development company, mobile app development company, ecommerce app development company, White label apps, White label mobile apps, Shopify mobile app, Start e-commerce business" />
+        
+        <meta property="og:title" content="eCommerce Mobile App Development Company | White Label Apps | Floki Solutions" />
+        <meta property="og:description" content="Our app development company specializes in white label apps for ecommerce. With our customizable solutions, we make ecommerce app development easy for businesses." />
+        
+        <meta property="og:url" content="https://flokisolutionsmain.gatsbyjs.io/" />
+        <meta property="og:type" content="website" />
 
   </Helmet>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Link as GLink } from 'gatsby'
 import { Container, Box, Flex, css, MenuButton, MenuList, MenuItem } from 'theme-ui'
@@ -135,6 +136,19 @@ const ServiceCPage = props => {
   return (
     <Layout {...props}>
       <Seo title='Home' />
+      <Helmet>
+      <title>App for Grocery Delivery | White Label Supermarket App | Floki Solutions</title>
+      <meta name="google-site-verification" content="jvulVjeMbr8Qb07aPAbFxWgBuwOl_Q2A9EvJoemO1co" />
+        <meta name="description" content="Need a white label supermarket app for your grocery delivery business? We specialize in online grocery development and can customize an app for your needs." />
+        <meta name="keywords" content="app for grocery delivery, supermarket delivery app, online grocery app development, grocery mobile app development, White label supermarket app" />
+        
+        <meta property="og:title" content="App for Grocery Delivery | White Label Supermarket App | Floki Solutions" />
+        <meta property="og:description" content="Need a white label supermarket app for your grocery delivery business? We specialize in online grocery development and can customize an app for your needs." />
+        
+        <meta property="og:url" content="https://flokisolutionsmain.gatsbyjs.io/floki-supermarket-app/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       {/* Modals */}
       <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />

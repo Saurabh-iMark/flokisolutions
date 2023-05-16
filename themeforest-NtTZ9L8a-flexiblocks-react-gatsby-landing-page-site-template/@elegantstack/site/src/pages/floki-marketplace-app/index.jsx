@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Link as GLink } from 'gatsby'
 import { Container, Box, Flex, css, MenuButton, MenuList, MenuItem } from 'theme-ui'
@@ -136,6 +137,20 @@ const ServiceBPage = props => {
   return (
     <Layout {...props}>
       <Seo title='Home' />
+
+      <Helmet>
+      <title>Multi Vendor eCommerce Marketplace | Marketplace App | Floki Solutions</title>
+      <meta name="google-site-verification" content="jvulVjeMbr8Qb07aPAbFxWgBuwOl_Q2A9EvJoemO1co" />
+        <meta name="description" content="Build a multi-vendor eCommerce marketplace with our powerful marketplace app. Connect vendors with customers and start your eCommerce platform today." />
+        <meta name="keywords" content="e commerce platform, marketplace app, picker app, multi vendor ecommerce marketplace, online marketplace app, App like Talabat" />
+        
+        <meta property="og:title" content="Multi Vendor eCommerce Marketplace | Marketplace App | Floki Solutions" />
+        <meta property="og:description" content="Build a multi-vendor eCommerce marketplace with our powerful marketplace app. Connect vendors with customers and start your eCommerce platform today." />
+        
+        <meta property="og:url" content="https://flokisolutionsmain.gatsbyjs.io/floki-marketplace-app/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+      
       {/* Modals */}
       <ModalWithTabs content={content['authentication']} reverse />
       <ModalWithTabs content={content['contact']} />
