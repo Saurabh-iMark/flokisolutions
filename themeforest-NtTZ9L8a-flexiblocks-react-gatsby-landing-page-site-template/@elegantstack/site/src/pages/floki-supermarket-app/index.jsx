@@ -141,22 +141,6 @@ const ServiceCPage = props => {
           </div>
         </div>
       </div>
-      <div class="sec2">
-        <div class="mycontainer">
-          <div class="row">
-            <div class="colm6">
-              <h4>Deliverables</h4>
-              <p>User App</p>
-              <p>Pickers App</p>
-              <p>SuperAdmin Backend</p>
-            </div>
-            <div class="colm6">
-              <h4>Testimonials</h4>
-              <p>"The white label e-commerce solution has helped us to expand our reach and increase our revenue. Our customers love the convenience of online shopping, and we've been able to streamline our operations and reduce our costs." - Joby Varghese, Business Unit Manager.</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     );
   };

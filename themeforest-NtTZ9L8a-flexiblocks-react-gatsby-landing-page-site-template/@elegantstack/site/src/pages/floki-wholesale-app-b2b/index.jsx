@@ -141,22 +141,6 @@ const ServiceDPage = props => {
           </div>
         </div>
       </div>
-      <div class="sec2">
-        <div class="mycontainer">
-          <div class="row">
-            <div class="colm6 colm6">
-              <h4>Deliverables</h4>
-              <p>User App</p>
-              <p>Pickers App</p>
-              <p>SuperAdmin Backend</p>
-            </div>
-            <div class="colm6 colm6">
-              <h4>Testimonials</h4>
-              <p>“Our ordering process has become much more efficient since we started using this white label e-commerce solution. Our customers appreciate the convenience and we've been able to grow our business as a result." - Mohamad Fleifel, CEO of MAB Trading..</p>
-            </div>
-          </div>
-        </div>
-      </div>
       </div>
     );
   };
