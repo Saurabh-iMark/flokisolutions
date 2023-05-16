@@ -63,20 +63,7 @@ const ServiceAPage = props => {
   };
 
 
-  // useEffect(() => {
-  //   $('.testimonial_slider').slick({
-  //     slidesToShow: 1,
-  //     infinite: false,
-  //     slidesToScroll: 1,
-  //     autoplay: true,
-  //     dots: true,
-  //     arrows: false,
-  //     autoplaySpeed: 2500
-  //   });
-  // }, []);
-
-
-
+  
   const MyHTMLComponent = () => {
     return (
       <div className="service_spacer">
