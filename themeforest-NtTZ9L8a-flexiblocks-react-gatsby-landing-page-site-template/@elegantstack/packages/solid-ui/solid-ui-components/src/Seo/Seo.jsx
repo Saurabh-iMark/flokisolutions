@@ -82,7 +82,11 @@ const Seo = ({
     >
 
   <meta name="icon" href="../../../../../site/content/assets/favicon.png" />
-  
+
+  <meta name="google-site-verification" content="jvulVjeMbr8Qb07aPAbFxWgBuwOl_Q2A9EvJoemO1co" />
+
+
+
   </Helmet>
   )
 }

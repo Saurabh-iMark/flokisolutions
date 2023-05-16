@@ -24,6 +24,10 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 import theme from './_theme'
 import styles from './_styles'
 
+
+
+
+
 const IndexPage = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
