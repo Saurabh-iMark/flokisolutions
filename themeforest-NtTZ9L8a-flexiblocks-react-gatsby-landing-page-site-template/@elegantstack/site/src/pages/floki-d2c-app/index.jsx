@@ -80,7 +80,7 @@ const ServiceAPage = props => {
       <div class="discrptn">
          <div class="mycontainer"> 
             <h4>Product Description</h4>
-            <p>Our Floki D2C App is a white label e-commerce solution designed specifically for product manufacturers and producers who want to sell directly to consumers. With our customizable and secure platform, you can easily launch your online store and start selling your products to a wider audience, while building a direct relationship with your customers. Our solution is fast, reliable, and customizable to meet your business needs.</p>
+            <p>Our Floki D2C App is a white label e-commerce solution designed specifically for product manufacturers and producers who want to sell directly to consumers. With our customizable and secure direct to consumer e-commerce platform, you can easily launch your online store and start selling your products to a wider audience, while building a direct relationship with your customers. Our solution is fast, reliable, and customizable to meet your business needs.</p>
          </div>
       </div>
       <div class="product1">  
@@ -94,10 +94,10 @@ const ServiceAPage = props => {
                 <div class="colm6">
                   <h4>Key Features :</h4>
                   <ul class="liststyle">
-                    <li>User-friendly interface that can be re-branded to match your brand identity</li>
+                    <li>User-friendly direct to consumer e-commerce interface that can be re-branded to match your brand identity</li>
                     <li>Built-in reporting tools to help you understand customer behavior and preferences, so you can optimize your offerings and increase customer satisfaction and loyalty</li>
                     <li>Flexible product catalog and inventory management tools to allow you to easily adjust your offerings and respond to changes in demand or new product releases</li>
-                    <li>Advanced marketing tools and integrations to enable personalized messaging and promotional campaigns to drive sales and engagement.</li>
+                    <li>Advanced marketing tools and integrations to enable personalized messaging and promotional campaigns to drive sales and engagement on direct to consumer e-commerce platform.</li>
                     <li>Multi-language and currency support for a global reach</li>
                     <li>Real-time order tracking and delivery notifications for you and your customers</li>
                   </ul>
@@ -110,7 +110,7 @@ const ServiceAPage = props => {
                   <h4>Benefits :</h4>
                   <ul class="liststyle">
                     <li><strong>Take control of your sales and distribution</strong> by selling directly to consumers.</li>
-                    <li>Build a <strong>direct relationship with your customers</strong>, gain insights into their behavior, and tailor your offerings to their preferences.</li>
+                    <li>Build a <strong>direct relationship with your customers</strong>, gain insights into their behavior, and tailor your offerings to their preferences with our direct to consumer e-commerce platform.</li>
                     <li><strong>Increase your revenue</strong> by reducing the cost of third-party sales channels and distributors.</li>
                     <li>Enhance your <strong>brand value</strong> and increase <strong>customer loyalty</strong> by offering a seamless and personalized online shopping experience.</li>
                   </ul>

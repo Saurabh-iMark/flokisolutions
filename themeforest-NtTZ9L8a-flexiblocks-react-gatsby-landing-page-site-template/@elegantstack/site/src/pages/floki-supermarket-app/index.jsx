@@ -80,7 +80,7 @@ const ServiceCPage = props => {
       <div class="discrptn">
          <div class="mycontainer"> 
             <h4>Product Description</h4>
-            <p>Our white label e-commerce solution is designed specifically for supermarkets and grocery stores, providing you with an online shopping platform to reach more customers and boost your sales. With our easy-to-use mobile app, your customers can shop for groceries online, create shopping lists, and get their orders delivered to their doorstep. Our solution is fast, reliable, and customizable to meet your business needs.</p>
+            <p>Our white label e-commerce solution is designed specifically for supermarkets and grocery stores, providing you with an online shopping platform to reach more customers and boost your sales. With our easy-to-use mobile app, your customers can use app for grocery delivery and shop for groceries online, create shopping lists, and get their orders delivered to their doorstep. Our solution is fast, reliable, and customizable to meet your business needs.</p>
          </div>
       </div>
       <div class="product1">  
@@ -111,7 +111,7 @@ const ServiceCPage = props => {
                   <ul class="liststyle">
                     <li>Increase your store reach and revenue by providing an online shopping platform.</li>
                     <li>Provide customers with a convenient and hassle-free shopping experience.</li>
-                    <li>Offer a competitive advantage over other supermarkets or grocery stores that don't have an online presence.</li>
+                    <li>Offer a competitive advantage by providing app for grocery delivery over other supermarkets or grocery stores that don't have an online presence.</li>
                     <li>Reduce the costs of running a physical store by streamlining your operations with our mobile app.</li>
                     <li>Customize your online store to match your brand identity and meet your business needs.</li>
                   </ul>
@@ -134,7 +134,7 @@ const ServiceCPage = props => {
                     <li>A supermarket owner who wants to expand their reach and attract more customers.</li>
                     <li>A grocery store manager who wants to streamline their operations and reduce their costs.</li>
                     <li>A business owner who wants to offer a competitive advantage over other supermarkets or grocery stores that don't have an online presence.</li>
-                    <li>An e-commerce manager who developed an online solution that is not meeting his expectations and is looking for a better technology that actually works.</li>
+                    <li>An e-commerce manager who developed an online solution that is not meeting his expectations and is looking for a better technology like app for grocery delivery that actually works.</li>
                   </ul>
                 </div>
             </div>

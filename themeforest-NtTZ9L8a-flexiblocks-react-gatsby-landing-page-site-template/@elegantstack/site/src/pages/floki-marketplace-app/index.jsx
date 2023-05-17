@@ -80,7 +80,7 @@ const ServiceBPage = props => {
       <div class="discrptn">
          <div class="mycontainer"> 
             <h4>Product Description</h4>
-            <p>The Floki Marketplace E-commerce Platform is a scalable and customizable solution that allows entrepreneurs, businesses, and individuals to create their own online marketplace and sell products from multiple vendors.</p>
+            <p>The Floki Marketplace E-commerce Platform is a scalable and customizable solution that allows entrepreneurs, businesses, and individuals to create their own online e commerce marketplace and sell products from multiple vendors.</p>
          </div>
       </div>
       <div class="product1">  
@@ -133,7 +133,7 @@ const ServiceBPage = props => {
                 <div class="colm6">
                   <h4>Use Cases :</h4>
                   <ul class="liststyle">
-                    <li>Entrepreneurs and startups looking to create their own online marketplace</li>
+                    <li>Entrepreneurs and startups looking to create their own online e commerce marketplace</li>
                     <li>Businesses and organizations looking to expand their reach and sell products from multiple vendors</li>
                     <li>Individuals looking to create an online store for their products or services</li>
                   </ul>

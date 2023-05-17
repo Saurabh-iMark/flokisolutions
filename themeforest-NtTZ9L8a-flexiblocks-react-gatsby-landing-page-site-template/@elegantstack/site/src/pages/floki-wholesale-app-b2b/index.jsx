@@ -81,7 +81,7 @@ const ServiceDPage = props => {
       <div class="discrptn">
          <div class="mycontainer"> 
             <h4>Product Description</h4>
-            <p>Our Floki Wholesale App is a white-label e-commerce app designed specifically for wholesalers, providing you with an easy-to-use mobile app to receive orders from your customers. With our customizable and secure platform, your customers can easily place orders and track their delivery status, while you can streamline your ordering process and grow your business. Our solution is fast, reliable, and customizable to meet your business needs.</p>
+            <p>Our Floki Wholesale App is a white-label e-commerce app designed specifically for wholesalers, providing you with an easy-to-use wholesale ecommerce app to receive orders from your customers. With our customizable and secure platform, your customers can easily place orders and track their delivery status, while you can streamline your ordering process and grow your business. Our solution is fast, reliable, and customizable to meet your business needs.</p>
          </div>
       </div>
       <div class="product1">  
@@ -95,7 +95,7 @@ const ServiceDPage = props => {
                 <div class="colm6">
                   <h4>Key Features :</h4>
                   <ul class="liststyle">
-                    <li>User-friendly interface that's easy to navigate</li>
+                    <li>User-friendly interface wholesale ecommerce app that's easy to navigate</li>
                     <li>Intuitive ordering system with customizable fields and options</li>
                     <li>Multiples pricings for different customer groups</li>
                     <li>Creating Promotions & Offers for specific customer groups</li>
@@ -110,7 +110,7 @@ const ServiceDPage = props => {
                 <div class="colm6">
                   <h4>Benefits :</h4>
                   <ul class="liststyle">
-                    <li>Streamline your ordering process and <strong>reduce errors</strong> by using our Floki Wholesale App.</li>
+                    <li>Streamline your ordering process and <strong>reduce errors</strong> by using our Floki wholesale ecommerce app.</li>
                     <li><strong>Increase your revenue</strong> and customer base by offering an easy and convenient ordering experience.</li>
                     <li>Customize your online store to match <strong>your brand identity</strong> and meet your business needs.</li>
                     <li><strong>Improve your customer service</strong> by providing real-time order tracking and delivery notifications.</li>
@@ -292,7 +292,7 @@ const ServiceDPage = props => {
       <title>Wholesale eCommerce App | B2B eCommerce Platform | Floki Solutions</title>
       <meta name="google-site-verification" content="jvulVjeMbr8Qb07aPAbFxWgBuwOl_Q2A9EvJoemO1co" />
         <meta name="description" content="Need a wholesale ecommerce app or b2b ecommerce platform? Our ecommerce solutions for wholesale distribution make it easy to manage your operations and grow your business." />
-        <meta name="keywords" content="wholesale ecommerce app, b2b ecommerce platform, wholesale ecommerce platform, b2b ecommerce application, ecommerce for wholesale distribution" />
+        <meta name="keywords" content="wholesale ecommerce app, wholesale ecommerce app, b2b ecommerce platform, wholesale ecommerce platform, b2b ecommerce application, ecommerce for wholesale distribution" />
         
         <meta property="og:title" content="Wholesale eCommerce App | B2B eCommerce Platform | Floki Solutions" />
         <meta property="og:description" content="Need a wholesale ecommerce app or b2b ecommerce platform? Our ecommerce solutions for wholesale distribution make it easy to manage your operations and grow your business." />
