@@ -422,7 +422,7 @@ img{
     .custom-tab2 ul, 
     .custom-tab2 ul li{
         flex-wrap:wrap;
-        padding: 0 15px;
+        /* padding: 0 15px; */
     }
     ul.liststyle {
         padding: 0;
