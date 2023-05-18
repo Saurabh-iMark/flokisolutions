@@ -262,7 +262,7 @@ img{
     .custom-tab ul, 
     .custom-tab ul li{
         flex-wrap:wrap;
-        padding: 0 15px;
+        /* padding: 0 15px; */
     }
     ul.liststyle {
         padding: 0;
